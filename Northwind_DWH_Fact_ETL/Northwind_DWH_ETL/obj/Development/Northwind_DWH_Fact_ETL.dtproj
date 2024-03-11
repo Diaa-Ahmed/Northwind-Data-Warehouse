@@ -26,7 +26,7 @@
           <SSIS:Property SSIS:Name="CreatorComputerName">DESKTOP-K4PGJ6D</SSIS:Property>
           <SSIS:Property SSIS:Name="Description">
           </SSIS:Property>
-          <SSIS:Property SSIS:Name="PasswordVerifier" SSIS:Sensitive="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAnIV43oykVUGbJgCw0syruAAAAAACAAAAAAAQZgAAAAEAACAAAAD5yP0gaA4qWAjM15gRGknqsEcrjJKYRuk/HRFmd6eY1AAAAAAOgAAAAAIAACAAAAC5B9H/ly6xs1v8TcL5A98j+wV6CvYdv3nb1cdoC/9FF5AAAACfQHY5Z6CgDoh+5jganbuoetgDZwOAmSBTNogXBVkkWrMebmNaTrZkmGb+AGP2Y0VoS1gQJVJGsfUB8VbIYhtoOZIUCc1LW36BYpMTF5uEFhm3VUGJgItRrimbdwrfI6B3wNSwt70PhM6KM9JLlUw9BgfvVepZ9mFJXDMpTL6EEtfSU4o1h4+dTVPd61EbdVRAAAAAKAWZfjI+3bB3LybwadCIzlM1rJMicFnbaLD1BKhD9w6h42n5IxO2JkFafinmW9CNBCAhq9+Fzn6onCXOWJvxoA==</SSIS:Property>
+          <SSIS:Property SSIS:Name="PasswordVerifier" SSIS:Sensitive="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAnIV43oykVUGbJgCw0syruAAAAAACAAAAAAAQZgAAAAEAACAAAAAVEM22X+mxLEGewitvsDdbaXcJJOK6sR1ChixNXWXEzgAAAAAOgAAAAAIAACAAAABsdV6fPYyGk3YlVqiYzPirT9h6FmDlA8uQP9H/U+L73ZAAAACCe/sU7DGzqyGwxGgxjmu4WMDJ3eWXDn/8uQ27BKmsb+IAsVZpk04fOhNweZR6Ejrhd6mgObkhWX00+82qJpByuAoXpD8wl818DhpIsSHsXAndEN0vazceDdKtpIpHBxPFJLZ0fWvm/yddSI6MAYaR7Pzu9WJbYiE1S4LOkz5vDM90RtbsbRwtXZ0dEbS5IDtAAAAAeu6/Jua4UebtU6xpoTeh2Qdt4gi2WgUpNOuZGjUTEKIxpTZClc3/OfCLXzzmlIR1Bg4ECt2wKc1TtRl1Z7+aBQ==</SSIS:Property>
           <SSIS:Property SSIS:Name="FormatVersion">1</SSIS:Property>
         </SSIS:Properties>
         <SSIS:Packages>
@@ -770,7 +770,7 @@
                     <SSIS:Property SSIS:Name="IncludeInDebugDump">0</SSIS:Property>
                     <SSIS:Property SSIS:Name="Required">0</SSIS:Property>
                     <SSIS:Property SSIS:Name="Sensitive">0</SSIS:Property>
-                    <SSIS:Property SSIS:Name="Value">Provider=Microsoft.ACE.OLEDB.12.0;Data Source=D:\ITI\Projects\Data Warehouse\Northwind-Data-Warehouse\Customers.xlsx;Extended Properties="Excel 12.0 XML;HDR=YES";</SSIS:Property>
+                    <SSIS:Property SSIS:Name="Value">Provider=Microsoft.ACE.OLEDB.12.0;Data Source=D:\ITI\Projects\Data Warehouse\Northwind-Data-Warehouse\Customers.xlsx;Extended Properties="EXCEL 12.0 XML;HDR=YES";</SSIS:Property>
                     <SSIS:Property SSIS:Name="DataType">18</SSIS:Property>
                   </SSIS:Properties>
                 </SSIS:Parameter>

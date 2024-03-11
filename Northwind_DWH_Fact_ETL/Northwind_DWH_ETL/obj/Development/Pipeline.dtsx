@@ -11,8 +11,8 @@
   DTS:LocaleID="1033"
   DTS:ObjectName="Pipeline"
   DTS:PackageType="5"
-  DTS:VersionBuild="49"
-  DTS:VersionGUID="{B0B135EF-7EFF-40A2-B643-5B4E845D4C58}">
+  DTS:VersionBuild="55"
+  DTS:VersionGUID="{8852A1B8-AB30-44C7-8C62-D54B91AC26D6}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>
@@ -29,7 +29,7 @@
           <DTS:Password
             DTS:Name="Password"
             Sensitive="1"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAnIV43oykVUGbJgCw0syruAAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAAC5uOsvT+vhoYwbejzPyb1iqjoFXbbaSg6ntjz2ehJAzQAAAAAOgAAAAAIAACAAAACvLed2PWgbEqJcp8RQsr39TXJYTXLrqrcz9jCyynIDKBAAAAAb4t3JkFdtiJ1ANZ0GA4UkQAAAAGKqXdkVd0powsa9cS4WNz84us10tTOoOFnB5glAgZ46Y4i9/3j7KpaAzjSAhfH2wy4bWBOV6Nuwzf8RshqEhc4</DTS:Password>
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAnIV43oykVUGbJgCw0syruAAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAAA+rKEiyH0neJd+6ezZO6Q3u/M3jhwgtSRgpYudSd2v9wAAAAAOgAAAAAIAACAAAADdcJ1i6VJ1NucTPMFX3fR7vaIMBNMqlBSw9vB72dbqUBAAAAAd1YYek/Iqn/Tm2xh7JCzZQAAAAAquLlkmJimrqG7Daka9nnKPJ6Iv6qBjdKNYBJlt+dvIEdupZbQql7WIjBb89J7U8Q+kicK3TRsZXDskphBIiQg</DTS:Password>
         </DTS:ConnectionManager>
       </DTS:ObjectData>
     </DTS:ConnectionManager>
@@ -46,7 +46,7 @@
           <DTS:Password
             DTS:Name="Password"
             Sensitive="1"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAnIV43oykVUGbJgCw0syruAAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAABkV6CzIK5/jKdNw/pKoPrQs14xJi7HHEVB7lS27/lT3wAAAAAOgAAAAAIAACAAAACpfHnELNRHSFibV3DNSerk4kidQalYh/8EV9eiNH3wpBAAAADCHK5MaFZkJZcizmUAik36QAAAAHUadBcE8NtaTL16aqoCwPNZFgrVHkHQMx5XIPJ8g5fQ/xTKjOIByiBNfLMyYcG9+NLLekpdByCI4N+NvXOs+8Y</DTS:Password>
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAnIV43oykVUGbJgCw0syruAAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAACK8zTMDzmCOnbsPjbo4dASkP67Jr0gE/Hnj1o4Huiu/gAAAAAOgAAAAAIAACAAAABoJPRtNEfN8WSQ5hRm0WS/dhWX3hy1l4IZmWHALlDypxAAAAAj+XpQ2W7HM7qXj1RdFeCMQAAAAASHVMCwCIe/wJsHXqaQH+jlXSXO11srSKPb8noxpp3wfQD2M4TSdD4ggImr7bwzmVAm+uZ3yjgXP3JlagQqi5M</DTS:Password>
         </DTS:ConnectionManager>
       </DTS:ObjectData>
     </DTS:ConnectionManager>
@@ -109,7 +109,7 @@
           <DTS:Password
             DTS:Name="pwd"
             Sensitive="1"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAnIV43oykVUGbJgCw0syruAAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAABguZQ/og1sfH+yWGila7RkMAafhSXB7J59L/XKiPKVjQAAAAAOgAAAAAIAACAAAACeGHgZRCQN1azuq8BNsQ6MZDGtqkIL78eTurip/JcqMRAAAAC+Tump/EeHQe4J3QBm6224QAAAANnrSY92fHU7v63SAohdEQ1cV+edIo8iGbbs3T5L2OBw9RjF3rr+d4UkL3qUFYVrSbxOAwDiGF7JNAsvseduiF8</DTS:Password>
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAnIV43oykVUGbJgCw0syruAAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAAC8m09AhUQsOCVsjHfEJV4dS79ur81B4pB7YSb2r2lBeQAAAAAOgAAAAAIAACAAAADfZXU0XqJCbSuo67XtitJwV5spW5cQBizqqFFY8MJJNRAAAAAYstrPTJ33S9MTMHs0/PvAQAAAAJnkoh8N9H6NR9KZK1yXrInwdhWceJNk0jsFA7lY++n2z4haU2UTd+M8210KRBtnWGnER9yDzR45JGg6EJpnrc8</DTS:Password>
         </DTS:ConnectionManager>
       </DTS:ObjectData>
     </DTS:ConnectionManager>
@@ -124,7 +124,7 @@
           <DTS:Password
             DTS:Name="pwd"
             Sensitive="1"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAnIV43oykVUGbJgCw0syruAAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAACv6HD0DB7b4/Rzj12IdZn5KUPQZ0KFjToDedMaHfRXfQAAAAAOgAAAAAIAACAAAAD63Ulm04yCiUgqjtMabgxKwVo7zJvzfyBUjHp7/ajfeRAAAABYA12j9rbaEJT4yerM4ZrFQAAAAA2uuRPii4JQLKG2LLgo4CVwn1xM3CO6IrN9xW8SywQuoUIuWFZ5ee/4UOdM9fDcjmUu2KzRko8ODOvN0bhMwh4</DTS:Password>
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAnIV43oykVUGbJgCw0syruAAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAAAUxW4dUHNv5POaylN/5HiolZpWEUVENvlWZHtpBhY28wAAAAAOgAAAAAIAACAAAAAA7zELJrzGh/xVghvSv3PABWx83m+bNG8nlUEaIBEyKxAAAABKv9dT9BDC8dAzJ+z1OvEMQAAAAAP+Mj4UYGLlMBYJqGQokdUYKAG92pXbPcLXD62M1/OyuB5hXLWEq3yXF98qtHrjk1bN1VaDthNpd8DSSMK2lB0</DTS:Password>
         </DTS:ConnectionManager>
       </DTS:ObjectData>
     </DTS:ConnectionManager>
@@ -139,7 +139,7 @@
           <DTS:Password
             DTS:Name="pwd"
             Sensitive="1"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAnIV43oykVUGbJgCw0syruAAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAACt4rgsE337Ftz1Hvx4y8leZ6hdit3xQLnIUG6m50P99AAAAAAOgAAAAAIAACAAAADTRgfxuJ1TjHTbOVcWg1m09BrP3Pa7pPPsM0gvhbVH5RAAAADeadF0qyCYKCV8PD5gh+g0QAAAACKevzCJKQbtTj/pXxoPX4uWGOpm2z3YYyex9fMolgJBEPGpwMWBzVChaCxbnQ9jjnwdQeKkfc6xR7xJNxGYAcs</DTS:Password>
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAnIV43oykVUGbJgCw0syruAAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAADstus7OE0O3x5HGMCIfYEQfhTDujQnTa7TZXGz9hkk7QAAAAAOgAAAAAIAACAAAAAtfeaNOoyrRhdC4X6KKkY5vWNXD47gLR5K34xjOAotHBAAAABA6ZlhxjjKceh7E/WA7WsYQAAAAGk/nbNj3/0mFq9a5w8gWpeIi7QujTsCoFazn/YEzCTiPqvGsSPEp52ALvQ7txMilY/gRCmp5kOwoluW01nnQ8A</DTS:Password>
         </DTS:ConnectionManager>
       </DTS:ObjectData>
     </DTS:ConnectionManager>
@@ -5096,6 +5096,21 @@ where "refTable"."customer_id" = ?</property>
                       cachedDataType="i2"
                       cachedName="ship_via"
                       lineageId="Package\Orders Fact Table\Merge Join.Outputs[Merge Join Output].Columns[ship_via]" />
+                    <inputColumn
+                      refId="Package\Orders Fact Table\Data Conversion.Inputs[Data Conversion Input].Columns[order_date]"
+                      cachedDataType="dbDate"
+                      cachedName="order_date"
+                      lineageId="Package\Orders Fact Table\Merge Join.Outputs[Merge Join Output].Columns[order_date]" />
+                    <inputColumn
+                      refId="Package\Orders Fact Table\Data Conversion.Inputs[Data Conversion Input].Columns[required_date]"
+                      cachedDataType="dbDate"
+                      cachedName="required_date"
+                      lineageId="Package\Orders Fact Table\Merge Join.Outputs[Merge Join Output].Columns[required_date]" />
+                    <inputColumn
+                      refId="Package\Orders Fact Table\Data Conversion.Inputs[Data Conversion Input].Columns[shipped_date]"
+                      cachedDataType="dbDate"
+                      cachedName="shipped_date"
+                      lineageId="Package\Orders Fact Table\Merge Join.Outputs[Merge Join Output].Columns[shipped_date]" />
                   </inputColumns>
                   <externalMetadataColumns />
                 </input>
@@ -5288,6 +5303,66 @@ where "refTable"."customer_id" = ?</property>
                           name="FastParse">false</property>
                       </properties>
                     </outputColumn>
+                    <outputColumn
+                      refId="Package\Orders Fact Table\Data Conversion.Outputs[Data Conversion Output].Columns[C_order_date]"
+                      dataType="dbDate"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      lineageId="Package\Orders Fact Table\Data Conversion.Outputs[Data Conversion Output].Columns[C_order_date]"
+                      name="C_order_date"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Specifies the input column used as the source of data for the conversion."
+                          name="SourceInputColumnLineageID">#{Package\Orders Fact Table\Merge Join.Outputs[Merge Join Output].Columns[order_date]}</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
+                          name="FastParse">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Orders Fact Table\Data Conversion.Outputs[Data Conversion Output].Columns[C_required_date]"
+                      dataType="dbDate"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      lineageId="Package\Orders Fact Table\Data Conversion.Outputs[Data Conversion Output].Columns[C_required_date]"
+                      name="C_required_date"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Specifies the input column used as the source of data for the conversion."
+                          name="SourceInputColumnLineageID">#{Package\Orders Fact Table\Merge Join.Outputs[Merge Join Output].Columns[required_date]}</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
+                          name="FastParse">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Orders Fact Table\Data Conversion.Outputs[Data Conversion Output].Columns[C_shipped_date]"
+                      dataType="dbDate"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      lineageId="Package\Orders Fact Table\Data Conversion.Outputs[Data Conversion Output].Columns[C_shipped_date]"
+                      name="C_shipped_date"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Specifies the input column used as the source of data for the conversion."
+                          name="SourceInputColumnLineageID">#{Package\Orders Fact Table\Merge Join.Outputs[Merge Join Output].Columns[shipped_date]}</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
+                          name="FastParse">false</property>
+                      </properties>
+                    </outputColumn>
                   </outputColumns>
                   <externalMetadataColumns />
                 </output>
@@ -5308,6 +5383,140 @@ where "refTable"."customer_id" = ?</property>
                       refId="Package\Orders Fact Table\Data Conversion.Outputs[Data Conversion Error Output].Columns[ErrorColumn]"
                       dataType="i4"
                       lineageId="Package\Orders Fact Table\Data Conversion.Outputs[Data Conversion Error Output].Columns[ErrorColumn]"
+                      name="ErrorColumn"
+                      specialFlags="2" />
+                  </outputColumns>
+                  <externalMetadataColumns />
+                </output>
+              </outputs>
+            </component>
+            <component
+              refId="Package\Orders Fact Table\Dates"
+              componentClassID="Microsoft.DerivedColumn"
+              contactInfo="Derived Column;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;0"
+              description="Creates new column values by applying expressions to transformation input columns. Create new columns or overwrite existing ones. For example, concatenate the values from the 'first name' and 'last name' column to make a 'full name' column."
+              name="Dates"
+              usesDispositions="true">
+              <inputs>
+                <input
+                  refId="Package\Orders Fact Table\Dates.Inputs[Derived Column Input]"
+                  description="Input to the Derived Column Transformation"
+                  name="Derived Column Input">
+                  <inputColumns>
+                    <inputColumn
+                      refId="Package\Orders Fact Table\Dates.Inputs[Derived Column Input].Columns[C_required_date]"
+                      cachedDataType="dbDate"
+                      cachedName="C_required_date"
+                      lineageId="Package\Orders Fact Table\Data Conversion.Outputs[Data Conversion Output].Columns[C_required_date]" />
+                    <inputColumn
+                      refId="Package\Orders Fact Table\Dates.Inputs[Derived Column Input].Columns[C_order_date]"
+                      cachedDataType="dbDate"
+                      cachedName="C_order_date"
+                      lineageId="Package\Orders Fact Table\Data Conversion.Outputs[Data Conversion Output].Columns[C_order_date]" />
+                    <inputColumn
+                      refId="Package\Orders Fact Table\Dates.Inputs[Derived Column Input].Columns[C_shipped_date]"
+                      cachedDataType="dbDate"
+                      cachedName="C_shipped_date"
+                      lineageId="Package\Orders Fact Table\Data Conversion.Outputs[Data Conversion Output].Columns[C_shipped_date]" />
+                  </inputColumns>
+                  <externalMetadataColumns />
+                </input>
+              </inputs>
+              <outputs>
+                <output
+                  refId="Package\Orders Fact Table\Dates.Outputs[Derived Column Output]"
+                  description="Default Output of the Derived Column Transformation"
+                  exclusionGroup="1"
+                  name="Derived Column Output"
+                  synchronousInputId="Package\Orders Fact Table\Dates.Inputs[Derived Column Input]">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\Orders Fact Table\Dates.Outputs[Derived Column Output].Columns[RequiredDate_key]"
+                      dataType="i4"
+                      errorOrTruncationOperation="Computation"
+                      errorRowDisposition="FailComponent"
+                      lineageId="Package\Orders Fact Table\Dates.Outputs[Derived Column Output].Columns[RequiredDate_key]"
+                      name="RequiredDate_key"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.String"
+                          description="Derived Column Expression"
+                          name="Expression">(DT_I4)[YEAR](#{Package\Orders Fact Table\Data Conversion.Outputs[Data Conversion Output].Columns[C_required_date]}) * 10000 + (DT_I4)[MONTH](#{Package\Orders Fact Table\Data Conversion.Outputs[Data Conversion Output].Columns[C_required_date]}) * 100 + (DT_I4)[DAY](#{Package\Orders Fact Table\Data Conversion.Outputs[Data Conversion Output].Columns[C_required_date]})</property>
+                        <property
+                          containsID="true"
+                          dataType="System.String"
+                          description="Derived Column Friendly Expression"
+                          expressionType="Notify"
+                          name="FriendlyExpression">(DT_I4)YEAR(C_required_date) * 10000 + (DT_I4)MONTH(C_required_date) * 100 + (DT_I4)DAY(C_required_date)</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Orders Fact Table\Dates.Outputs[Derived Column Output].Columns[Orderdate_key]"
+                      dataType="i4"
+                      errorOrTruncationOperation="Computation"
+                      errorRowDisposition="FailComponent"
+                      lineageId="Package\Orders Fact Table\Dates.Outputs[Derived Column Output].Columns[Orderdate_key]"
+                      name="Orderdate_key"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.String"
+                          description="Derived Column Expression"
+                          name="Expression">(DT_I4)[YEAR](#{Package\Orders Fact Table\Data Conversion.Outputs[Data Conversion Output].Columns[C_order_date]}) * 10000 + (DT_I4)[MONTH](#{Package\Orders Fact Table\Data Conversion.Outputs[Data Conversion Output].Columns[C_order_date]}) * 100 + (DT_I4)[DAY](#{Package\Orders Fact Table\Data Conversion.Outputs[Data Conversion Output].Columns[C_order_date]})</property>
+                        <property
+                          containsID="true"
+                          dataType="System.String"
+                          description="Derived Column Friendly Expression"
+                          expressionType="Notify"
+                          name="FriendlyExpression">(DT_I4)YEAR(C_order_date) * 10000 + (DT_I4)MONTH(C_order_date) * 100 + (DT_I4)DAY(C_order_date)</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Orders Fact Table\Dates.Outputs[Derived Column Output].Columns[Shippeddate_key]"
+                      dataType="i4"
+                      errorOrTruncationOperation="Computation"
+                      errorRowDisposition="FailComponent"
+                      lineageId="Package\Orders Fact Table\Dates.Outputs[Derived Column Output].Columns[Shippeddate_key]"
+                      name="Shippeddate_key"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.String"
+                          description="Derived Column Expression"
+                          name="Expression">(DT_I4)[YEAR](#{Package\Orders Fact Table\Data Conversion.Outputs[Data Conversion Output].Columns[C_shipped_date]}) * 10000 + (DT_I4)[MONTH](#{Package\Orders Fact Table\Data Conversion.Outputs[Data Conversion Output].Columns[C_shipped_date]}) * 100 + (DT_I4)[DAY](#{Package\Orders Fact Table\Data Conversion.Outputs[Data Conversion Output].Columns[C_shipped_date]})</property>
+                        <property
+                          containsID="true"
+                          dataType="System.String"
+                          description="Derived Column Friendly Expression"
+                          expressionType="Notify"
+                          name="FriendlyExpression">(DT_I4)YEAR(C_shipped_date) * 10000 + (DT_I4)MONTH(C_shipped_date) * 100 + (DT_I4)DAY(C_shipped_date)</property>
+                      </properties>
+                    </outputColumn>
+                  </outputColumns>
+                  <externalMetadataColumns />
+                </output>
+                <output
+                  refId="Package\Orders Fact Table\Dates.Outputs[Derived Column Error Output]"
+                  description="Error Output of the Derived Column Transformation"
+                  exclusionGroup="1"
+                  isErrorOut="true"
+                  name="Derived Column Error Output"
+                  synchronousInputId="Package\Orders Fact Table\Dates.Inputs[Derived Column Input]">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\Orders Fact Table\Dates.Outputs[Derived Column Error Output].Columns[ErrorCode]"
+                      dataType="i4"
+                      lineageId="Package\Orders Fact Table\Dates.Outputs[Derived Column Error Output].Columns[ErrorCode]"
+                      name="ErrorCode"
+                      specialFlags="1" />
+                    <outputColumn
+                      refId="Package\Orders Fact Table\Dates.Outputs[Derived Column Error Output].Columns[ErrorColumn]"
+                      dataType="i4"
+                      lineageId="Package\Orders Fact Table\Dates.Outputs[Derived Column Error Output].Columns[ErrorColumn]"
                       name="ErrorColumn"
                       specialFlags="2" />
                   </outputColumns>
@@ -5466,164 +5675,6 @@ where "refTable"."emp_id" = ?</property>
                       refId="Package\Orders Fact Table\employee.Outputs[Lookup Error Output].Columns[ErrorColumn]"
                       dataType="i4"
                       lineageId="Package\Orders Fact Table\employee.Outputs[Lookup Error Output].Columns[ErrorColumn]"
-                      name="ErrorColumn"
-                      specialFlags="2" />
-                  </outputColumns>
-                  <externalMetadataColumns />
-                </output>
-              </outputs>
-            </component>
-            <component
-              refId="Package\Orders Fact Table\Lookup"
-              componentClassID="Microsoft.Lookup"
-              contactInfo="Lookup;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;6"
-              description="Joins additional columns to the data flow by looking up values in a table. For example, join to the 'employee id' column the employees table to get 'hire date' and 'employee name'. We recommend this transformation when the lookup table can fit into memory."
-              name="Lookup"
-              usesDispositions="true"
-              version="6">
-              <properties>
-                <property
-                  dataType="System.String"
-                  description="Specifies the SQL statement that generates the lookup table."
-                  expressionType="Notify"
-                  name="SqlCommand"
-                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor">select * from "public"."date_dim"</property>
-                <property
-                  dataType="System.String"
-                  description="Specifies a SQL statement that uses parameters to generate the lookup table."
-                  expressionType="Notify"
-                  name="SqlCommandParam"
-                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor">select * from (select * from "public"."date_dim") "refTable"
-where "refTable"."full_date" = ?</property>
-                <property
-                  dataType="System.Int32"
-                  description="Specifies the type of connection used to access the reference dataset."
-                  name="ConnectionType"
-                  typeConverter="LookupConnectionType">0</property>
-                <property
-                  dataType="System.Int32"
-                  description="Specifies the cache type of the lookup table."
-                  name="CacheType"
-                  typeConverter="CacheType">0</property>
-                <property
-                  dataType="System.Int32"
-                  description="Specifies how the Lookup transformation handles rows without matching entries in the reference data set."
-                  name="NoMatchBehavior"
-                  typeConverter="LookupNoMatchBehavior">0</property>
-                <property
-                  dataType="System.Int32"
-                  description="Specifies the percentage of the cache that is allocated for rows with no matching entries in the reference dataset."
-                  name="NoMatchCachePercentage">0</property>
-                <property
-                  dataType="System.Int32"
-                  description="Maximum Memory Usage for Reference Cache on a 32 bit platform."
-                  name="MaxMemoryUsage">25</property>
-                <property
-                  dataType="System.Int64"
-                  description="Maximum Memory Usage for Reference Cache on a 64 bit platform."
-                  name="MaxMemoryUsage64">25</property>
-                <property
-                  dataType="System.String"
-                  description="Indicates whether to reference metadata in an XML format."
-                  name="ReferenceMetadataXml">&lt;referenceMetadata&gt;&lt;referenceColumns&gt;&lt;referenceColumn name="date_key" dataType="DT_I4" length="0" precision="0" scale="0" codePage="0"/&gt;&lt;referenceColumn name="full_date" dataType="DT_DBDATE" length="0" precision="0" scale="0" codePage="0"/&gt;&lt;referenceColumn name="year" dataType="DT_I4" length="0" precision="0" scale="0" codePage="0"/&gt;&lt;referenceColumn name="quarter" dataType="DT_I4" length="0" precision="0" scale="0" codePage="0"/&gt;&lt;referenceColumn name="quarter_name" dataType="DT_WSTR" length="20" precision="0" scale="0" codePage="0"/&gt;&lt;referenceColumn name="month" dataType="DT_I4" length="0" precision="0" scale="0" codePage="0"/&gt;&lt;referenceColumn name="month_name" dataType="DT_WSTR" length="20" precision="0" scale="0" codePage="0"/&gt;&lt;referenceColumn name="week" dataType="DT_I4" length="0" precision="0" scale="0" codePage="0"/&gt;&lt;referenceColumn name="day" dataType="DT_I4" length="0" precision="0" scale="0" codePage="0"/&gt;&lt;referenceColumn name="day_name" dataType="DT_WSTR" length="9" precision="0" scale="0" codePage="0"/&gt;&lt;/referenceColumns&gt;&lt;/referenceMetadata&gt;</property>
-                <property
-                  containsID="true"
-                  dataType="System.String"
-                  description="Specifies the list of lineage identifiers that map to the parameters that the SQL statement in the SQLCommand property uses. Entries in the list are separated by semicolons."
-                  name="ParameterMap">#{Package\Orders Fact Table\Merge Join.Outputs[Merge Join Output].Columns[order_date]};</property>
-                <property
-                  dataType="System.Int32"
-                  description="Specifies the column code page to use when code page information is unavailable from the data source."
-                  name="DefaultCodePage">1252</property>
-                <property
-                  dataType="System.Boolean"
-                  description="Determines whether duplicate keys in the reference data should be treated as errors when full cache mode is used."
-                  name="TreatDuplicateKeysAsError">false</property>
-              </properties>
-              <connections>
-                <connection
-                  refId="Package\Orders Fact Table\Lookup.Connections[OleDbConnection]"
-                  connectionManagerID="Package.ConnectionManagers[.postgres]"
-                  connectionManagerRefId="Package.ConnectionManagers[.postgres]"
-                  description="Connection manager used to access lookup data."
-                  name="OleDbConnection" />
-              </connections>
-              <inputs>
-                <input
-                  refId="Package\Orders Fact Table\Lookup.Inputs[Lookup Input]"
-                  name="Lookup Input">
-                  <inputColumns>
-                    <inputColumn
-                      refId="Package\Orders Fact Table\Lookup.Inputs[Lookup Input].Columns[order_date]"
-                      cachedDataType="dbDate"
-                      cachedName="order_date"
-                      lineageId="Package\Orders Fact Table\Merge Join.Outputs[Merge Join Output].Columns[order_date]">
-                      <properties>
-                        <property
-                          dataType="System.String"
-                          description="Specifies the column in the reference table that a column joins."
-                          name="JoinToReferenceColumn">full_date</property>
-                        <property
-                          dataType="System.Null"
-                          description="Specifies the column in the reference table from which a column is copied."
-                          name="CopyFromReferenceColumn" />
-                      </properties>
-                    </inputColumn>
-                  </inputColumns>
-                  <externalMetadataColumns />
-                </input>
-              </inputs>
-              <outputs>
-                <output
-                  refId="Package\Orders Fact Table\Lookup.Outputs[Lookup Match Output]"
-                  errorOrTruncationOperation="Lookup"
-                  errorRowDisposition="FailComponent"
-                  exclusionGroup="1"
-                  name="Lookup Match Output"
-                  synchronousInputId="Package\Orders Fact Table\Lookup.Inputs[Lookup Input]">
-                  <outputColumns>
-                    <outputColumn
-                      refId="Package\Orders Fact Table\Lookup.Outputs[Lookup Match Output].Columns[date_key]"
-                      dataType="i4"
-                      errorOrTruncationOperation="Copy Column"
-                      lineageId="Package\Orders Fact Table\Lookup.Outputs[Lookup Match Output].Columns[date_key]"
-                      name="date_key"
-                      truncationRowDisposition="FailComponent">
-                      <properties>
-                        <property
-                          dataType="System.String"
-                          description="Specifies the column in the reference table from which a column is copied."
-                          name="CopyFromReferenceColumn">date_key</property>
-                      </properties>
-                    </outputColumn>
-                  </outputColumns>
-                  <externalMetadataColumns />
-                </output>
-                <output
-                  refId="Package\Orders Fact Table\Lookup.Outputs[Lookup No Match Output]"
-                  description="The Lookup output that handles rows with no matching entries in the reference dataset. Use this output when the NoMatchBehavior property is set to &quot;Send rows with no matching entries to the no match output.&quot;"
-                  exclusionGroup="1"
-                  name="Lookup No Match Output"
-                  synchronousInputId="Package\Orders Fact Table\Lookup.Inputs[Lookup Input]">
-                  <externalMetadataColumns />
-                </output>
-                <output
-                  refId="Package\Orders Fact Table\Lookup.Outputs[Lookup Error Output]"
-                  exclusionGroup="1"
-                  isErrorOut="true"
-                  name="Lookup Error Output"
-                  synchronousInputId="Package\Orders Fact Table\Lookup.Inputs[Lookup Input]">
-                  <outputColumns>
-                    <outputColumn
-                      refId="Package\Orders Fact Table\Lookup.Outputs[Lookup Error Output].Columns[ErrorCode]"
-                      dataType="i4"
-                      lineageId="Package\Orders Fact Table\Lookup.Outputs[Lookup Error Output].Columns[ErrorCode]"
-                      name="ErrorCode"
-                      specialFlags="1" />
-                    <outputColumn
-                      refId="Package\Orders Fact Table\Lookup.Outputs[Lookup Error Output].Columns[ErrorColumn]"
-                      dataType="i4"
-                      lineageId="Package\Orders Fact Table\Lookup.Outputs[Lookup Error Output].Columns[ErrorColumn]"
                       name="ErrorColumn"
                       specialFlags="2" />
                   </outputColumns>
@@ -6047,11 +6098,23 @@ where "refTable"."full_date" = ?</property>
                       externalMetadataColumnId="Package\Orders Fact Table\ODBC Destination.Inputs[ODBC Destination Input].ExternalColumns[discount]"
                       lineageId="Package\Orders Fact Table\Data Conversion.Outputs[Data Conversion Output].Columns[Copy of discount]" />
                     <inputColumn
-                      refId="Package\Orders Fact Table\ODBC Destination.Inputs[ODBC Destination Input].Columns[date_key]"
+                      refId="Package\Orders Fact Table\ODBC Destination.Inputs[ODBC Destination Input].Columns[RequiredDate_key]"
                       cachedDataType="i4"
-                      cachedName="date_key"
+                      cachedName="RequiredDate_key"
+                      externalMetadataColumnId="Package\Orders Fact Table\ODBC Destination.Inputs[ODBC Destination Input].ExternalColumns[required_date]"
+                      lineageId="Package\Orders Fact Table\Dates.Outputs[Derived Column Output].Columns[RequiredDate_key]" />
+                    <inputColumn
+                      refId="Package\Orders Fact Table\ODBC Destination.Inputs[ODBC Destination Input].Columns[Orderdate_key]"
+                      cachedDataType="i4"
+                      cachedName="Orderdate_key"
                       externalMetadataColumnId="Package\Orders Fact Table\ODBC Destination.Inputs[ODBC Destination Input].ExternalColumns[order_date]"
-                      lineageId="Package\Orders Fact Table\Lookup.Outputs[Lookup Match Output].Columns[date_key]" />
+                      lineageId="Package\Orders Fact Table\Dates.Outputs[Derived Column Output].Columns[Orderdate_key]" />
+                    <inputColumn
+                      refId="Package\Orders Fact Table\ODBC Destination.Inputs[ODBC Destination Input].Columns[Shippeddate_key]"
+                      cachedDataType="i4"
+                      cachedName="Shippeddate_key"
+                      externalMetadataColumnId="Package\Orders Fact Table\ODBC Destination.Inputs[ODBC Destination Input].ExternalColumns[shipped_date]"
+                      lineageId="Package\Orders Fact Table\Dates.Outputs[Derived Column Output].Columns[Shippeddate_key]" />
                   </inputColumns>
                   <externalMetadataColumns
                     isUsed="True">
@@ -7698,6 +7761,11 @@ where "refTable"."shipper_id" = ?</property>
               name="Data Conversion Output"
               startId="Package\Orders Fact Table\Data Conversion.Outputs[Data Conversion Output]" />
             <path
+              refId="Package\Orders Fact Table.Paths[Derived Column Output]"
+              endId="Package\Orders Fact Table\ODBC Destination.Inputs[ODBC Destination Input]"
+              name="Derived Column Output"
+              startId="Package\Orders Fact Table\Dates.Outputs[Derived Column Output]" />
+            <path
               refId="Package\Orders Fact Table.Paths[Lookup Match Output]"
               endId="Package\Orders Fact Table\customer.Inputs[Lookup Input]"
               name="Lookup Match Output"
@@ -7714,14 +7782,9 @@ where "refTable"."shipper_id" = ?</property>
               startId="Package\Orders Fact Table\Product.Outputs[Lookup Match Output]" />
             <path
               refId="Package\Orders Fact Table.Paths[Lookup Match Output3]"
-              endId="Package\Orders Fact Table\Lookup.Inputs[Lookup Input]"
+              endId="Package\Orders Fact Table\Dates.Inputs[Derived Column Input]"
               name="Lookup Match Output"
               startId="Package\Orders Fact Table\Shipper.Outputs[Lookup Match Output]" />
-            <path
-              refId="Package\Orders Fact Table.Paths[Lookup Match Output4]"
-              endId="Package\Orders Fact Table\ODBC Destination.Inputs[ODBC Destination Input]"
-              name="Lookup Match Output"
-              startId="Package\Orders Fact Table\Lookup.Outputs[Lookup Match Output]" />
             <path
               refId="Package\Orders Fact Table.Paths[Merge Join Output]"
               endId="Package\Orders Fact Table\Data Conversion.Inputs[Data Conversion Input]"
@@ -11647,13 +11710,21 @@ where "refTable"."supplier_id" = ?</property>
       <GraphLayout
         Capacity="32" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
         <NodeLayout
-          Size="107.2,41.6"
-          Id="Package\Customer dim\Sort 1"
-          TopLeft="302,486.541665146541" />
+          Size="140.8,41.6"
+          Id="Package\Customer dim\Replace nulls"
+          TopLeft="740,482.4" />
         <NodeLayout
-          Size="166.4,41.6"
-          Id="Package\Customer dim\Data Conversion 2"
-          TopLeft="492.857142857143,488.392855355605" />
+          Size="171.2,41.6"
+          Id="Package\Customer dim\OLE DB Destination"
+          TopLeft="729.428571428571,393.130950924246" />
+        <NodeLayout
+          Size="160.8,41.6"
+          Id="Package\Customer dim\OLE DB Source 1"
+          TopLeft="128,44.4166663169033" />
+        <NodeLayout
+          Size="155.2,41.6"
+          Id="Package\Customer dim\Conditional Split"
+          TopLeft="73,408" />
         <NodeLayout
           Size="120.8,41.6"
           Id="Package\Customer dim\Union All"
@@ -11663,29 +11734,149 @@ where "refTable"."supplier_id" = ?</property>
           Id="Package\Customer dim\Excel Source"
           TopLeft="663,39.291666486404" />
         <NodeLayout
-          Size="155.2,41.6"
-          Id="Package\Customer dim\Conditional Split"
-          TopLeft="73,408" />
-        <NodeLayout
-          Size="164,41.6"
-          Id="Package\Customer dim\Data Conversion 1"
-          TopLeft="205,186" />
-        <NodeLayout
-          Size="160.8,41.6"
-          Id="Package\Customer dim\OLE DB Source 1"
-          TopLeft="128,44.4166663169033" />
+          Size="107.2,41.6"
+          Id="Package\Customer dim\Sort 1"
+          TopLeft="302,486.541665146541" />
         <NodeLayout
           Size="153.6,41.6"
           Id="Package\Customer dim\Derived Column"
           TopLeft="583,147" />
         <NodeLayout
+          Size="166.4,41.6"
+          Id="Package\Customer dim\Data Conversion 2"
+          TopLeft="492.857142857143,488.392855355605" />
+        <NodeLayout
+          Size="164,41.6"
+          Id="Package\Customer dim\Data Conversion 1"
+          TopLeft="205,186" />
+        <NodeLayout
+          Size="156,41.6"
+          Id="Package\Customer dim\Data Conversion"
+          TopLeft="617,287" />
+        <NodeLayout
           Size="127.2,41.6"
           Id="Package\Customer dim\Aggregate"
           TopLeft="128,343" />
-        <NodeLayout
-          Size="171.2,41.6"
-          Id="Package\Customer dim\OLE DB Destination"
-          TopLeft="729.428571428571,393.130950924246" />
+        <EdgeLayout
+          Id="Package\Customer dim.Paths[Derived Column Output1]"
+          TopLeft="812.714285714286,482.4">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,-47.6690490757541"
+              Start="0,0"
+              End="0,-40.1690490757541">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,-40.1690490757541" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Customer dim.Paths[Derived Column Output]"
+          TopLeft="660,189">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="35,98"
+              Start="0,0"
+              End="35,90.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,45" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,45"
+                    Point2="0,49"
+                    Point3="4,49" />
+                  <mssgle:LineSegment
+                    End="31,49" />
+                  <mssgle:CubicBezierSegment
+                    Point1="31,49"
+                    Point2="35,49"
+                    Point3="35,53" />
+                  <mssgle:LineSegment
+                    End="35,90.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Customer dim.Paths[Data Conversion Output1]"
+          TopLeft="659.257142857143,506.196427677803">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="80.742857142857,0"
+              Start="0,0"
+              End="73.242857142857,0">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="73.242857142857,0" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Customer dim.Paths[Data Conversion Output]"
+          TopLeft="287,227.6">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="88.4,101.4"
+              Start="0,0"
+              End="88.4,93.9">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,46.7" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,46.7"
+                    Point2="0,50.7"
+                    Point3="4,50.7" />
+                  <mssgle:LineSegment
+                    End="84.4,50.7" />
+                  <mssgle:CubicBezierSegment
+                    Point1="84.4,50.7"
+                    Point2="88.4,50.7"
+                    Point3="88.4,54.7" />
+                  <mssgle:LineSegment
+                    End="88.4,93.9" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
         <EdgeLayout
           Id="Package\Customer dim.Paths[Case 1]"
           TopLeft="150.5,450">
@@ -11753,7 +11944,9 @@ where "refTable"."supplier_id" = ?</property>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -11787,7 +11980,9 @@ where "refTable"."supplier_id" = ?</property>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -11809,75 +12004,9 @@ where "refTable"."supplier_id" = ?</property>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
-          Id="Package\Customer dim.Paths[Excel Source Output]"
-          TopLeft="733.5,81.291666486404">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="-73.5,65.708333513596"
-              Start="0,0"
-              End="-73.5,58.208333513596">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,28.854166756798" />
-                  <mssgle:CubicBezierSegment
-                    Point1="0,28.854166756798"
-                    Point2="0,32.854166756798"
-                    Point3="-4,32.854166756798" />
-                  <mssgle:LineSegment
-                    End="-69.5,32.854166756798" />
-                  <mssgle:CubicBezierSegment
-                    Point1="-69.5,32.854166756798"
-                    Point2="-73.5,32.854166756798"
-                    Point3="-73.5,36.854166756798" />
-                  <mssgle:LineSegment
-                    End="-73.5,58.208333513596" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
-          Id="Package\Customer dim.Paths[Data Conversion Output]"
-          TopLeft="287,227.6">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="88.4,101.4"
-              Start="0,0"
-              End="88.4,93.9">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,46.7" />
-                  <mssgle:CubicBezierSegment
-                    Point1="0,46.7"
-                    Point2="0,50.7"
-                    Point3="4,50.7" />
-                  <mssgle:LineSegment
-                    End="84.4,50.7" />
-                  <mssgle:CubicBezierSegment
-                    Point1="84.4,50.7"
-                    Point2="88.4,50.7"
-                    Point3="88.4,54.7" />
-                  <mssgle:LineSegment
-                    End="88.4,93.9" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -11911,93 +12040,45 @@ where "refTable"."supplier_id" = ?</property>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
-        <NodeLayout
-          Size="156,41.6"
-          Id="Package\Customer dim\Data Conversion"
-          TopLeft="617,287" />
         <EdgeLayout
-          Id="Package\Customer dim.Paths[Derived Column Output]"
-          TopLeft="660,189">
+          Id="Package\Customer dim.Paths[Excel Source Output]"
+          TopLeft="733.5,81.291666486404">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="35,98"
+              EndConnector="-73.5,65.708333513596"
               Start="0,0"
-              End="35,90.5">
+              End="-73.5,58.208333513596">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,45" />
+                    End="0,28.854166756798" />
                   <mssgle:CubicBezierSegment
-                    Point1="0,45"
-                    Point2="0,49"
-                    Point3="4,49" />
+                    Point1="0,28.854166756798"
+                    Point2="0,32.854166756798"
+                    Point3="-4,32.854166756798" />
                   <mssgle:LineSegment
-                    End="31,49" />
+                    End="-69.5,32.854166756798" />
                   <mssgle:CubicBezierSegment
-                    Point1="31,49"
-                    Point2="35,49"
-                    Point3="35,53" />
+                    Point1="-69.5,32.854166756798"
+                    Point2="-73.5,32.854166756798"
+                    Point3="-73.5,36.854166756798" />
                   <mssgle:LineSegment
-                    End="35,90.5" />
+                    End="-73.5,58.208333513596" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <NodeLayout
-          Size="140.8,41.6"
-          Id="Package\Customer dim\Replace nulls"
-          TopLeft="740,482.4" />
-        <EdgeLayout
-          Id="Package\Customer dim.Paths[Data Conversion Output1]"
-          TopLeft="659.257142857143,506.196427677803">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="80.742857142857,0"
-              Start="0,0"
-              End="73.242857142857,0">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="73.242857142857,0" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
-          Id="Package\Customer dim.Paths[Derived Column Output1]"
-          TopLeft="812.714285714286,482.4">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="0,-47.6690490757541"
-              Start="0,0"
-              End="0,-40.1690490757541">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,-40.1690490757541" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
       </GraphLayout>
@@ -12005,19 +12086,6 @@ where "refTable"."supplier_id" = ?</property>
   </TaskHost>
   <PipelineComponentMetadata
     design-time-name="Package\Customer dim\Excel Source">
-    <Properties>
-      <Property>
-        <Name>DataSourceViewID</Name>
-      </Property>
-      <Property>
-        <Name>TableInfoObjectType</Name>
-        <Value
-          type="q2:string">Table</Value>
-      </Property>
-    </Properties>
-  </PipelineComponentMetadata>
-  <PipelineComponentMetadata
-    design-time-name="Package\Customer dim\OLE DB Source 1">
     <Properties>
       <Property>
         <Name>DataSourceViewID</Name>
@@ -12042,27 +12110,32 @@ where "refTable"."supplier_id" = ?</property>
       </Property>
     </Properties>
   </PipelineComponentMetadata>
+  <PipelineComponentMetadata
+    design-time-name="Package\Customer dim\OLE DB Source 1">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+      <Property>
+        <Name>TableInfoObjectType</Name>
+        <Value
+          type="q2:string">Table</Value>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
   <TaskHost
     design-time-name="Package\Employee dim">
     <LayoutInfo>
       <GraphLayout
-        Capacity="16" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
-        <NodeLayout
-          Size="97.6,41.6"
-          Id="Package\Employee dim\Sort"
-          TopLeft="655.5,376.375000912075" />
-        <NodeLayout
-          Size="164.8,41.6"
-          Id="Package\Employee dim\Data Conversion 1"
-          TopLeft="118,307.291666873834" />
-        <NodeLayout
-          Size="150.4,41.6"
-          Id="Package\Employee dim\OLE DB Source"
-          TopLeft="60,96.2916668738342" />
+        Capacity="16" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
         <NodeLayout
           Size="166.4,41.6"
           Id="Package\Employee dim\Data Conversion 2"
           TopLeft="344,533.083331971947" />
+        <NodeLayout
+          Size="150.4,41.6"
+          Id="Package\Employee dim\OLE DB Source"
+          TopLeft="60,96.2916668738342" />
         <NodeLayout
           Size="120.8,41.6"
           Id="Package\Employee dim\Union All"
@@ -12071,106 +12144,48 @@ where "refTable"."supplier_id" = ?</property>
           Size="181.6,41.6"
           Id="Package\Employee dim\OLE DB Destination 1"
           TopLeft="155,644.229164634003" />
+        <NodeLayout
+          Size="97.6,41.6"
+          Id="Package\Employee dim\Sort"
+          TopLeft="655.5,376.375000912075" />
+        <NodeLayout
+          Size="164.8,41.6"
+          Id="Package\Employee dim\Data Conversion 1"
+          TopLeft="118,307.291666873834" />
         <EdgeLayout
-          Id="Package\Employee dim.Paths[OLE DB Source Output]"
-          TopLeft="135,138.291666873834">
+          Id="Package\Employee dim.Paths[Union All Output 1]"
+          TopLeft="436,435.291666873834">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="65.5,169"
+              EndConnector="219.5,-37.916665961759"
               Start="0,0"
-              End="65.5,161.5">
+              End="212,-37.916665961759">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,80.5" />
+                    End="105.75,0" />
                   <mssgle:CubicBezierSegment
-                    Point1="0,80.5"
-                    Point2="0,84.5"
-                    Point3="4,84.5" />
+                    Point1="105.75,0"
+                    Point2="109.75,0"
+                    Point3="109.75,-4" />
                   <mssgle:LineSegment
-                    End="61.5,84.5" />
+                    End="109.75,-33.916665961759" />
                   <mssgle:CubicBezierSegment
-                    Point1="61.5,84.5"
-                    Point2="65.5,84.5"
-                    Point3="65.5,88.5" />
+                    Point1="109.75,-33.916665961759"
+                    Point2="109.75,-37.916665961759"
+                    Point3="113.75,-37.916665961759" />
                   <mssgle:LineSegment
-                    End="65.5,161.5" />
+                    End="212,-37.916665961759" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
-          Id="Package\Employee dim.Paths[Data Conversion Output1]"
-          TopLeft="200.5,349.291666873834">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="156.166666666667,65"
-              Start="0,0"
-              End="156.166666666667,57.5">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,34.4910277324633" />
-                  <mssgle:CubicBezierSegment
-                    Point1="0,34.4910277324633"
-                    Point2="0,38.4910277324633"
-                    Point3="4,38.4910277324633" />
-                  <mssgle:LineSegment
-                    End="152.166666666667,38.4910277324633" />
-                  <mssgle:CubicBezierSegment
-                    Point1="152.166666666667,38.4910277324633"
-                    Point2="156.166666666667,38.4910277324633"
-                    Point3="156.166666666667,42.4910277324633" />
-                  <mssgle:LineSegment
-                    End="156.166666666667,57.5" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
-          Id="Package\Employee dim.Paths[Data Conversion Output]"
-          TopLeft="427,575.083331971947">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="-181.25,69.1458326620564"
-              Start="0,0"
-              End="-181.25,61.6458326620564">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,30.5729163310282" />
-                  <mssgle:CubicBezierSegment
-                    Point1="0,30.5729163310282"
-                    Point2="0,34.5729163310282"
-                    Point3="-4,34.5729163310282" />
-                  <mssgle:LineSegment
-                    End="-177.25,34.5729163310282" />
-                  <mssgle:CubicBezierSegment
-                    Point1="-177.25,34.5729163310282"
-                    Point2="-181.25,34.5729163310282"
-                    Point3="-181.25,38.5729163310282" />
-                  <mssgle:LineSegment
-                    End="-181.25,61.6458326620564" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -12204,41 +12219,117 @@ where "refTable"."supplier_id" = ?</property>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\Employee dim.Paths[Union All Output 1]"
-          TopLeft="436,435.291666873834">
+          Id="Package\Employee dim.Paths[OLE DB Source Output]"
+          TopLeft="135,138.291666873834">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="219.5,-37.916665961759"
+              EndConnector="65.5,169"
               Start="0,0"
-              End="212,-37.916665961759">
+              End="65.5,161.5">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="105.75,0" />
+                    End="0,80.5" />
                   <mssgle:CubicBezierSegment
-                    Point1="105.75,0"
-                    Point2="109.75,0"
-                    Point3="109.75,-4" />
+                    Point1="0,80.5"
+                    Point2="0,84.5"
+                    Point3="4,84.5" />
                   <mssgle:LineSegment
-                    End="109.75,-33.916665961759" />
+                    End="61.5,84.5" />
                   <mssgle:CubicBezierSegment
-                    Point1="109.75,-33.916665961759"
-                    Point2="109.75,-37.916665961759"
-                    Point3="113.75,-37.916665961759" />
+                    Point1="61.5,84.5"
+                    Point2="65.5,84.5"
+                    Point3="65.5,88.5" />
                   <mssgle:LineSegment
-                    End="212,-37.916665961759" />
+                    End="65.5,161.5" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Employee dim.Paths[Data Conversion Output1]"
+          TopLeft="200.5,349.291666873834">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="156.166666666667,65"
+              Start="0,0"
+              End="156.166666666667,57.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,34.4910277324633" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,34.4910277324633"
+                    Point2="0,38.4910277324633"
+                    Point3="4,38.4910277324633" />
+                  <mssgle:LineSegment
+                    End="152.166666666667,38.4910277324633" />
+                  <mssgle:CubicBezierSegment
+                    Point1="152.166666666667,38.4910277324633"
+                    Point2="156.166666666667,38.4910277324633"
+                    Point3="156.166666666667,42.4910277324633" />
+                  <mssgle:LineSegment
+                    End="156.166666666667,57.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Employee dim.Paths[Data Conversion Output]"
+          TopLeft="427,575.083331971947">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="-181.25,69.1458326620564"
+              Start="0,0"
+              End="-181.25,61.6458326620564">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,30.5729163310282" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,30.5729163310282"
+                    Point2="0,34.5729163310282"
+                    Point3="-4,34.5729163310282" />
+                  <mssgle:LineSegment
+                    End="-177.25,34.5729163310282" />
+                  <mssgle:CubicBezierSegment
+                    Point1="-177.25,34.5729163310282"
+                    Point2="-181.25,34.5729163310282"
+                    Point3="-181.25,38.5729163310282" />
+                  <mssgle:LineSegment
+                    End="-181.25,61.6458326620564" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
       </GraphLayout>
@@ -12271,24 +12362,198 @@ where "refTable"."supplier_id" = ?</property>
       <GraphLayout
         Capacity="32" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
         <NodeLayout
-          Size="114.4,41.6"
-          Id="Package\Orders Fact Table\Shipper"
-          TopLeft="711.333333333333,333.923076923077" />
+          Size="140.8,41.6"
+          Id="Package\Orders Fact Table\Order_details"
+          TopLeft="433.431623931624,21.8239312864372" />
+        <NodeLayout
+          Size="97.6,41.6"
+          Id="Package\Orders Fact Table\Sort"
+          TopLeft="454.098271624145,102.123933070338" />
         <NodeLayout
           Size="116.8,41.6"
           Id="Package\Orders Fact Table\Product"
           TopLeft="463.222222222222,337.756410256411" />
         <NodeLayout
-          Size="127.2,41.6"
-          Id="Package\Orders Fact Table\employee"
-          TopLeft="191.444444444444,264.034188034188" />
+          Size="106.4,41.6"
+          Id="Package\Orders Fact Table\Sort 1"
+          TopLeft="657.431596877739,100.39059972323" />
+        <NodeLayout
+          Size="156,41.6"
+          Id="Package\Orders Fact Table\Data Conversion"
+          TopLeft="442.095959595959,261.094794094794" />
+        <NodeLayout
+          Size="129.6,41.6"
+          Id="Package\Orders Fact Table\Merge Join"
+          TopLeft="547.816218951319,181.61064712158" />
+        <NodeLayout
+          Size="110.4,41.6"
+          Id="Package\Orders Fact Table\Orders"
+          TopLeft="655.098281061548,21.723931623932" />
+        <NodeLayout
+          Size="114.4,41.6"
+          Id="Package\Orders Fact Table\Shipper"
+          TopLeft="711.333333333333,336.52307694374" />
+        <NodeLayout
+          Size="163.2,41.6"
+          Id="Package\Orders Fact Table\ODBC Destination"
+          TopLeft="302.42425182853,433.939393801641" />
         <NodeLayout
           Size="124,41.6"
           Id="Package\Orders Fact Table\customer"
           TopLeft="193.666666666667,342.25641025641" />
+        <NodeLayout
+          Size="127.2,41.6"
+          Id="Package\Orders Fact Table\employee"
+          TopLeft="191.444444444444,264.034188034188" />
+        <EdgeLayout
+          Id="Package\Orders Fact Table.Paths[Sort Output1]"
+          TopLeft="502.898271624145,143.723933070338">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="89.4512806605067,37.8867140512426"
+              Start="0,0"
+              End="89.4512806605067,30.3867140512426">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,18.454808571834" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,18.454808571834"
+                    Point2="0,22.454808571834"
+                    Point3="4,22.454808571834" />
+                  <mssgle:LineSegment
+                    End="85.4512806605067,22.454808571834" />
+                  <mssgle:CubicBezierSegment
+                    Point1="85.4512806605067,22.454808571834"
+                    Point2="89.4512806605067,22.454808571834"
+                    Point3="89.4512806605067,26.454808571834" />
+                  <mssgle:LineSegment
+                    End="89.4512806605067,30.3867140512426" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Orders Fact Table.Paths[Sort Output]"
+          TopLeft="710.631596877739,141.99059972323">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="-77.7487112597537,39.6200473983505"
+              Start="0,0"
+              End="-77.7487112597537,32.1200473983505">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,19.4821256531687" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,19.4821256531687"
+                    Point2="0,23.4821256531687"
+                    Point3="-4,23.4821256531687" />
+                  <mssgle:LineSegment
+                    End="-73.7487112597537,23.4821256531687" />
+                  <mssgle:CubicBezierSegment
+                    Point1="-73.7487112597537,23.4821256531687"
+                    Point2="-77.7487112597537,23.4821256531687"
+                    Point3="-77.7487112597537,27.4821256531687" />
+                  <mssgle:LineSegment
+                    End="-77.7487112597537,32.1200473983505" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Orders Fact Table.Paths[ODBC Source Output1]"
+          TopLeft="503.364947777885,63.4239312864372">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,38.7000017839004"
+              Start="0,0"
+              End="0,31.2000017839004">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,31.2000017839004" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Orders Fact Table.Paths[ODBC Source Output]"
+          TopLeft="710.464938969644,63.323931623932">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,37.0666680992978"
+              Start="0,0"
+              End="0,29.5666680992978">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,29.5666680992978" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Orders Fact Table.Paths[Merge Join Output]"
+          TopLeft="612.616218951319,223.21064712158">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="-92.5202593553596,37.8841469732135"
+              Start="0,0"
+              End="-92.5202593553596,30.3841469732135">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,14.9420734866067" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,14.9420734866067"
+                    Point2="0,18.9420734866067"
+                    Point3="-4,18.9420734866067" />
+                  <mssgle:LineSegment
+                    End="-88.5202593553596,18.9420734866067" />
+                  <mssgle:CubicBezierSegment
+                    Point1="-88.5202593553596,18.9420734866067"
+                    Point2="-92.5202593553596,18.9420734866067"
+                    Point3="-92.5202593553596,22.9420734866067" />
+                  <mssgle:LineSegment
+                    End="-92.5202593553596,30.3841469732135" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
         <EdgeLayout
           Id="Package\Orders Fact Table.Paths[Lookup Match Output2]"
-          TopLeft="580.022222222222,356.639743589744">
+          TopLeft="580.022222222222,357.939743600076">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
@@ -12330,7 +12595,7 @@ where "refTable"."supplier_id" = ?</property>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
             <mssgm:EdgeLabel
-              BoundingBox="20.8363910590279,5,96.3827734375,11.609375"
+              BoundingBox="20.836391059028,5,96.3827734375,11.609375"
               RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
@@ -12358,154 +12623,6 @@ where "refTable"."supplier_id" = ?</property>
               RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
-        <NodeLayout
-          Size="97.6,41.6"
-          Id="Package\Orders Fact Table\Sort"
-          TopLeft="454.098271624145,102.123933070338" />
-        <NodeLayout
-          Size="129.6,41.6"
-          Id="Package\Orders Fact Table\Merge Join"
-          TopLeft="547.816218951319,181.61064712158" />
-        <NodeLayout
-          Size="106.4,41.6"
-          Id="Package\Orders Fact Table\Sort 1"
-          TopLeft="657.431596877739,100.39059972323" />
-        <NodeLayout
-          Size="110.4,41.6"
-          Id="Package\Orders Fact Table\Orders"
-          TopLeft="655.098281061548,21.723931623932" />
-        <NodeLayout
-          Size="140.8,41.6"
-          Id="Package\Orders Fact Table\Order_details"
-          TopLeft="433.431623931624,21.8239312864372" />
-        <EdgeLayout
-          Id="Package\Orders Fact Table.Paths[Sort Output]"
-          TopLeft="710.631596877739,141.99059972323">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="-77.7487112597537,39.6200473983505"
-              Start="0,0"
-              End="-77.7487112597537,32.1200473983505">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,19.4821256531687" />
-                  <mssgle:CubicBezierSegment
-                    Point1="0,19.4821256531687"
-                    Point2="0,23.4821256531687"
-                    Point3="-4,23.4821256531687" />
-                  <mssgle:LineSegment
-                    End="-73.7487112597537,23.4821256531687" />
-                  <mssgle:CubicBezierSegment
-                    Point1="-73.7487112597537,23.4821256531687"
-                    Point2="-77.7487112597537,23.4821256531687"
-                    Point3="-77.7487112597537,27.4821256531687" />
-                  <mssgle:LineSegment
-                    End="-77.7487112597537,32.1200473983505" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
-          Id="Package\Orders Fact Table.Paths[Sort Output1]"
-          TopLeft="502.898271624145,143.723933070338">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="89.4512806605067,37.8867140512426"
-              Start="0,0"
-              End="89.4512806605067,30.3867140512426">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,18.454808571834" />
-                  <mssgle:CubicBezierSegment
-                    Point1="0,18.454808571834"
-                    Point2="0,22.454808571834"
-                    Point3="4,22.454808571834" />
-                  <mssgle:LineSegment
-                    End="85.4512806605067,22.454808571834" />
-                  <mssgle:CubicBezierSegment
-                    Point1="85.4512806605067,22.454808571834"
-                    Point2="89.4512806605067,22.454808571834"
-                    Point3="89.4512806605067,26.454808571834" />
-                  <mssgle:LineSegment
-                    End="89.4512806605067,30.3867140512426" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
-          Id="Package\Orders Fact Table.Paths[ODBC Source Output]"
-          TopLeft="710.464938969644,63.323931623932">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="0,37.0666680992978"
-              Start="0,0"
-              End="0,29.5666680992978">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,29.5666680992978" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <NodeLayout
-          Size="156,41.6"
-          Id="Package\Orders Fact Table\Data Conversion"
-          TopLeft="442.095959595959,261.094794094794" />
-        <EdgeLayout
-          Id="Package\Orders Fact Table.Paths[Merge Join Output]"
-          TopLeft="612.616218951319,223.21064712158">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="-92.5202593553596,37.8841469732135"
-              Start="0,0"
-              End="-92.5202593553596,30.3841469732135">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,14.9420734866067" />
-                  <mssgle:CubicBezierSegment
-                    Point1="0,14.9420734866067"
-                    Point2="0,18.9420734866067"
-                    Point3="-4,18.9420734866067" />
-                  <mssgle:LineSegment
-                    End="-88.5202593553596,18.9420734866067" />
-                  <mssgle:CubicBezierSegment
-                    Point1="-88.5202593553596,18.9420734866067"
-                    Point2="-92.5202593553596,18.9420734866067"
-                    Point3="-92.5202593553596,22.9420734866067" />
-                  <mssgle:LineSegment
-                    End="-92.5202593553596,30.3841469732135" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
         <EdgeLayout
           Id="Package\Orders Fact Table.Paths[Data Conversion Output]"
           TopLeft="442.095959595959,283.364491064491">
@@ -12528,20 +12645,60 @@ where "refTable"."supplier_id" = ?</property>
             <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
+        <NodeLayout
+          Size="105.6,41.6"
+          Id="Package\Orders Fact Table\Dates"
+          TopLeft="634.777760161294,428.072726280906" />
         <EdgeLayout
-          Id="Package\Orders Fact Table.Paths[ODBC Source Output1]"
-          TopLeft="503.364947777885,63.4239312864372">
+          Id="Package\Orders Fact Table.Paths[Lookup Match Output3]"
+          TopLeft="768.533333333333,378.12307694374">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="0,38.7000017839004"
+              EndConnector="-80.955573172039,49.9496493371657"
               Start="0,0"
-              End="0,31.2000017839004">
+              End="-80.955573172039,42.4496493371657">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,31.2000017839004" />
+                    End="0,20.9748246685829" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,20.9748246685829"
+                    Point2="0,24.9748246685829"
+                    Point3="-4,24.9748246685829" />
+                  <mssgle:LineSegment
+                    End="-76.955573172039,24.9748246685829" />
+                  <mssgle:CubicBezierSegment
+                    Point1="-76.955573172039,24.9748246685829"
+                    Point2="-80.955573172039,24.9748246685829"
+                    Point3="-80.955573172039,28.9748246685829" />
+                  <mssgle:LineSegment
+                    End="-80.955573172039,42.4496493371657" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="-88.6691733047695,29.9748246685829,96.3827734375,11.609375"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Orders Fact Table.Paths[Derived Column Output]"
+          TopLeft="634.777760161294,451.806060041273">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="-169.153508332764,0"
+              Start="0,0"
+              End="-161.653508332764,0">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="-161.653508332764,0" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -12550,77 +12707,32 @@ where "refTable"."supplier_id" = ?</property>
             <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
-        <NodeLayout
-          Size="163.2,41.6"
-          Id="Package\Orders Fact Table\ODBC Destination"
-          TopLeft="380.909090909091,506.727272727272" />
-        <NodeLayout
-          Size="112.8,41.6"
-          Id="Package\Orders Fact Table\Lookup"
-          TopLeft="716.363636363636,437.090909090909" />
-        <EdgeLayout
-          Id="Package\Orders Fact Table.Paths[Lookup Match Output3]"
-          TopLeft="770.648484848485,375.523076923077">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="0,61.5678321678321"
-              Start="0,0"
-              End="0,54.0678321678321">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,54.0678321678321" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="-48.19138671875,21.229228583916,96.3827734375,11.609375"
-              RelativePosition="Any" />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
-          Id="Package\Orders Fact Table.Paths[Lookup Match Output4]"
-          TopLeft="772.763636363636,478.690909090909">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="-310.254545454545,28.0363636363634"
-              Start="0,0"
-              End="-310.254545454545,20.5363636363634">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,10.0181818181817" />
-                  <mssgle:CubicBezierSegment
-                    Point1="0,10.0181818181817"
-                    Point2="0,14.0181818181817"
-                    Point3="-4,14.0181818181817" />
-                  <mssgle:LineSegment
-                    End="-306.254545454545,14.0181818181817" />
-                  <mssgle:CubicBezierSegment
-                    Point1="-306.254545454545,14.0181818181817"
-                    Point2="-310.254545454545,14.0181818181817"
-                    Point3="-310.254545454545,18.0181818181817" />
-                  <mssgle:LineSegment
-                    End="-310.254545454545,20.5363636363634" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="-203.318659446023,19.0181818181817,96.3827734375,11.609375"
-              RelativePosition="Any" />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
       </GraphLayout>
     </LayoutInfo>
   </TaskHost>
+  <PipelineComponentMetadata
+    design-time-name="Package\Orders Fact Table\Product">
+    <Properties>
+      <Property>
+        <Name>OverwriteParamsSQLProp</Name>
+        <Value
+          type="q2:string">false</Value>
+      </Property>
+      <Property>
+        <Name>UsedTableName</Name>
+        <Value
+          type="q3:string">"public"."products_dim"</Value>
+      </Property>
+      <Property>
+        <Name>TableInfoObjectType</Name>
+        <Value
+          type="q4:string">0</Value>
+      </Property>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
   <PipelineComponentMetadata
     design-time-name="Package\Orders Fact Table\Shipper">
     <Properties>
@@ -12645,22 +12757,35 @@ where "refTable"."supplier_id" = ?</property>
     </Properties>
   </PipelineComponentMetadata>
   <PipelineComponentMetadata
-    design-time-name="Package\Orders Fact Table\Product">
+    design-time-name="Package\Orders Fact Table\ODBC Destination">
     <Properties>
       <Property>
-        <Name>OverwriteParamsSQLProp</Name>
-        <Value
-          type="q2:boolean">false</Value>
-      </Property>
-      <Property>
-        <Name>UsedTableName</Name>
-        <Value
-          type="q3:string">"public"."products_dim"</Value>
+        <Name>DataSourceViewID</Name>
       </Property>
       <Property>
         <Name>TableInfoObjectType</Name>
         <Value
-          type="q4:int">0</Value>
+          type="q2:string">Table</Value>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <PipelineComponentMetadata
+    design-time-name="Package\Orders Fact Table\customer">
+    <Properties>
+      <Property>
+        <Name>OverwriteParamsSQLProp</Name>
+        <Value
+          type="q2:string">false</Value>
+      </Property>
+      <Property>
+        <Name>UsedTableName</Name>
+        <Value
+          type="q3:string">"public"."customer_dim"</Value>
+      </Property>
+      <Property>
+        <Name>TableInfoObjectType</Name>
+        <Value
+          type="q4:string">0</Value>
       </Property>
       <Property>
         <Name>DataSourceViewID</Name>
@@ -12690,38 +12815,11 @@ where "refTable"."supplier_id" = ?</property>
       </Property>
     </Properties>
   </PipelineComponentMetadata>
-  <PipelineComponentMetadata
-    design-time-name="Package\Orders Fact Table\customer">
-    <Properties>
-      <Property>
-        <Name>OverwriteParamsSQLProp</Name>
-        <Value
-          type="q2:boolean">false</Value>
-      </Property>
-      <Property>
-        <Name>UsedTableName</Name>
-        <Value
-          type="q3:string">"public"."customer_dim"</Value>
-      </Property>
-      <Property>
-        <Name>TableInfoObjectType</Name>
-        <Value
-          type="q4:string">0</Value>
-      </Property>
-      <Property>
-        <Name>DataSourceViewID</Name>
-      </Property>
-    </Properties>
-  </PipelineComponentMetadata>
   <TaskHost
     design-time-name="Package\Products dim">
     <LayoutInfo>
       <GraphLayout
         Capacity="16" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
-        <NodeLayout
-          Size="171.2,41.6"
-          Id="Package\Products dim\OLE DB Destination"
-          TopLeft="131.629627657526,370.096298156727" />
         <NodeLayout
           Size="129.6,41.6"
           Id="Package\Products dim\Merge Join"
@@ -12735,17 +12833,49 @@ where "refTable"."supplier_id" = ?</property>
           Id="Package\Products dim\Sort 1"
           TopLeft="302.499987979731,194.569699211313" />
         <NodeLayout
+          Size="116.8,41.6"
+          Id="Package\Products dim\Supplier"
+          TopLeft="370.518507053823,370.355557507056" />
+        <NodeLayout
           Size="156,41.6"
           Id="Package\Products dim\Data Conversion"
           TopLeft="559.9999777476,369.866669421726" />
+        <NodeLayout
+          Size="119.2,41.6"
+          Id="Package\Products dim\Products"
+          TopLeft="300.833321379291,116.327274556882" />
         <NodeLayout
           Size="120.8,41.6"
           Id="Package\Products dim\Category"
           TopLeft="522.499979237717,114.400000909169" />
         <NodeLayout
-          Size="119.2,41.6"
-          Id="Package\Products dim\Products"
-          TopLeft="300.833321379291,116.327274556882" />
+          Size="171.2,41.6"
+          Id="Package\Products dim\OLE DB Destination"
+          TopLeft="131.629627657526,370.096298156727" />
+        <EdgeLayout
+          Id="Package\Products dim.Paths[Data Conversion Output]"
+          TopLeft="559.9999777476,390.911113464391">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="-72.6814706937768,0"
+              Start="0,0"
+              End="-65.1814706937768,0">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="-65.1814706937768,0" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
         <EdgeLayout
           Id="Package\Products dim.Paths[Sort Output1]"
           TopLeft="355.699987979731,236.169699211313">
@@ -12777,7 +12907,9 @@ where "refTable"."supplier_id" = ?</property>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -12811,7 +12943,9 @@ where "refTable"."supplier_id" = ?</property>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -12833,7 +12967,9 @@ where "refTable"."supplier_id" = ?</property>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -12855,7 +12991,9 @@ where "refTable"."supplier_id" = ?</property>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -12889,33 +13027,9 @@ where "refTable"."supplier_id" = ?</property>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <NodeLayout
-          Size="116.8,41.6"
-          Id="Package\Products dim\Supplier"
-          TopLeft="370.518507053823,370.355557507056" />
-        <EdgeLayout
-          Id="Package\Products dim.Paths[Data Conversion Output]"
-          TopLeft="559.9999777476,390.911113464391">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="-72.6814706937768,0"
-              Start="0,0"
-              End="-65.1814706937768,0">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="-65.1814706937768,0" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -12946,7 +13060,30 @@ where "refTable"."supplier_id" = ?</property>
     </LayoutInfo>
   </TaskHost>
   <PipelineComponentMetadata
-    design-time-name="Package\Products dim\OLE DB Destination">
+    design-time-name="Package\Products dim\Supplier">
+    <Properties>
+      <Property>
+        <Name>OverwriteParamsSQLProp</Name>
+        <Value
+          type="q2:string">false</Value>
+      </Property>
+      <Property>
+        <Name>UsedTableName</Name>
+        <Value
+          type="q3:string">"public"."suppliers_dim"</Value>
+      </Property>
+      <Property>
+        <Name>TableInfoObjectType</Name>
+        <Value
+          type="q4:string">0</Value>
+      </Property>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <PipelineComponentMetadata
+    design-time-name="Package\Products dim\Products">
     <Properties>
       <Property>
         <Name>DataSourceViewID</Name>
@@ -12972,7 +13109,7 @@ where "refTable"."supplier_id" = ?</property>
     </Properties>
   </PipelineComponentMetadata>
   <PipelineComponentMetadata
-    design-time-name="Package\Products dim\Products">
+    design-time-name="Package\Products dim\OLE DB Destination">
     <Properties>
       <Property>
         <Name>DataSourceViewID</Name>
@@ -12988,7 +13125,7 @@ where "refTable"."supplier_id" = ?</property>
     design-time-name="Package\Shipper dim">
     <LayoutInfo>
       <GraphLayout
-        Capacity="8" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
+        Capacity="8" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
         <NodeLayout
           Size="116.8,41.6"
           Id="Package\Shipper dim\Shipper"
@@ -13001,28 +13138,6 @@ where "refTable"."supplier_id" = ?</property>
           Size="156,41.6"
           Id="Package\Shipper dim\Data Conversion"
           TopLeft="515.454545454545,188.727272727273" />
-        <EdgeLayout
-          Id="Package\Shipper dim.Paths[OLE DB Source Output]"
-          TopLeft="593.654545454545,109.509090909091">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="0,79.2181818181818"
-              Start="0,0"
-              End="0,71.7181818181818">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,71.7181818181818" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
         <EdgeLayout
           Id="Package\Shipper dim.Paths[Data Conversion Output]"
           TopLeft="515.454545454545,206.481818181818">
@@ -13042,7 +13157,33 @@ where "refTable"."supplier_id" = ?</property>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Shipper dim.Paths[OLE DB Source Output]"
+          TopLeft="593.654545454545,109.509090909091">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,79.2181818181818"
+              Start="0,0"
+              End="0,71.7181818181818">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,71.7181818181818" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
       </GraphLayout>
@@ -13065,7 +13206,7 @@ where "refTable"."supplier_id" = ?</property>
     design-time-name="Package\Supplier dim">
     <LayoutInfo>
       <GraphLayout
-        Capacity="16" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
+        Capacity="16" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
         <NodeLayout
           Size="120,41.6"
           Id="Package\Supplier dim\Union All"
@@ -13129,7 +13270,9 @@ where "refTable"."supplier_id" = ?</property>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -13151,7 +13294,9 @@ where "refTable"."supplier_id" = ?</property>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -13185,7 +13330,9 @@ where "refTable"."supplier_id" = ?</property>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -13219,7 +13366,9 @@ where "refTable"."supplier_id" = ?</property>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -13241,7 +13390,9 @@ where "refTable"."supplier_id" = ?</property>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -13275,7 +13426,9 @@ where "refTable"."supplier_id" = ?</property>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -13309,7 +13462,9 @@ where "refTable"."supplier_id" = ?</property>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
       </GraphLayout>
@@ -13351,65 +13506,6 @@ where "refTable"."supplier_id" = ?</property>
         <Name>TableInfoObjectType</Name>
         <Value
           type="q2:string">Table</Value>
-      </Property>
-    </Properties>
-  </PipelineComponentMetadata>
-  <PipelineComponentMetadata
-    design-time-name="Package\Products dim\Supplier">
-    <Properties>
-      <Property>
-        <Name>OverwriteParamsSQLProp</Name>
-        <Value
-          type="q2:boolean">false</Value>
-      </Property>
-      <Property>
-        <Name>UsedTableName</Name>
-        <Value
-          type="q3:string">"public"."suppliers_dim"</Value>
-      </Property>
-      <Property>
-        <Name>TableInfoObjectType</Name>
-        <Value
-          type="q4:int">0</Value>
-      </Property>
-      <Property>
-        <Name>DataSourceViewID</Name>
-      </Property>
-    </Properties>
-  </PipelineComponentMetadata>
-  <PipelineComponentMetadata
-    design-time-name="Package\Orders Fact Table\ODBC Destination">
-    <Properties>
-      <Property>
-        <Name>DataSourceViewID</Name>
-      </Property>
-      <Property>
-        <Name>TableInfoObjectType</Name>
-        <Value
-          type="q2:string">Table</Value>
-      </Property>
-    </Properties>
-  </PipelineComponentMetadata>
-  <PipelineComponentMetadata
-    design-time-name="Package\Orders Fact Table\Lookup">
-    <Properties>
-      <Property>
-        <Name>OverwriteParamsSQLProp</Name>
-        <Value
-          type="q2:boolean">false</Value>
-      </Property>
-      <Property>
-        <Name>UsedTableName</Name>
-        <Value
-          type="q3:string">"public"."date_dim"</Value>
-      </Property>
-      <Property>
-        <Name>TableInfoObjectType</Name>
-        <Value
-          type="q4:int">0</Value>
-      </Property>
-      <Property>
-        <Name>DataSourceViewID</Name>
       </Property>
     </Properties>
   </PipelineComponentMetadata>

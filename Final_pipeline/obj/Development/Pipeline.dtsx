@@ -5,21 +5,21 @@
   DTS:CreationName="Microsoft.Package"
   DTS:CreatorComputerName="DESKTOP-K4PGJ6D"
   DTS:CreatorName="DESKTOP-K4PGJ6D\Sherif"
-  DTS:DTSID="{B4260976-BFBA-449C-AC3B-F169E7AC8975}"
+  DTS:DTSID="{6AA65126-4C4B-4C86-8477-4E715CF2933D}"
   DTS:ExecutableType="Microsoft.Package"
   DTS:LastModifiedProductVersion="16.0.5270.0"
   DTS:LocaleID="1033"
   DTS:ObjectName="Pipeline"
   DTS:PackageType="5"
   DTS:VersionBuild="55"
-  DTS:VersionGUID="{EB09341E-0088-4823-BD24-62B3DEA3E33D}">
+  DTS:VersionGUID="{8B736DD7-0187-42B2-A4BB-ED28345164DE}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>
     <DTS:ConnectionManager
       DTS:refId="Package.ConnectionManagers[.postgres]"
       DTS:CreationName="OLEDB"
-      DTS:DTSID="{B994A7CD-7030-42D5-8C26-E35F4359B255}"
+      DTS:DTSID="{BA010A2E-AAAA-427C-A566-11A584F6AB92}"
       DTS:ObjectName=".postgres">
       <DTS:ObjectData>
         <DTS:ConnectionManager
@@ -29,14 +29,14 @@
           <DTS:Password
             DTS:Name="Password"
             Sensitive="1"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAnIV43oykVUGbJgCw0syruAAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAAAglBKIWzxw32Sl6uIWCpLKTRG6xUC6fE4W55gvuOytYgAAAAAOgAAAAAIAACAAAACIQ6fXb2qigT9IGmyTqxZybrfz7Lj8j9+mpxgsPyRnLRAAAAAEe9Brx87I74Y42g6ujWiZQAAAALXP8U6Tdrme0vSZa7J9ZaOT6CkIjsIxq/1Zilx+EycCMVZimehnnW9fbJibHPvwYZSCsEgCPEqVzZ5uuwLkDdE</DTS:Password>
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAnIV43oykVUGbJgCw0syruAAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAADWQpsLCcUfwUxeKInQA/o8Xottrr58i0Y1Gp1m0vT7xwAAAAAOgAAAAAIAACAAAADbGk/QL4v9uGtRc0suCTD5IyLK8W2BR65CTvLOX/BczhAAAAAKPFCA1W6hrBI/a/PDjXkSQAAAAIjPbDJxVS/xvlC2m+jkTOThGsFMuRf2tgELJJxJ027fOLCHdN0NxwoGbMJAjDP/M6KhsJs7g+IcsFcxy3yPxrM</DTS:Password>
         </DTS:ConnectionManager>
       </DTS:ObjectData>
     </DTS:ConnectionManager>
     <DTS:ConnectionManager
       DTS:refId="Package.ConnectionManagers[.postgres1]"
       DTS:CreationName="OLEDB"
-      DTS:DTSID="{40A27B1A-6D1B-4BC7-9300-E517189A55AA}"
+      DTS:DTSID="{4EBCBED5-50A5-47F5-BD73-8C4DE07663A4}"
       DTS:ObjectName=".postgres1">
       <DTS:ObjectData>
         <DTS:ConnectionManager
@@ -46,14 +46,14 @@
           <DTS:Password
             DTS:Name="Password"
             Sensitive="1"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAnIV43oykVUGbJgCw0syruAAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAABy0mw23YmekiiMcVY1PwlUCHeDq52ml1vo18Xb844qiwAAAAAOgAAAAAIAACAAAAAd8Mpa7ETl92sOkWAPqOe3PIq3WFZIPG/LPqPMlYvzUhAAAAD2mYeKmquvA4SJamGGHeHTQAAAAN5KnorQPb90xLQ4gN5sRZJXQ7EQt+gckfo5SLAftqlkQ0nhenXJZmgNZ2qCE98XSFHGATewqIWedNC+8o5eMKA</DTS:Password>
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAnIV43oykVUGbJgCw0syruAAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAAAXnQcKraRzxr2TYJrqR6F+xEtZn54qsFxo4HUAerFhhQAAAAAOgAAAAAIAACAAAAAtGIIKLfrqsHIisJ6IjP1PnxNhE/+eI9QlnkkK/PWuPBAAAACGFeTGxUg5ZmfgVUXaTIVGQAAAAL68otUaoDVUWVFVksbcBif02f2n0PSElD9mQmsTy7kllB7dC65/QCDF+6wmWkh5Rw63zcu3MSUx1MNt19BxnJ8</DTS:Password>
         </DTS:ConnectionManager>
       </DTS:ObjectData>
     </DTS:ConnectionManager>
     <DTS:ConnectionManager
       DTS:refId="Package.ConnectionManagers[Excel Connection Manager]"
       DTS:CreationName="EXCEL"
-      DTS:DTSID="{E9A116AD-C3ED-4525-AE7A-019D6BFA6B74}"
+      DTS:DTSID="{B806A853-4D46-4BFF-B3C0-7741CE780DD1}"
       DTS:ObjectName="Excel Connection Manager">
       <DTS:ObjectData>
         <DTS:ConnectionManager
@@ -65,7 +65,7 @@
     <DTS:ConnectionManager
       DTS:refId="Package.ConnectionManagers[Excel Connection Manager 1]"
       DTS:CreationName="EXCEL"
-      DTS:DTSID="{960AD12A-90A8-467E-AA5B-F8A80ADF50BE}"
+      DTS:DTSID="{F23AA728-F479-49ED-9757-5576A64DEC44}"
       DTS:ObjectName="Excel Connection Manager 1">
       <DTS:ObjectData>
         <DTS:ConnectionManager
@@ -77,7 +77,7 @@
     <DTS:ConnectionManager
       DTS:refId="Package.ConnectionManagers[Excel Connection Manager 2]"
       DTS:CreationName="EXCEL"
-      DTS:DTSID="{56DF13F6-8649-46D2-8F18-0FEF0047211F}"
+      DTS:DTSID="{3748F3A9-26E5-4F45-9BA2-F9E3652CAA2C}"
       DTS:ObjectName="Excel Connection Manager 2">
       <DTS:ObjectData>
         <DTS:ConnectionManager
@@ -89,7 +89,7 @@
     <DTS:ConnectionManager
       DTS:refId="Package.ConnectionManagers[Excel Connection Manager 3]"
       DTS:CreationName="EXCEL"
-      DTS:DTSID="{9DC0CA7D-4F43-4E2E-B3EE-C771BA22E9E2}"
+      DTS:DTSID="{A6333FF8-1EA3-4BB7-A54B-3D4DCEFEBAD4}"
       DTS:ObjectName="Excel Connection Manager 3">
       <DTS:ObjectData>
         <DTS:ConnectionManager
@@ -101,7 +101,7 @@
     <DTS:ConnectionManager
       DTS:refId="Package.ConnectionManagers[PostgreSQL-DWH-Unicode.postgres]"
       DTS:CreationName="ODBC"
-      DTS:DTSID="{C1F8D088-ABFB-409A-8A48-29DBB8CCF008}"
+      DTS:DTSID="{344FA83C-C27E-4543-86F1-A1EA40EDA5C8}"
       DTS:ObjectName="PostgreSQL-DWH-Unicode.postgres">
       <DTS:ObjectData>
         <DTS:ConnectionManager
@@ -109,14 +109,14 @@
           <DTS:Password
             DTS:Name="pwd"
             Sensitive="1"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAnIV43oykVUGbJgCw0syruAAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAAC6AIR/b+DEIpjY2+2W0n25OuDD0OXZSjVsLBJVyZu8wQAAAAAOgAAAAAIAACAAAAD4h010PGc90RefmuYgepA9YaIlN4VIWCKQ8Pk9oalqFhAAAABaPQPkP3dL5RFNM5rRcha6QAAAALK6EPe1Uftq+GkT84108MxeAnlkCl0l7cFmiRchimIk6JdmFoQFgk466xrdsu6Qv/lmkBhlZze0sUzOgEo+//U</DTS:Password>
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAnIV43oykVUGbJgCw0syruAAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAADDYaHMdesOdevcsPnnUJOSDYWSOBtSBk4OBv33HQhsVQAAAAAOgAAAAAIAACAAAAAUmh+U2S+ATLDXRPQa759PSgN7Lc096eGdR9vipUf/zRAAAACXFzGFd8mmDTw5F/ryIj7NQAAAAFOHZ+xCSCP2TorqftopJ3bs7pryX5Fz8AGRYMbJm1bZwhB8V709oPfeKKNNW62E/MtPXVertGPVLLXpJgS/1j0</DTS:Password>
         </DTS:ConnectionManager>
       </DTS:ObjectData>
     </DTS:ConnectionManager>
     <DTS:ConnectionManager
       DTS:refId="Package.ConnectionManagers[PostgreSQL-DWH.postgres]"
       DTS:CreationName="ODBC"
-      DTS:DTSID="{5A741BF8-5F20-4A42-9665-22C8BB5A5737}"
+      DTS:DTSID="{BEBF951B-A929-4FA2-BD59-0ED191B62971}"
       DTS:ObjectName="PostgreSQL-DWH.postgres">
       <DTS:ObjectData>
         <DTS:ConnectionManager
@@ -124,14 +124,14 @@
           <DTS:Password
             DTS:Name="pwd"
             Sensitive="1"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAnIV43oykVUGbJgCw0syruAAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAAC1Au8xJfp7fBMaI69s0pfgSQK2vuJ0p1gYUU5vhR8RXgAAAAAOgAAAAAIAACAAAACcgYtixlrwwsBwZZ+/4NKUUkHzqP0vMw4WpOw4hKWgTxAAAABNeA+x7OiC0nJWhJDpHU1+QAAAAEAe7UN5UMYcf0Js4E+qy5Oz7wBCF+qOamGF9Eaj8xiBnAN38ms4yqHgDdr/PoR7ioR5HgU5dX/tLtB7UI9NPro</DTS:Password>
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAnIV43oykVUGbJgCw0syruAAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAABCVRvIDGnXKq5TLz2MxGKQKhxuE3jtsd9fkZEn3OUc6AAAAAAOgAAAAAIAACAAAADwYIROmkxSOyK2WBpTcKVkdmYitnxZOOthD4/UGnnhtRAAAABWAetCJ3nsm2NGOp2NovWCQAAAABv1/h+T3QxKa//CllBzE2vsH/1LW205nDt4KbQnjcbHlDJstxiohi8pwLndP+8Y+6RX7+muzoBJeeT5E1M8Cqw</DTS:Password>
         </DTS:ConnectionManager>
       </DTS:ObjectData>
     </DTS:ConnectionManager>
     <DTS:ConnectionManager
       DTS:refId="Package.ConnectionManagers[PostgreSQL30.postgres]"
       DTS:CreationName="ODBC"
-      DTS:DTSID="{AC334C62-BE36-4E82-A385-1F4F82946E13}"
+      DTS:DTSID="{E7B79694-49E6-4778-AE9E-56DC2351D2CA}"
       DTS:ObjectName="PostgreSQL30.postgres">
       <DTS:ObjectData>
         <DTS:ConnectionManager
@@ -139,7 +139,7 @@
           <DTS:Password
             DTS:Name="pwd"
             Sensitive="1"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAnIV43oykVUGbJgCw0syruAAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAABWFSuedRlYplPwA87KfSN8N0InC2ruB9qP7DrysT7d7QAAAAAOgAAAAAIAACAAAABhsXWV4wM/SJesqLG7wEV4l/lkwabF8jz6gqO+LKnlsxAAAACxy8Jsb8q1H6xw70IscJfkQAAAAKSmQlLg/gpJQoRAGVyVWAKIMUr89YbfmuqDeRnFYj2VEo+CAowWQJZTf3wagNJFHGB3ukJSO+UDEtxDchUqhc8</DTS:Password>
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAnIV43oykVUGbJgCw0syruAAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAAA1VahiDDurv2r3PjIhCCqvqwZwM1ELvg8eepbwdwD1EQAAAAAOgAAAAAIAACAAAAAxgp9+8xffqmmu8f9A/dsGlP3SUjd0vReOIldktrXTNhAAAAA1cRw7o89m86EO8C2rGOM1QAAAAE2RXZr6NAtZh7Trw0vTSJKT3MjnXUNYhrEhQqM6B55WmUpL8O6GRnWqSAJMjT2eJ35p/KGA44nQBh2rg0i3nW0</DTS:Password>
         </DTS:ConnectionManager>
       </DTS:ObjectData>
     </DTS:ConnectionManager>
@@ -150,7 +150,7 @@
       DTS:refId="Package\Customer dim"
       DTS:CreationName="Microsoft.Pipeline"
       DTS:Description="Data Flow Task"
-      DTS:DTSID="{8f2a83c7-c1cf-45c8-809a-9912961dc979}"
+      DTS:DTSID="{8A767207-DAE8-42BF-BA05-73B486A13565}"
       DTS:ExecutableType="Microsoft.Pipeline"
       DTS:LocaleID="-1"
       DTS:ObjectName="Customer dim"
@@ -3028,7 +3028,7 @@
       DTS:refId="Package\Employee dim"
       DTS:CreationName="Microsoft.Pipeline"
       DTS:Description="Data Flow Task"
-      DTS:DTSID="{912FC6DE-D7E6-45DC-AD0D-45AA89D6EC0B}"
+      DTS:DTSID="{08FCCC20-8E61-46D0-8754-E28A46DB6070}"
       DTS:ExecutableType="Microsoft.Pipeline"
       DTS:LocaleID="-1"
       DTS:ObjectName="Employee dim"
@@ -4850,7 +4850,7 @@ region,country,reports_to
       DTS:refId="Package\Execute SQL Task"
       DTS:CreationName="Microsoft.ExecuteSQLTask"
       DTS:Description="Execute SQL Task"
-      DTS:DTSID="{40E666B3-6C15-4C73-9E6E-9F80E3C4F462}"
+      DTS:DTSID="{48ED7303-4BA6-4FF3-A502-E22A0F1E7FA5}"
       DTS:ExecutableType="Microsoft.ExecuteSQLTask"
       DTS:LocaleID="-1"
       DTS:ObjectName="Execute SQL Task"
@@ -4859,7 +4859,7 @@ region,country,reports_to
       <DTS:Variables />
       <DTS:ObjectData>
         <SQLTask:SqlTaskData
-          SQLTask:Connection="{B994A7CD-7030-42D5-8C26-E35F4359B255}"
+          SQLTask:Connection="{BA010A2E-AAAA-427C-A566-11A584F6AB92}"
           SQLTask:SqlStatementSource="truncate table employees_dim CASCADE;&#xA;truncate table products_dim CASCADE;&#xA;truncate table Suppliers_dim CASCADE;&#xA;truncate table shipper_dim CASCADE;&#xA;truncate table customer_dim CASCADE;&#xA;truncate table orders_fact CASCADE ;&#xA;&#xA;ALTER SEQUENCE orders_fact_order_sur_seq RESTART WITH 1;&#xA;ALTER SEQUENCE suppliers_dim_supplier_sur_seq RESTART WITH 1;&#xA;ALTER SEQUENCE products_dim_prod_sur_seq RESTART WITH 1;&#xA;ALTER SEQUENCE customer_dim_cust_sur_seq RESTART WITH 1;&#xA;ALTER SEQUENCE ch_price_dim_price_sur_seq RESTART WITH 1;&#xA;ALTER SEQUENCE shipper_dim_shipper_sur_seq RESTART WITH 1;&#xA;ALTER SEQUENCE employees_dim_emp_sur_seq RESTART WITH 1;" xmlns:SQLTask="www.microsoft.com/sqlserver/dts/tasks/sqltask" />
       </DTS:ObjectData>
     </DTS:Executable>
@@ -4867,7 +4867,7 @@ region,country,reports_to
       DTS:refId="Package\Orders Fact Table"
       DTS:CreationName="Microsoft.Pipeline"
       DTS:Description="Data Flow Task"
-      DTS:DTSID="{5EFDD000-0CD0-41FC-A117-FE619121BB8F}"
+      DTS:DTSID="{99F4A413-19D4-487C-A9E5-0BFCAD8D5127}"
       DTS:ExecutableType="Microsoft.Pipeline"
       DTS:LocaleID="-1"
       DTS:ObjectName="Orders Fact Table"
@@ -7818,7 +7818,7 @@ where "refTable"."shipper_id" = ?</property>
       DTS:refId="Package\Products dim"
       DTS:CreationName="Microsoft.Pipeline"
       DTS:Description="Data Flow Task"
-      DTS:DTSID="{1786af13-ffb3-445f-9c54-82e41eb6a15a}"
+      DTS:DTSID="{2986ACF2-0865-42B1-B61D-DCBF5E4BB797}"
       DTS:ExecutableType="Microsoft.Pipeline"
       DTS:LocaleID="-1"
       DTS:ObjectName="Products dim"
@@ -9539,7 +9539,7 @@ where "refTable"."supplier_id" = ?</property>
       DTS:refId="Package\Shipper dim"
       DTS:CreationName="Microsoft.Pipeline"
       DTS:Description="Data Flow Task"
-      DTS:DTSID="{0761FD29-C980-4F8D-895C-DE3A6A862AF6}"
+      DTS:DTSID="{B6ED843A-1929-4B3C-874C-CB64D7BC5857}"
       DTS:ExecutableType="Microsoft.Pipeline"
       DTS:LocaleID="-1"
       DTS:ObjectName="Shipper dim"
@@ -9948,7 +9948,7 @@ where "refTable"."supplier_id" = ?</property>
       DTS:refId="Package\Supplier dim"
       DTS:CreationName="Microsoft.Pipeline"
       DTS:Description="Data Flow Task"
-      DTS:DTSID="{2d5c192b-536c-4e6e-8725-1930f2ddd151}"
+      DTS:DTSID="{C8FB5D35-A714-4601-9140-F7B93ADF3E04}"
       DTS:ExecutableType="Microsoft.Pipeline"
       DTS:LocaleID="-1"
       DTS:ObjectName="Supplier dim"
@@ -11483,7 +11483,7 @@ where "refTable"."supplier_id" = ?</property>
     <DTS:PrecedenceConstraint
       DTS:refId="Package.PrecedenceConstraints[Constraint]"
       DTS:CreationName=""
-      DTS:DTSID="{0E48C354-C0A4-490D-A332-202D554BF043}"
+      DTS:DTSID="{016910BE-301B-4CC9-A246-E6472C505405}"
       DTS:From="Package\Supplier dim"
       DTS:LogicalAnd="True"
       DTS:ObjectName="Constraint"
@@ -11491,7 +11491,7 @@ where "refTable"."supplier_id" = ?</property>
     <DTS:PrecedenceConstraint
       DTS:refId="Package.PrecedenceConstraints[Constraint 1]"
       DTS:CreationName=""
-      DTS:DTSID="{4262A9EB-ECA3-4EA5-81FD-BFA0BCC38D29}"
+      DTS:DTSID="{C7029E5B-8CE6-47D2-866A-745532FEC4C3}"
       DTS:From="Package\Products dim"
       DTS:LogicalAnd="True"
       DTS:ObjectName="Constraint 1"
@@ -11499,7 +11499,7 @@ where "refTable"."supplier_id" = ?</property>
     <DTS:PrecedenceConstraint
       DTS:refId="Package.PrecedenceConstraints[Constraint 2]"
       DTS:CreationName=""
-      DTS:DTSID="{EFFEC647-DB2D-496F-BB76-F7C9B571449F}"
+      DTS:DTSID="{760E1EAB-FB7A-4E7C-9AFB-7BEDE91AF9BE}"
       DTS:From="Package\Execute SQL Task"
       DTS:LogicalAnd="True"
       DTS:ObjectName="Constraint 2"
@@ -11507,7 +11507,7 @@ where "refTable"."supplier_id" = ?</property>
     <DTS:PrecedenceConstraint
       DTS:refId="Package.PrecedenceConstraints[Constraint 3]"
       DTS:CreationName=""
-      DTS:DTSID="{49A83C54-BDC3-47AE-9590-6A3D47C02742}"
+      DTS:DTSID="{05336FF3-7963-4857-8334-943D4A5CA1C0}"
       DTS:From="Package\Employee dim"
       DTS:LogicalAnd="True"
       DTS:ObjectName="Constraint 3"
@@ -11515,7 +11515,7 @@ where "refTable"."supplier_id" = ?</property>
     <DTS:PrecedenceConstraint
       DTS:refId="Package.PrecedenceConstraints[Constraint 4]"
       DTS:CreationName=""
-      DTS:DTSID="{8725791B-DCD8-405B-8C62-A9FDA31985AC}"
+      DTS:DTSID="{C5638079-F1CB-4127-A00A-DBAB98782450}"
       DTS:From="Package\Customer dim"
       DTS:LogicalAnd="True"
       DTS:ObjectName="Constraint 4"
@@ -11523,7 +11523,7 @@ where "refTable"."supplier_id" = ?</property>
     <DTS:PrecedenceConstraint
       DTS:refId="Package.PrecedenceConstraints[Constraint 5]"
       DTS:CreationName=""
-      DTS:DTSID="{C05716D0-A613-4415-A60F-505F0C390EDE}"
+      DTS:DTSID="{AED5F88F-C95F-4852-AFAD-3FB0EA14C0B6}"
       DTS:From="Package\Shipper dim"
       DTS:LogicalAnd="True"
       DTS:ObjectName="Constraint 5"

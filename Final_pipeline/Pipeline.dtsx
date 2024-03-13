@@ -11,8 +11,8 @@
   DTS:LocaleID="1033"
   DTS:ObjectName="Pipeline"
   DTS:PackageType="5"
-  DTS:VersionBuild="55"
-  DTS:VersionGUID="{8B736DD7-0187-42B2-A4BB-ED28345164DE}">
+  DTS:VersionBuild="65"
+  DTS:VersionGUID="{E0777E03-6082-4E5F-B7C9-06B974C2F16B}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>
@@ -25,11 +25,11 @@
         <DTS:ConnectionManager
           DTS:ConnectRetryCount="1"
           DTS:ConnectRetryInterval="5"
-          DTS:ConnectionString="User ID=postgres;Initial Catalog=DWH_northwind;Provider=PGNP.1;">
+          DTS:ConnectionString="User ID=postgres;Initial Catalog=northwind_DWH;Provider=PGNP.1;">
           <DTS:Password
             DTS:Name="Password"
             Sensitive="1"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAnIV43oykVUGbJgCw0syruAAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAAAK0qcHGr6rc7YXQ6CrxLNh3Zh3/auIAEACNGx6X6lT6gAAAAAOgAAAAAIAACAAAACsLXtSqaJdRWl5MW4TF6tNvxVKyQV5QQ8qaidFD8spzBAAAAA9nss02TjVLgDTsXVXWkpFQAAAAHf0QeBBSWbGzGIGi3vsINs0z7q0EooXZnAitu1EinZB4+YIhDpywhNH/Rn9Jy47DwVGAkWU1UXbZyeSHKozm8k</DTS:Password>
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAO3oB6lgSPkas2RcN6DdLzgAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAACrQlZd5n/qU6CAmlEZFt9i26V6wAYJfYLM+qKF/vn2DAAAAAAOgAAAAAIAACAAAABBfqUvxh1t4Iid92rDEjj0ZvF6Nf3NX4zfSHR396rO7BAAAABtFl4rqVGwAk1aBRf6ZjlKQAAAAA5uq9yGGiRcLeaVSFrTQ+04cWz94OYahmkka5wGpUY+AyUnlwiZFUpsMs9wl4Q/XuOyHentF8zsu4xf7t+5bYc</DTS:Password>
         </DTS:ConnectionManager>
       </DTS:ObjectData>
     </DTS:ConnectionManager>
@@ -42,11 +42,11 @@
         <DTS:ConnectionManager
           DTS:ConnectRetryCount="1"
           DTS:ConnectRetryInterval="5"
-          DTS:ConnectionString="User ID=postgres;Initial Catalog=northwind;Provider=PGNP.1;">
+          DTS:ConnectionString="User ID=postgres;Initial Catalog=Northwind;Provider=PGNP.1;">
           <DTS:Password
             DTS:Name="Password"
             Sensitive="1"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAnIV43oykVUGbJgCw0syruAAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAABi3RR1rezag5LeRugg6LvvPajj99XAbVEd/cdjQyjsoQAAAAAOgAAAAAIAACAAAABOqAoAcqNXvIFTtAkY6DPEaU8my2DL8WbPxjJxKIDVrBAAAABDJfdorVJ32Y5Rnee+SroVQAAAAFnSp4nglcXDAhtiqtd6vm3bmmQUrjl7WTTIrlgpSsX6I1s2yFziGGF/Yo8iizNi4Z+2zl7CEyiuU8SSCC9A2XY</DTS:Password>
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAO3oB6lgSPkas2RcN6DdLzgAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAAABSmHoI7kmgte4AprCqzGw7LAqizjoNhXZJnJv1V3YxwAAAAAOgAAAAAIAACAAAAD3QNcFsevRiafyz9AiHSG3cVl5A/RPbXvPllk01pwj/BAAAABMUG/IrIPzJ1QWqw3E+EiyQAAAAI6FEvp6nbkIJf6vtnhlCbAnsf1idOWsXaeZcW+g/2p2JevqCRK0LngOJDl3JGfg/cgybJKlU65A9CxWQdbbxVc</DTS:Password>
         </DTS:ConnectionManager>
       </DTS:ObjectData>
     </DTS:ConnectionManager>
@@ -71,7 +71,7 @@
         <DTS:ConnectionManager
           DTS:ConnectRetryCount="0"
           DTS:ConnectRetryInterval="0"
-          DTS:ConnectionString="Provider=Microsoft.ACE.OLEDB.12.0;Data Source=D:\ITI\Projects\Data Warehouse\Northwind-Data-Warehouse\SUPPLIERS.xlsx;Extended Properties=&quot;EXCEL 12.0 XML;HDR=YES&quot;;" />
+          DTS:ConnectionString="Provider=Microsoft.Jet.OLEDB.4.0;Data Source=F:\ITI files\Data Warehouse\Project\Northwind-Data-Warehouse\SUPPLIERS.xls;Extended Properties=&quot;Excel 8.0;HDR=YES&quot;;" />
       </DTS:ObjectData>
     </DTS:ConnectionManager>
     <DTS:ConnectionManager
@@ -95,7 +95,7 @@
         <DTS:ConnectionManager
           DTS:ConnectRetryCount="0"
           DTS:ConnectRetryInterval="0"
-          DTS:ConnectionString="Provider=Microsoft.ACE.OLEDB.12.0;Data Source=D:\ITI\Projects\Data Warehouse\Northwind-Data-Warehouse\Customers.xlsx;Extended Properties=&quot;EXCEL 12.0 XML;HDR=YES&quot;;" />
+          DTS:ConnectionString="Provider=Microsoft.Jet.OLEDB.4.0;Data Source=F:\ITI files\Data Warehouse\Project\Northwind-Data-Warehouse\Customers.xls;Extended Properties=&quot;Excel 8.0;HDR=YES&quot;;" />
       </DTS:ObjectData>
     </DTS:ConnectionManager>
     <DTS:ConnectionManager
@@ -105,26 +105,11 @@
       DTS:ObjectName="PostgreSQL-DWH-Unicode.postgres">
       <DTS:ObjectData>
         <DTS:ConnectionManager
-          DTS:ConnectionString="uid=postgres;Dsn=PostgreSQL-DWH-Unicode;">
+          DTS:ConnectionString="uid=postgres;Dsn=Postgre_NW_DWH;">
           <DTS:Password
             DTS:Name="pwd"
             Sensitive="1"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAnIV43oykVUGbJgCw0syruAAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAABrBo66WuJH4+nLsG7tjpBFpcxkLXTNLGvkqZjZ801ejwAAAAAOgAAAAAIAACAAAAAjql9gAB2z9HhzhP2Ekc4Q+nlYkeBJgSROU2n1DhGwqxAAAAAgZgp9syniHUu1CPAQn4BDQAAAAPs/UNXgFUCwhasomKrWmNJo5D8Hgy2mX0LmnVweHVo/yV+bvz01Q7sav+SXxh2lqaZr47yuE8YxNtU/agHxbIA</DTS:Password>
-        </DTS:ConnectionManager>
-      </DTS:ObjectData>
-    </DTS:ConnectionManager>
-    <DTS:ConnectionManager
-      DTS:refId="Package.ConnectionManagers[PostgreSQL-DWH.postgres]"
-      DTS:CreationName="ODBC"
-      DTS:DTSID="{BEBF951B-A929-4FA2-BD59-0ED191B62971}"
-      DTS:ObjectName="PostgreSQL-DWH.postgres">
-      <DTS:ObjectData>
-        <DTS:ConnectionManager
-          DTS:ConnectionString="uid=postgres;Dsn=PostgreSQL-DWH;">
-          <DTS:Password
-            DTS:Name="pwd"
-            Sensitive="1"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAnIV43oykVUGbJgCw0syruAAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAAAc6nyFrchx0VeFbecJA07vt9gzUK3VlPrIFKjOsHVwXwAAAAAOgAAAAAIAACAAAAAJd57r+NXl2QIO6YrD9Kr+q8eyV4FSsh/0Ab28XyyYGBAAAAA0hQqfs36a0e1zbI4WxJVMQAAAAMp7l8g28CU0FCXemhUwAX5ZPHuXfDYcsoRpktrwphdXnAZXDTNWiBJMfjCecBc7TpL1V2pM2Ej8WNPVWgb0agg</DTS:Password>
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAO3oB6lgSPkas2RcN6DdLzgAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAAAdvWLv3E7+AfiHyF//4juc2b8QKkAxqdrTgovBQFJz1wAAAAAOgAAAAAIAACAAAACeDOUHhRi052pZ0L2uxZCrsJjLsNY95PbWzzXyK5T7FRAAAACZADHB/I/Lqe5ZoTEYr+zYQAAAAJBsV++QW83xQllaDmqifyj4KSIGyOGzM5SBxDRjgqZJUiapbs+/TD39z1lbVWs//2Up6f9L0T9rWEDnXhnCMGM</DTS:Password>
         </DTS:ConnectionManager>
       </DTS:ObjectData>
     </DTS:ConnectionManager>
@@ -135,11 +120,11 @@
       DTS:ObjectName="PostgreSQL30.postgres">
       <DTS:ObjectData>
         <DTS:ConnectionManager
-          DTS:ConnectionString="uid=postgres;Dsn=PostgreSQL30;">
+          DTS:ConnectionString="uid=postgres;Dsn=Postgres_NW;">
           <DTS:Password
             DTS:Name="pwd"
             Sensitive="1"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAnIV43oykVUGbJgCw0syruAAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAACpNPnbfV+HHqVvRumeuwBKqW7NCtENwFB0QKM2/B2pkgAAAAAOgAAAAAIAACAAAAACWVG6s4bSa10G2ypLql/wLVJfou/zpHSPt4XwB2UT+BAAAAC+B9vGa9kDs0iJECw+OnxKQAAAAMW1RF0oL8XFgGciAwkLRSjI0wXoSYkCxFVApDSYP4/hXF5cQdRqQX9mfM7l5+sLkMLvzbTw3ZKvyxhpfouDnKo</DTS:Password>
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAO3oB6lgSPkas2RcN6DdLzgAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAACyTDraMTjLQrg8gP+YxrZ9ZQZY9bCX891Lr28UJXz4dAAAAAAOgAAAAAIAACAAAAB2qDNRnmdaWxDpyC7KP/uJNyfZv55OfzIvIt6e5gNvSBAAAABdEB5O14SpUeIraGdLo5jJQAAAAINYFSS1XVc+nknH47Ho4ywuNc/IuvHX/VEpjl3rqbtrcPjsnf3ysXwlGgWjN7/AzyPtHPTF8mXElOwc4idu2+0</DTS:Password>
         </DTS:ConnectionManager>
       </DTS:ObjectData>
     </DTS:ConnectionManager>
@@ -4878,6 +4863,156 @@ region,country,reports_to
           version="1">
           <components>
             <component
+              refId="Package\Orders Fact Table\Aggregate"
+              componentClassID="Microsoft.Aggregate"
+              contactInfo="Aggregate;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;3"
+              description="Aggregates data with functions such as Average, Sum, Count, Max, and Min. For example, group data to compute the sum of sales per product or the average visits per day."
+              name="Aggregate"
+              version="3">
+              <properties>
+                <property
+                  dataType="System.Int32"
+                  description="Specifies the approximate number of group by keys that the aggregation produces. Low indicates 500,000 key values, Medium indicates 5 million key values, and High indicates more than 25 million key values. Unspecified indicates no KeyScale value is used."
+                  name="KeyScale"
+                  typeConverter="KeyScaleType">0</property>
+                <property
+                  dataType="System.Null"
+                  description="Specifies the exact number of group by keys that the aggregation produces. If a KeyScale value is specified, the value in Keys takes precedence."
+                  name="Keys" />
+                <property
+                  dataType="System.Int32"
+                  description="Specifies the approximate number of distinct values in a column that the aggregation counts distinctly. Low indicates 500,000 key values, Medium indicates 5 million key values, and High indicates more than 25 million key values. Unspecified indicates no CountDistinctScale value is used."
+                  name="CountDistinctScale"
+                  typeConverter="KeyScaleType">0</property>
+                <property
+                  dataType="System.Null"
+                  description="Specifies the exact number of distinct values in a column that the aggregation counts distinctly. If a CountDistinctScale value is specified, the value in CountDistinctKeys takes precedence."
+                  name="CountDistinctKeys" />
+                <property
+                  dataType="System.Int32"
+                  description="Specifies the percentage by which memory can be extended during the aggregation. Valid values are between 1 and 100."
+                  name="AutoExtendFactor">25</property>
+              </properties>
+              <inputs>
+                <input
+                  refId="Package\Orders Fact Table\Aggregate.Inputs[Aggregate Input 1]"
+                  name="Aggregate Input 1">
+                  <inputColumns>
+                    <inputColumn
+                      refId="Package\Orders Fact Table\Aggregate.Inputs[Aggregate Input 1].Columns[order_id]"
+                      cachedDataType="i2"
+                      cachedName="order_id"
+                      cachedSortKeyPosition="1"
+                      lineageId="Package\Orders Fact Table\Merge Join.Outputs[Merge Join Output].Columns[order_id]" />
+                    <inputColumn
+                      refId="Package\Orders Fact Table\Aggregate.Inputs[Aggregate Input 1].Columns[freight]"
+                      cachedDataType="r4"
+                      cachedName="freight"
+                      lineageId="Package\Orders Fact Table\Merge Join.Outputs[Merge Join Output].Columns[freight]" />
+                  </inputColumns>
+                  <externalMetadataColumns />
+                </input>
+              </inputs>
+              <outputs>
+                <output
+                  refId="Package\Orders Fact Table\Aggregate.Outputs[group by]"
+                  name="group by">
+                  <properties>
+                    <property
+                      dataType="System.Int32"
+                      description="Specifies the approximate number of group by keys that the aggregation produces. Low indicates 500,000 key values, Medium indicates 5 million key values, and High indicates more than 25 million key values. Unspecified indicates no KeyScale value is used."
+                      name="KeyScale"
+                      typeConverter="KeyScaleType">0</property>
+                    <property
+                      dataType="System.Null"
+                      description="Specifies the exact number of group by keys that the aggregation produces. If a KeyScale value is specified, the value in Keys takes precedence."
+                      name="Keys" />
+                  </properties>
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\Orders Fact Table\Aggregate.Outputs[group by].Columns[order_id_count]"
+                      dataType="ui8"
+                      lineageId="Package\Orders Fact Table\Aggregate.Outputs[group by].Columns[order_id_count]"
+                      name="order_id_count">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Specifies the ID of the input column used in the aggregation."
+                          name="AggregationColumnId">#{Package\Orders Fact Table\Merge Join.Outputs[Merge Join Output].Columns[order_id]}</property>
+                        <property
+                          dataType="System.Int32"
+                          description="Specifies the type of aggregation."
+                          name="AggregationType"
+                          typeConverter="AggregationType">1</property>
+                        <property
+                          dataType="System.Int32"
+                          description="Indicates whether the column requires special handling because it may contain oversized data or it requires precision beyond a float data type."
+                          name="IsBig">1</property>
+                        <property
+                          dataType="System.Int32"
+                          description="Specifies the string comparison options."
+                          name="AggregationComparisonFlags">0</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Orders Fact Table\Aggregate.Outputs[group by].Columns[order_id]"
+                      dataType="i2"
+                      lineageId="Package\Orders Fact Table\Aggregate.Outputs[group by].Columns[order_id]"
+                      name="order_id">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Specifies the ID of the input column used in the aggregation."
+                          name="AggregationColumnId">#{Package\Orders Fact Table\Merge Join.Outputs[Merge Join Output].Columns[order_id]}</property>
+                        <property
+                          dataType="System.Int32"
+                          description="Specifies the type of aggregation."
+                          name="AggregationType"
+                          typeConverter="AggregationType">0</property>
+                        <property
+                          dataType="System.Int32"
+                          description="Indicates whether the column requires special handling because it may contain oversized data or it requires precision beyond a float data type."
+                          name="IsBig">1</property>
+                        <property
+                          dataType="System.Int32"
+                          description="Specifies the string comparison options."
+                          name="AggregationComparisonFlags">0</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Orders Fact Table\Aggregate.Outputs[group by].Columns[freight]"
+                      dataType="r4"
+                      lineageId="Package\Orders Fact Table\Aggregate.Outputs[group by].Columns[freight]"
+                      name="freight">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Specifies the ID of the input column used in the aggregation."
+                          name="AggregationColumnId">#{Package\Orders Fact Table\Merge Join.Outputs[Merge Join Output].Columns[freight]}</property>
+                        <property
+                          dataType="System.Int32"
+                          description="Specifies the type of aggregation."
+                          name="AggregationType"
+                          typeConverter="AggregationType">0</property>
+                        <property
+                          dataType="System.Int32"
+                          description="Indicates whether the column requires special handling because it may contain oversized data or it requires precision beyond a float data type."
+                          name="IsBig">1</property>
+                        <property
+                          dataType="System.Int32"
+                          description="Specifies the string comparison options."
+                          name="AggregationComparisonFlags">0</property>
+                      </properties>
+                    </outputColumn>
+                  </outputColumns>
+                  <externalMetadataColumns />
+                </output>
+              </outputs>
+            </component>
+            <component
               refId="Package\Orders Fact Table\customer"
               componentClassID="Microsoft.Lookup"
               contactInfo="Lookup;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;6"
@@ -5055,8 +5190,7 @@ where "refTable"."customer_id" = ?</property>
                       lineageId="Package\Orders Fact Table\Merge Join.Outputs[Merge Join Output].Columns[employee_id]" />
                     <inputColumn
                       refId="Package\Orders Fact Table\Data Conversion.Inputs[Data Conversion Input].Columns[customer_id]"
-                      cachedCodepage="1252"
-                      cachedDataType="str"
+                      cachedDataType="wstr"
                       cachedLength="255"
                       cachedName="customer_id"
                       lineageId="Package\Orders Fact Table\Merge Join.Outputs[Merge Join Output].Columns[customer_id]" />
@@ -5391,6 +5525,81 @@ where "refTable"."customer_id" = ?</property>
               </outputs>
             </component>
             <component
+              refId="Package\Orders Fact Table\Data Conversion 1"
+              componentClassID="Microsoft.DataConvert"
+              contactInfo="Data Conversion;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;0"
+              description="Data Conversion"
+              name="Data Conversion 1"
+              usesDispositions="true">
+              <inputs>
+                <input
+                  refId="Package\Orders Fact Table\Data Conversion 1.Inputs[Data Conversion Input]"
+                  name="Data Conversion Input">
+                  <inputColumns>
+                    <inputColumn
+                      refId="Package\Orders Fact Table\Data Conversion 1.Inputs[Data Conversion Input].Columns[Freight_allocated]"
+                      cachedDataType="r4"
+                      cachedName="Freight_allocated"
+                      lineageId="Package\Orders Fact Table\Derived Column.Outputs[Derived Column Output].Columns[Freight_allocated]" />
+                  </inputColumns>
+                  <externalMetadataColumns />
+                </input>
+              </inputs>
+              <outputs>
+                <output
+                  refId="Package\Orders Fact Table\Data Conversion 1.Outputs[Data Conversion Output]"
+                  exclusionGroup="1"
+                  name="Data Conversion Output"
+                  synchronousInputId="Package\Orders Fact Table\Data Conversion 1.Inputs[Data Conversion Input]">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\Orders Fact Table\Data Conversion 1.Outputs[Data Conversion Output].Columns[Freight_allocated Int]"
+                      dataType="r8"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      lineageId="Package\Orders Fact Table\Data Conversion 1.Outputs[Data Conversion Output].Columns[Freight_allocated Int]"
+                      name="Freight_allocated Int"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Specifies the input column used as the source of data for the conversion."
+                          name="SourceInputColumnLineageID">#{Package\Orders Fact Table\Derived Column.Outputs[Derived Column Output].Columns[Freight_allocated]}</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
+                          name="FastParse">false</property>
+                      </properties>
+                    </outputColumn>
+                  </outputColumns>
+                  <externalMetadataColumns />
+                </output>
+                <output
+                  refId="Package\Orders Fact Table\Data Conversion 1.Outputs[Data Conversion Error Output]"
+                  exclusionGroup="1"
+                  isErrorOut="true"
+                  name="Data Conversion Error Output"
+                  synchronousInputId="Package\Orders Fact Table\Data Conversion 1.Inputs[Data Conversion Input]">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\Orders Fact Table\Data Conversion 1.Outputs[Data Conversion Error Output].Columns[ErrorCode]"
+                      dataType="i4"
+                      lineageId="Package\Orders Fact Table\Data Conversion 1.Outputs[Data Conversion Error Output].Columns[ErrorCode]"
+                      name="ErrorCode"
+                      specialFlags="1" />
+                    <outputColumn
+                      refId="Package\Orders Fact Table\Data Conversion 1.Outputs[Data Conversion Error Output].Columns[ErrorColumn]"
+                      dataType="i4"
+                      lineageId="Package\Orders Fact Table\Data Conversion 1.Outputs[Data Conversion Error Output].Columns[ErrorColumn]"
+                      name="ErrorColumn"
+                      specialFlags="2" />
+                  </outputColumns>
+                  <externalMetadataColumns />
+                </output>
+              </outputs>
+            </component>
+            <component
               refId="Package\Orders Fact Table\Dates"
               componentClassID="Microsoft.DerivedColumn"
               contactInfo="Derived Column;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;0"
@@ -5517,6 +5726,91 @@ where "refTable"."customer_id" = ?</property>
                       refId="Package\Orders Fact Table\Dates.Outputs[Derived Column Error Output].Columns[ErrorColumn]"
                       dataType="i4"
                       lineageId="Package\Orders Fact Table\Dates.Outputs[Derived Column Error Output].Columns[ErrorColumn]"
+                      name="ErrorColumn"
+                      specialFlags="2" />
+                  </outputColumns>
+                  <externalMetadataColumns />
+                </output>
+              </outputs>
+            </component>
+            <component
+              refId="Package\Orders Fact Table\Derived Column"
+              componentClassID="Microsoft.DerivedColumn"
+              contactInfo="Derived Column;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;0"
+              description="Creates new column values by applying expressions to transformation input columns. Create new columns or overwrite existing ones. For example, concatenate the values from the 'first name' and 'last name' column to make a 'full name' column."
+              name="Derived Column"
+              usesDispositions="true">
+              <inputs>
+                <input
+                  refId="Package\Orders Fact Table\Derived Column.Inputs[Derived Column Input]"
+                  description="Input to the Derived Column Transformation"
+                  name="Derived Column Input">
+                  <inputColumns>
+                    <inputColumn
+                      refId="Package\Orders Fact Table\Derived Column.Inputs[Derived Column Input].Columns[order_id_count]"
+                      cachedDataType="ui8"
+                      cachedName="order_id_count"
+                      lineageId="Package\Orders Fact Table\Aggregate.Outputs[group by].Columns[order_id_count]" />
+                    <inputColumn
+                      refId="Package\Orders Fact Table\Derived Column.Inputs[Derived Column Input].Columns[freight]"
+                      cachedDataType="r4"
+                      cachedName="freight"
+                      lineageId="Package\Orders Fact Table\Aggregate.Outputs[group by].Columns[freight]" />
+                  </inputColumns>
+                  <externalMetadataColumns />
+                </input>
+              </inputs>
+              <outputs>
+                <output
+                  refId="Package\Orders Fact Table\Derived Column.Outputs[Derived Column Output]"
+                  description="Default Output of the Derived Column Transformation"
+                  exclusionGroup="1"
+                  name="Derived Column Output"
+                  synchronousInputId="Package\Orders Fact Table\Derived Column.Inputs[Derived Column Input]">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\Orders Fact Table\Derived Column.Outputs[Derived Column Output].Columns[Freight_allocated]"
+                      dataType="r4"
+                      errorOrTruncationOperation="Computation"
+                      errorRowDisposition="FailComponent"
+                      lineageId="Package\Orders Fact Table\Derived Column.Outputs[Derived Column Output].Columns[Freight_allocated]"
+                      name="Freight_allocated"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.String"
+                          description="Derived Column Expression"
+                          name="Expression">#{Package\Orders Fact Table\Aggregate.Outputs[group by].Columns[freight]} / #{Package\Orders Fact Table\Aggregate.Outputs[group by].Columns[order_id_count]}</property>
+                        <property
+                          containsID="true"
+                          dataType="System.String"
+                          description="Derived Column Friendly Expression"
+                          expressionType="Notify"
+                          name="FriendlyExpression">freight / order_id_count</property>
+                      </properties>
+                    </outputColumn>
+                  </outputColumns>
+                  <externalMetadataColumns />
+                </output>
+                <output
+                  refId="Package\Orders Fact Table\Derived Column.Outputs[Derived Column Error Output]"
+                  description="Error Output of the Derived Column Transformation"
+                  exclusionGroup="1"
+                  isErrorOut="true"
+                  name="Derived Column Error Output"
+                  synchronousInputId="Package\Orders Fact Table\Derived Column.Inputs[Derived Column Input]">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\Orders Fact Table\Derived Column.Outputs[Derived Column Error Output].Columns[ErrorCode]"
+                      dataType="i4"
+                      lineageId="Package\Orders Fact Table\Derived Column.Outputs[Derived Column Error Output].Columns[ErrorCode]"
+                      name="ErrorCode"
+                      specialFlags="1" />
+                    <outputColumn
+                      refId="Package\Orders Fact Table\Derived Column.Outputs[Derived Column Error Output].Columns[ErrorColumn]"
+                      dataType="i4"
+                      lineageId="Package\Orders Fact Table\Derived Column.Outputs[Derived Column Error Output].Columns[ErrorColumn]"
                       name="ErrorColumn"
                       specialFlags="2" />
                   </outputColumns>
@@ -5756,8 +6050,7 @@ where "refTable"."emp_id" = ?</property>
                       lineageId="Package\Orders Fact Table\Sort 1.Outputs[Sort Output].Columns[order_id]" />
                     <inputColumn
                       refId="Package\Orders Fact Table\Merge Join.Inputs[Merge Join Right Input].Columns[customer_id]"
-                      cachedCodepage="1252"
-                      cachedDataType="str"
+                      cachedDataType="wstr"
                       cachedLength="255"
                       cachedName="customer_id"
                       lineageId="Package\Orders Fact Table\Sort 1.Outputs[Sort Output].Columns[customer_id]" />
@@ -5830,8 +6123,7 @@ where "refTable"."emp_id" = ?</property>
                     </outputColumn>
                     <outputColumn
                       refId="Package\Orders Fact Table\Merge Join.Outputs[Merge Join Output].Columns[customer_id]"
-                      codePage="1252"
-                      dataType="str"
+                      dataType="wstr"
                       length="255"
                       lineageId="Package\Orders Fact Table\Merge Join.Outputs[Merge Join Output].Columns[customer_id]"
                       name="customer_id">
@@ -5966,6 +6258,705 @@ where "refTable"."emp_id" = ?</property>
               </outputs>
             </component>
             <component
+              refId="Package\Orders Fact Table\Merge Join 1"
+              componentClassID="Microsoft.MergeJoin"
+              contactInfo="Merge Join;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;1"
+              description="Combine two sorted data flows into one using the FULL, LEFT, or INNER join. We recommend this transformation when data flows can be sorted at their sources."
+              name="Merge Join 1"
+              version="1">
+              <properties>
+                <property
+                  dataType="System.Int32"
+                  description="Specifies the type of join to perform."
+                  name="JoinType"
+                  typeConverter="JoinType">2</property>
+                <property
+                  dataType="System.Int32"
+                  description="Specifies the number of columns in the ordering key."
+                  name="NumKeyColumns">1</property>
+                <property
+                  dataType="System.Boolean"
+                  description="Indicates whether the null values are treated as equal values."
+                  name="TreatNullsAsEqual">true</property>
+                <property
+                  dataType="System.Int32"
+                  description="Indicates the requested maximum buffers per input before blocking."
+                  name="MaxBuffersPerInput">5</property>
+              </properties>
+              <inputs>
+                <input
+                  refId="Package\Orders Fact Table\Merge Join 1.Inputs[Merge Join Left Input]"
+                  hasSideEffects="true"
+                  name="Merge Join Left Input">
+                  <inputColumns>
+                    <inputColumn
+                      refId="Package\Orders Fact Table\Merge Join 1.Inputs[Merge Join Left Input].Columns[order_id]"
+                      cachedDataType="i2"
+                      cachedName="order_id"
+                      cachedSortKeyPosition="1"
+                      lineageId="Package\Orders Fact Table\Merge Join.Outputs[Merge Join Output].Columns[order_id]" />
+                    <inputColumn
+                      refId="Package\Orders Fact Table\Merge Join 1.Inputs[Merge Join Left Input].Columns[product_id]"
+                      cachedDataType="i2"
+                      cachedName="product_id"
+                      lineageId="Package\Orders Fact Table\Merge Join.Outputs[Merge Join Output].Columns[product_id]" />
+                    <inputColumn
+                      refId="Package\Orders Fact Table\Merge Join 1.Inputs[Merge Join Left Input].Columns[customer_id]"
+                      cachedDataType="wstr"
+                      cachedLength="255"
+                      cachedName="customer_id"
+                      lineageId="Package\Orders Fact Table\Merge Join.Outputs[Merge Join Output].Columns[customer_id]" />
+                    <inputColumn
+                      refId="Package\Orders Fact Table\Merge Join 1.Inputs[Merge Join Left Input].Columns[employee_id]"
+                      cachedDataType="i2"
+                      cachedName="employee_id"
+                      lineageId="Package\Orders Fact Table\Merge Join.Outputs[Merge Join Output].Columns[employee_id]" />
+                    <inputColumn
+                      refId="Package\Orders Fact Table\Merge Join 1.Inputs[Merge Join Left Input].Columns[order_date]"
+                      cachedDataType="dbDate"
+                      cachedName="order_date"
+                      lineageId="Package\Orders Fact Table\Merge Join.Outputs[Merge Join Output].Columns[order_date]" />
+                    <inputColumn
+                      refId="Package\Orders Fact Table\Merge Join 1.Inputs[Merge Join Left Input].Columns[required_date]"
+                      cachedDataType="dbDate"
+                      cachedName="required_date"
+                      lineageId="Package\Orders Fact Table\Merge Join.Outputs[Merge Join Output].Columns[required_date]" />
+                    <inputColumn
+                      refId="Package\Orders Fact Table\Merge Join 1.Inputs[Merge Join Left Input].Columns[shipped_date]"
+                      cachedDataType="dbDate"
+                      cachedName="shipped_date"
+                      lineageId="Package\Orders Fact Table\Merge Join.Outputs[Merge Join Output].Columns[shipped_date]" />
+                    <inputColumn
+                      refId="Package\Orders Fact Table\Merge Join 1.Inputs[Merge Join Left Input].Columns[unit_price]"
+                      cachedDataType="r4"
+                      cachedName="unit_price"
+                      lineageId="Package\Orders Fact Table\Merge Join.Outputs[Merge Join Output].Columns[unit_price]" />
+                    <inputColumn
+                      refId="Package\Orders Fact Table\Merge Join 1.Inputs[Merge Join Left Input].Columns[quantity]"
+                      cachedDataType="i2"
+                      cachedName="quantity"
+                      lineageId="Package\Orders Fact Table\Merge Join.Outputs[Merge Join Output].Columns[quantity]" />
+                    <inputColumn
+                      refId="Package\Orders Fact Table\Merge Join 1.Inputs[Merge Join Left Input].Columns[discount]"
+                      cachedDataType="r4"
+                      cachedName="discount"
+                      lineageId="Package\Orders Fact Table\Merge Join.Outputs[Merge Join Output].Columns[discount]" />
+                    <inputColumn
+                      refId="Package\Orders Fact Table\Merge Join 1.Inputs[Merge Join Left Input].Columns[freight]"
+                      cachedDataType="r4"
+                      cachedName="freight"
+                      lineageId="Package\Orders Fact Table\Merge Join.Outputs[Merge Join Output].Columns[freight]" />
+                    <inputColumn
+                      refId="Package\Orders Fact Table\Merge Join 1.Inputs[Merge Join Left Input].Columns[ship_via]"
+                      cachedDataType="i2"
+                      cachedName="ship_via"
+                      lineageId="Package\Orders Fact Table\Merge Join.Outputs[Merge Join Output].Columns[ship_via]" />
+                    <inputColumn
+                      refId="Package\Orders Fact Table\Merge Join 1.Inputs[Merge Join Left Input].Columns[Copy of employee_id]"
+                      cachedDataType="i4"
+                      cachedName="Copy of employee_id"
+                      lineageId="Package\Orders Fact Table\Data Conversion.Outputs[Data Conversion Output].Columns[Copy of employee_id]" />
+                    <inputColumn
+                      refId="Package\Orders Fact Table\Merge Join 1.Inputs[Merge Join Left Input].Columns[Copy of customer_id]"
+                      cachedDataType="wstr"
+                      cachedLength="50"
+                      cachedName="Copy of customer_id"
+                      lineageId="Package\Orders Fact Table\Data Conversion.Outputs[Data Conversion Output].Columns[Copy of customer_id]" />
+                    <inputColumn
+                      refId="Package\Orders Fact Table\Merge Join 1.Inputs[Merge Join Left Input].Columns[Copy of product_id]"
+                      cachedDataType="i4"
+                      cachedName="Copy of product_id"
+                      lineageId="Package\Orders Fact Table\Data Conversion.Outputs[Data Conversion Output].Columns[Copy of product_id]" />
+                    <inputColumn
+                      refId="Package\Orders Fact Table\Merge Join 1.Inputs[Merge Join Left Input].Columns[Copy of order_id]"
+                      cachedDataType="i4"
+                      cachedName="Copy of order_id"
+                      lineageId="Package\Orders Fact Table\Data Conversion.Outputs[Data Conversion Output].Columns[Copy of order_id]" />
+                    <inputColumn
+                      refId="Package\Orders Fact Table\Merge Join 1.Inputs[Merge Join Left Input].Columns[Copy of freight]"
+                      cachedDataType="r8"
+                      cachedName="Copy of freight"
+                      lineageId="Package\Orders Fact Table\Data Conversion.Outputs[Data Conversion Output].Columns[Copy of freight]" />
+                    <inputColumn
+                      refId="Package\Orders Fact Table\Merge Join 1.Inputs[Merge Join Left Input].Columns[Copy of unit_price]"
+                      cachedDataType="r8"
+                      cachedName="Copy of unit_price"
+                      lineageId="Package\Orders Fact Table\Data Conversion.Outputs[Data Conversion Output].Columns[Copy of unit_price]" />
+                    <inputColumn
+                      refId="Package\Orders Fact Table\Merge Join 1.Inputs[Merge Join Left Input].Columns[Copy of quantity]"
+                      cachedDataType="i4"
+                      cachedName="Copy of quantity"
+                      lineageId="Package\Orders Fact Table\Data Conversion.Outputs[Data Conversion Output].Columns[Copy of quantity]" />
+                    <inputColumn
+                      refId="Package\Orders Fact Table\Merge Join 1.Inputs[Merge Join Left Input].Columns[Copy of discount]"
+                      cachedDataType="r8"
+                      cachedName="Copy of discount"
+                      lineageId="Package\Orders Fact Table\Data Conversion.Outputs[Data Conversion Output].Columns[Copy of discount]" />
+                    <inputColumn
+                      refId="Package\Orders Fact Table\Merge Join 1.Inputs[Merge Join Left Input].Columns[Copy of ship_via]"
+                      cachedDataType="i4"
+                      cachedName="Copy of ship_via"
+                      lineageId="Package\Orders Fact Table\Data Conversion.Outputs[Data Conversion Output].Columns[Copy of ship_via]" />
+                    <inputColumn
+                      refId="Package\Orders Fact Table\Merge Join 1.Inputs[Merge Join Left Input].Columns[C_order_date]"
+                      cachedDataType="dbDate"
+                      cachedName="C_order_date"
+                      lineageId="Package\Orders Fact Table\Data Conversion.Outputs[Data Conversion Output].Columns[C_order_date]" />
+                    <inputColumn
+                      refId="Package\Orders Fact Table\Merge Join 1.Inputs[Merge Join Left Input].Columns[C_required_date]"
+                      cachedDataType="dbDate"
+                      cachedName="C_required_date"
+                      lineageId="Package\Orders Fact Table\Data Conversion.Outputs[Data Conversion Output].Columns[C_required_date]" />
+                    <inputColumn
+                      refId="Package\Orders Fact Table\Merge Join 1.Inputs[Merge Join Left Input].Columns[C_shipped_date]"
+                      cachedDataType="dbDate"
+                      cachedName="C_shipped_date"
+                      lineageId="Package\Orders Fact Table\Data Conversion.Outputs[Data Conversion Output].Columns[C_shipped_date]" />
+                    <inputColumn
+                      refId="Package\Orders Fact Table\Merge Join 1.Inputs[Merge Join Left Input].Columns[emp_sur]"
+                      cachedDataType="i4"
+                      cachedName="emp_sur"
+                      lineageId="Package\Orders Fact Table\employee.Outputs[Lookup Match Output].Columns[emp_sur]" />
+                    <inputColumn
+                      refId="Package\Orders Fact Table\Merge Join 1.Inputs[Merge Join Left Input].Columns[cust_sur]"
+                      cachedDataType="i4"
+                      cachedName="cust_sur"
+                      lineageId="Package\Orders Fact Table\customer.Outputs[Lookup Match Output].Columns[cust_sur]" />
+                    <inputColumn
+                      refId="Package\Orders Fact Table\Merge Join 1.Inputs[Merge Join Left Input].Columns[prod_sur]"
+                      cachedDataType="i4"
+                      cachedName="prod_sur"
+                      lineageId="Package\Orders Fact Table\Product.Outputs[Lookup Match Output].Columns[prod_sur]" />
+                    <inputColumn
+                      refId="Package\Orders Fact Table\Merge Join 1.Inputs[Merge Join Left Input].Columns[supplier_id]"
+                      cachedDataType="i4"
+                      cachedName="supplier_id"
+                      lineageId="Package\Orders Fact Table\Product.Outputs[Lookup Match Output].Columns[supplier_id]" />
+                    <inputColumn
+                      refId="Package\Orders Fact Table\Merge Join 1.Inputs[Merge Join Left Input].Columns[shipper_sur]"
+                      cachedDataType="i4"
+                      cachedName="shipper_sur"
+                      lineageId="Package\Orders Fact Table\Shipper.Outputs[Lookup Match Output].Columns[shipper_sur]" />
+                    <inputColumn
+                      refId="Package\Orders Fact Table\Merge Join 1.Inputs[Merge Join Left Input].Columns[RequiredDate_key]"
+                      cachedDataType="i4"
+                      cachedName="RequiredDate_key"
+                      lineageId="Package\Orders Fact Table\Dates.Outputs[Derived Column Output].Columns[RequiredDate_key]" />
+                    <inputColumn
+                      refId="Package\Orders Fact Table\Merge Join 1.Inputs[Merge Join Left Input].Columns[Orderdate_key]"
+                      cachedDataType="i4"
+                      cachedName="Orderdate_key"
+                      lineageId="Package\Orders Fact Table\Dates.Outputs[Derived Column Output].Columns[Orderdate_key]" />
+                    <inputColumn
+                      refId="Package\Orders Fact Table\Merge Join 1.Inputs[Merge Join Left Input].Columns[Shippeddate_key]"
+                      cachedDataType="i4"
+                      cachedName="Shippeddate_key"
+                      lineageId="Package\Orders Fact Table\Dates.Outputs[Derived Column Output].Columns[Shippeddate_key]" />
+                  </inputColumns>
+                  <externalMetadataColumns />
+                </input>
+                <input
+                  refId="Package\Orders Fact Table\Merge Join 1.Inputs[Merge Join Right Input]"
+                  hasSideEffects="true"
+                  name="Merge Join Right Input">
+                  <inputColumns>
+                    <inputColumn
+                      refId="Package\Orders Fact Table\Merge Join 1.Inputs[Merge Join Right Input].Columns[order_id]"
+                      cachedDataType="i2"
+                      cachedName="order_id"
+                      cachedSortKeyPosition="1"
+                      lineageId="Package\Orders Fact Table\Sort 3.Outputs[Sort Output].Columns[order_id]" />
+                    <inputColumn
+                      refId="Package\Orders Fact Table\Merge Join 1.Inputs[Merge Join Right Input].Columns[Freight_allocated Int]"
+                      cachedDataType="r8"
+                      cachedName="Freight_allocated Int"
+                      lineageId="Package\Orders Fact Table\Sort 3.Outputs[Sort Output].Columns[Freight_allocated Int]" />
+                  </inputColumns>
+                  <externalMetadataColumns />
+                </input>
+              </inputs>
+              <outputs>
+                <output
+                  refId="Package\Orders Fact Table\Merge Join 1.Outputs[Merge Join Output]"
+                  isSorted="true"
+                  name="Merge Join Output">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\Orders Fact Table\Merge Join 1.Outputs[Merge Join Output].Columns[order_id]"
+                      dataType="i2"
+                      lineageId="Package\Orders Fact Table\Merge Join 1.Outputs[Merge Join Output].Columns[order_id]"
+                      name="order_id"
+                      sortKeyPosition="1">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="The input column associated with this output column"
+                          name="InputColumnID">#{Package\Orders Fact Table\Merge Join 1.Inputs[Merge Join Left Input].Columns[order_id]}</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Orders Fact Table\Merge Join 1.Outputs[Merge Join Output].Columns[product_id]"
+                      dataType="i2"
+                      lineageId="Package\Orders Fact Table\Merge Join 1.Outputs[Merge Join Output].Columns[product_id]"
+                      name="product_id">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="The input column associated with this output column"
+                          name="InputColumnID">#{Package\Orders Fact Table\Merge Join 1.Inputs[Merge Join Left Input].Columns[product_id]}</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Orders Fact Table\Merge Join 1.Outputs[Merge Join Output].Columns[customer_id]"
+                      dataType="wstr"
+                      length="255"
+                      lineageId="Package\Orders Fact Table\Merge Join 1.Outputs[Merge Join Output].Columns[customer_id]"
+                      name="customer_id">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="The input column associated with this output column"
+                          name="InputColumnID">#{Package\Orders Fact Table\Merge Join 1.Inputs[Merge Join Left Input].Columns[customer_id]}</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Orders Fact Table\Merge Join 1.Outputs[Merge Join Output].Columns[employee_id]"
+                      dataType="i2"
+                      lineageId="Package\Orders Fact Table\Merge Join 1.Outputs[Merge Join Output].Columns[employee_id]"
+                      name="employee_id">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="The input column associated with this output column"
+                          name="InputColumnID">#{Package\Orders Fact Table\Merge Join 1.Inputs[Merge Join Left Input].Columns[employee_id]}</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Orders Fact Table\Merge Join 1.Outputs[Merge Join Output].Columns[order_date]"
+                      dataType="dbDate"
+                      lineageId="Package\Orders Fact Table\Merge Join 1.Outputs[Merge Join Output].Columns[order_date]"
+                      name="order_date">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="The input column associated with this output column"
+                          name="InputColumnID">#{Package\Orders Fact Table\Merge Join 1.Inputs[Merge Join Left Input].Columns[order_date]}</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Orders Fact Table\Merge Join 1.Outputs[Merge Join Output].Columns[required_date]"
+                      dataType="dbDate"
+                      lineageId="Package\Orders Fact Table\Merge Join 1.Outputs[Merge Join Output].Columns[required_date]"
+                      name="required_date">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="The input column associated with this output column"
+                          name="InputColumnID">#{Package\Orders Fact Table\Merge Join 1.Inputs[Merge Join Left Input].Columns[required_date]}</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Orders Fact Table\Merge Join 1.Outputs[Merge Join Output].Columns[shipped_date]"
+                      dataType="dbDate"
+                      lineageId="Package\Orders Fact Table\Merge Join 1.Outputs[Merge Join Output].Columns[shipped_date]"
+                      name="shipped_date">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="The input column associated with this output column"
+                          name="InputColumnID">#{Package\Orders Fact Table\Merge Join 1.Inputs[Merge Join Left Input].Columns[shipped_date]}</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Orders Fact Table\Merge Join 1.Outputs[Merge Join Output].Columns[unit_price]"
+                      dataType="r4"
+                      lineageId="Package\Orders Fact Table\Merge Join 1.Outputs[Merge Join Output].Columns[unit_price]"
+                      name="unit_price">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="The input column associated with this output column"
+                          name="InputColumnID">#{Package\Orders Fact Table\Merge Join 1.Inputs[Merge Join Left Input].Columns[unit_price]}</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Orders Fact Table\Merge Join 1.Outputs[Merge Join Output].Columns[quantity]"
+                      dataType="i2"
+                      lineageId="Package\Orders Fact Table\Merge Join 1.Outputs[Merge Join Output].Columns[quantity]"
+                      name="quantity">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="The input column associated with this output column"
+                          name="InputColumnID">#{Package\Orders Fact Table\Merge Join 1.Inputs[Merge Join Left Input].Columns[quantity]}</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Orders Fact Table\Merge Join 1.Outputs[Merge Join Output].Columns[discount]"
+                      dataType="r4"
+                      lineageId="Package\Orders Fact Table\Merge Join 1.Outputs[Merge Join Output].Columns[discount]"
+                      name="discount">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="The input column associated with this output column"
+                          name="InputColumnID">#{Package\Orders Fact Table\Merge Join 1.Inputs[Merge Join Left Input].Columns[discount]}</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Orders Fact Table\Merge Join 1.Outputs[Merge Join Output].Columns[freight]"
+                      dataType="r4"
+                      lineageId="Package\Orders Fact Table\Merge Join 1.Outputs[Merge Join Output].Columns[freight]"
+                      name="freight">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="The input column associated with this output column"
+                          name="InputColumnID">#{Package\Orders Fact Table\Merge Join 1.Inputs[Merge Join Left Input].Columns[freight]}</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Orders Fact Table\Merge Join 1.Outputs[Merge Join Output].Columns[ship_via]"
+                      dataType="i2"
+                      lineageId="Package\Orders Fact Table\Merge Join 1.Outputs[Merge Join Output].Columns[ship_via]"
+                      name="ship_via">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="The input column associated with this output column"
+                          name="InputColumnID">#{Package\Orders Fact Table\Merge Join 1.Inputs[Merge Join Left Input].Columns[ship_via]}</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Orders Fact Table\Merge Join 1.Outputs[Merge Join Output].Columns[Copy of employee_id]"
+                      dataType="i4"
+                      lineageId="Package\Orders Fact Table\Merge Join 1.Outputs[Merge Join Output].Columns[Copy of employee_id]"
+                      name="Copy of employee_id">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="The input column associated with this output column"
+                          name="InputColumnID">#{Package\Orders Fact Table\Merge Join 1.Inputs[Merge Join Left Input].Columns[Copy of employee_id]}</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Orders Fact Table\Merge Join 1.Outputs[Merge Join Output].Columns[Copy of customer_id]"
+                      dataType="wstr"
+                      length="50"
+                      lineageId="Package\Orders Fact Table\Merge Join 1.Outputs[Merge Join Output].Columns[Copy of customer_id]"
+                      name="Copy of customer_id">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="The input column associated with this output column"
+                          name="InputColumnID">#{Package\Orders Fact Table\Merge Join 1.Inputs[Merge Join Left Input].Columns[Copy of customer_id]}</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Orders Fact Table\Merge Join 1.Outputs[Merge Join Output].Columns[Copy of product_id]"
+                      dataType="i4"
+                      lineageId="Package\Orders Fact Table\Merge Join 1.Outputs[Merge Join Output].Columns[Copy of product_id]"
+                      name="Copy of product_id">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="The input column associated with this output column"
+                          name="InputColumnID">#{Package\Orders Fact Table\Merge Join 1.Inputs[Merge Join Left Input].Columns[Copy of product_id]}</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Orders Fact Table\Merge Join 1.Outputs[Merge Join Output].Columns[Copy of order_id]"
+                      dataType="i4"
+                      lineageId="Package\Orders Fact Table\Merge Join 1.Outputs[Merge Join Output].Columns[Copy of order_id]"
+                      name="Copy of order_id">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="The input column associated with this output column"
+                          name="InputColumnID">#{Package\Orders Fact Table\Merge Join 1.Inputs[Merge Join Left Input].Columns[Copy of order_id]}</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Orders Fact Table\Merge Join 1.Outputs[Merge Join Output].Columns[Copy of freight]"
+                      dataType="r8"
+                      lineageId="Package\Orders Fact Table\Merge Join 1.Outputs[Merge Join Output].Columns[Copy of freight]"
+                      name="Copy of freight">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="The input column associated with this output column"
+                          name="InputColumnID">#{Package\Orders Fact Table\Merge Join 1.Inputs[Merge Join Left Input].Columns[Copy of freight]}</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Orders Fact Table\Merge Join 1.Outputs[Merge Join Output].Columns[Copy of unit_price]"
+                      dataType="r8"
+                      lineageId="Package\Orders Fact Table\Merge Join 1.Outputs[Merge Join Output].Columns[Copy of unit_price]"
+                      name="Copy of unit_price">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="The input column associated with this output column"
+                          name="InputColumnID">#{Package\Orders Fact Table\Merge Join 1.Inputs[Merge Join Left Input].Columns[Copy of unit_price]}</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Orders Fact Table\Merge Join 1.Outputs[Merge Join Output].Columns[Copy of quantity]"
+                      dataType="i4"
+                      lineageId="Package\Orders Fact Table\Merge Join 1.Outputs[Merge Join Output].Columns[Copy of quantity]"
+                      name="Copy of quantity">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="The input column associated with this output column"
+                          name="InputColumnID">#{Package\Orders Fact Table\Merge Join 1.Inputs[Merge Join Left Input].Columns[Copy of quantity]}</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Orders Fact Table\Merge Join 1.Outputs[Merge Join Output].Columns[Copy of discount]"
+                      dataType="r8"
+                      lineageId="Package\Orders Fact Table\Merge Join 1.Outputs[Merge Join Output].Columns[Copy of discount]"
+                      name="Copy of discount">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="The input column associated with this output column"
+                          name="InputColumnID">#{Package\Orders Fact Table\Merge Join 1.Inputs[Merge Join Left Input].Columns[Copy of discount]}</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Orders Fact Table\Merge Join 1.Outputs[Merge Join Output].Columns[Copy of ship_via]"
+                      dataType="i4"
+                      lineageId="Package\Orders Fact Table\Merge Join 1.Outputs[Merge Join Output].Columns[Copy of ship_via]"
+                      name="Copy of ship_via">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="The input column associated with this output column"
+                          name="InputColumnID">#{Package\Orders Fact Table\Merge Join 1.Inputs[Merge Join Left Input].Columns[Copy of ship_via]}</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Orders Fact Table\Merge Join 1.Outputs[Merge Join Output].Columns[C_order_date]"
+                      dataType="dbDate"
+                      lineageId="Package\Orders Fact Table\Merge Join 1.Outputs[Merge Join Output].Columns[C_order_date]"
+                      name="C_order_date">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="The input column associated with this output column"
+                          name="InputColumnID">#{Package\Orders Fact Table\Merge Join 1.Inputs[Merge Join Left Input].Columns[C_order_date]}</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Orders Fact Table\Merge Join 1.Outputs[Merge Join Output].Columns[C_required_date]"
+                      dataType="dbDate"
+                      lineageId="Package\Orders Fact Table\Merge Join 1.Outputs[Merge Join Output].Columns[C_required_date]"
+                      name="C_required_date">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="The input column associated with this output column"
+                          name="InputColumnID">#{Package\Orders Fact Table\Merge Join 1.Inputs[Merge Join Left Input].Columns[C_required_date]}</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Orders Fact Table\Merge Join 1.Outputs[Merge Join Output].Columns[C_shipped_date]"
+                      dataType="dbDate"
+                      lineageId="Package\Orders Fact Table\Merge Join 1.Outputs[Merge Join Output].Columns[C_shipped_date]"
+                      name="C_shipped_date">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="The input column associated with this output column"
+                          name="InputColumnID">#{Package\Orders Fact Table\Merge Join 1.Inputs[Merge Join Left Input].Columns[C_shipped_date]}</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Orders Fact Table\Merge Join 1.Outputs[Merge Join Output].Columns[emp_sur]"
+                      dataType="i4"
+                      lineageId="Package\Orders Fact Table\Merge Join 1.Outputs[Merge Join Output].Columns[emp_sur]"
+                      name="emp_sur">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="The input column associated with this output column"
+                          name="InputColumnID">#{Package\Orders Fact Table\Merge Join 1.Inputs[Merge Join Left Input].Columns[emp_sur]}</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Orders Fact Table\Merge Join 1.Outputs[Merge Join Output].Columns[cust_sur]"
+                      dataType="i4"
+                      lineageId="Package\Orders Fact Table\Merge Join 1.Outputs[Merge Join Output].Columns[cust_sur]"
+                      name="cust_sur">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="The input column associated with this output column"
+                          name="InputColumnID">#{Package\Orders Fact Table\Merge Join 1.Inputs[Merge Join Left Input].Columns[cust_sur]}</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Orders Fact Table\Merge Join 1.Outputs[Merge Join Output].Columns[prod_sur]"
+                      dataType="i4"
+                      lineageId="Package\Orders Fact Table\Merge Join 1.Outputs[Merge Join Output].Columns[prod_sur]"
+                      name="prod_sur">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="The input column associated with this output column"
+                          name="InputColumnID">#{Package\Orders Fact Table\Merge Join 1.Inputs[Merge Join Left Input].Columns[prod_sur]}</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Orders Fact Table\Merge Join 1.Outputs[Merge Join Output].Columns[supplier_id]"
+                      dataType="i4"
+                      lineageId="Package\Orders Fact Table\Merge Join 1.Outputs[Merge Join Output].Columns[supplier_id]"
+                      name="supplier_id">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="The input column associated with this output column"
+                          name="InputColumnID">#{Package\Orders Fact Table\Merge Join 1.Inputs[Merge Join Left Input].Columns[supplier_id]}</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Orders Fact Table\Merge Join 1.Outputs[Merge Join Output].Columns[shipper_sur]"
+                      dataType="i4"
+                      lineageId="Package\Orders Fact Table\Merge Join 1.Outputs[Merge Join Output].Columns[shipper_sur]"
+                      name="shipper_sur">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="The input column associated with this output column"
+                          name="InputColumnID">#{Package\Orders Fact Table\Merge Join 1.Inputs[Merge Join Left Input].Columns[shipper_sur]}</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Orders Fact Table\Merge Join 1.Outputs[Merge Join Output].Columns[RequiredDate_key]"
+                      dataType="i4"
+                      lineageId="Package\Orders Fact Table\Merge Join 1.Outputs[Merge Join Output].Columns[RequiredDate_key]"
+                      name="RequiredDate_key">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="The input column associated with this output column"
+                          name="InputColumnID">#{Package\Orders Fact Table\Merge Join 1.Inputs[Merge Join Left Input].Columns[RequiredDate_key]}</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Orders Fact Table\Merge Join 1.Outputs[Merge Join Output].Columns[Orderdate_key]"
+                      dataType="i4"
+                      lineageId="Package\Orders Fact Table\Merge Join 1.Outputs[Merge Join Output].Columns[Orderdate_key]"
+                      name="Orderdate_key">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="The input column associated with this output column"
+                          name="InputColumnID">#{Package\Orders Fact Table\Merge Join 1.Inputs[Merge Join Left Input].Columns[Orderdate_key]}</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Orders Fact Table\Merge Join 1.Outputs[Merge Join Output].Columns[Shippeddate_key]"
+                      dataType="i4"
+                      lineageId="Package\Orders Fact Table\Merge Join 1.Outputs[Merge Join Output].Columns[Shippeddate_key]"
+                      name="Shippeddate_key">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="The input column associated with this output column"
+                          name="InputColumnID">#{Package\Orders Fact Table\Merge Join 1.Inputs[Merge Join Left Input].Columns[Shippeddate_key]}</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Orders Fact Table\Merge Join 1.Outputs[Merge Join Output].Columns[Freight_allocated Int]"
+                      dataType="r8"
+                      lineageId="Package\Orders Fact Table\Merge Join 1.Outputs[Merge Join Output].Columns[Freight_allocated Int]"
+                      name="Freight_allocated Int">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="The input column associated with this output column"
+                          name="InputColumnID">#{Package\Orders Fact Table\Merge Join 1.Inputs[Merge Join Right Input].Columns[Freight_allocated Int]}</property>
+                      </properties>
+                    </outputColumn>
+                  </outputColumns>
+                  <externalMetadataColumns />
+                </output>
+              </outputs>
+            </component>
+            <component
+              refId="Package\Orders Fact Table\Multicast"
+              componentClassID="Microsoft.Multicast"
+              contactInfo="Multicast;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;0"
+              description="Distributes every input row to every row in one or more outputs. For example, branch your data flow to make a copy of data so that some values can be masked before sharing with external partners."
+              name="Multicast">
+              <inputs>
+                <input
+                  refId="Package\Orders Fact Table\Multicast.Inputs[Multicast Input 1]"
+                  name="Multicast Input 1">
+                  <externalMetadataColumns />
+                </input>
+              </inputs>
+              <outputs>
+                <output
+                  refId="Package\Orders Fact Table\Multicast.Outputs[Multicast Output 2]"
+                  deleteOutputOnPathDetached="true"
+                  name="Multicast Output 2"
+                  synchronousInputId="Package\Orders Fact Table\Multicast.Inputs[Multicast Input 1]">
+                  <externalMetadataColumns />
+                </output>
+                <output
+                  refId="Package\Orders Fact Table\Multicast.Outputs[Multicast Output 3]"
+                  dangling="true"
+                  deleteOutputOnPathDetached="true"
+                  name="Multicast Output 3"
+                  synchronousInputId="Package\Orders Fact Table\Multicast.Inputs[Multicast Input 1]">
+                  <externalMetadataColumns />
+                </output>
+                <output
+                  refId="Package\Orders Fact Table\Multicast.Outputs[Multicast Output 1]"
+                  deleteOutputOnPathDetached="true"
+                  name="Multicast Output 1"
+                  synchronousInputId="Package\Orders Fact Table\Multicast.Inputs[Multicast Input 1]">
+                  <externalMetadataColumns />
+                </output>
+              </outputs>
+            </component>
+            <component
               refId="Package\Orders Fact Table\ODBC Destination"
               componentClassID="Microsoft.SSISODBCDst"
               contactInfo="ODBC Destination;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;1"
@@ -6038,83 +7029,83 @@ where "refTable"."emp_id" = ?</property>
                   truncationRowDisposition="FailComponent">
                   <inputColumns>
                     <inputColumn
-                      refId="Package\Orders Fact Table\ODBC Destination.Inputs[ODBC Destination Input].Columns[freight]"
-                      cachedDataType="r4"
-                      cachedName="freight"
+                      refId="Package\Orders Fact Table\ODBC Destination.Inputs[ODBC Destination Input].Columns[Freight_allocated Int]"
+                      cachedDataType="r8"
+                      cachedName="Freight_allocated Int"
                       externalMetadataColumnId="Package\Orders Fact Table\ODBC Destination.Inputs[ODBC Destination Input].ExternalColumns[freight]"
-                      lineageId="Package\Orders Fact Table\Merge Join.Outputs[Merge Join Output].Columns[freight]" />
-                    <inputColumn
-                      refId="Package\Orders Fact Table\ODBC Destination.Inputs[ODBC Destination Input].Columns[emp_sur]"
-                      cachedDataType="i4"
-                      cachedName="emp_sur"
-                      externalMetadataColumnId="Package\Orders Fact Table\ODBC Destination.Inputs[ODBC Destination Input].ExternalColumns[emp_sur]"
-                      lineageId="Package\Orders Fact Table\employee.Outputs[Lookup Match Output].Columns[emp_sur]" />
-                    <inputColumn
-                      refId="Package\Orders Fact Table\ODBC Destination.Inputs[ODBC Destination Input].Columns[cust_sur]"
-                      cachedDataType="i4"
-                      cachedName="cust_sur"
-                      externalMetadataColumnId="Package\Orders Fact Table\ODBC Destination.Inputs[ODBC Destination Input].ExternalColumns[cust_sur]"
-                      lineageId="Package\Orders Fact Table\customer.Outputs[Lookup Match Output].Columns[cust_sur]" />
-                    <inputColumn
-                      refId="Package\Orders Fact Table\ODBC Destination.Inputs[ODBC Destination Input].Columns[shipper_sur]"
-                      cachedDataType="i4"
-                      cachedName="shipper_sur"
-                      externalMetadataColumnId="Package\Orders Fact Table\ODBC Destination.Inputs[ODBC Destination Input].ExternalColumns[shipper_sur]"
-                      lineageId="Package\Orders Fact Table\Shipper.Outputs[Lookup Match Output].Columns[shipper_sur]" />
+                      lineageId="Package\Orders Fact Table\Merge Join 1.Outputs[Merge Join Output].Columns[Freight_allocated Int]" />
                     <inputColumn
                       refId="Package\Orders Fact Table\ODBC Destination.Inputs[ODBC Destination Input].Columns[Copy of order_id]"
                       cachedDataType="i4"
                       cachedName="Copy of order_id"
                       externalMetadataColumnId="Package\Orders Fact Table\ODBC Destination.Inputs[ODBC Destination Input].ExternalColumns[order_id]"
-                      lineageId="Package\Orders Fact Table\Data Conversion.Outputs[Data Conversion Output].Columns[Copy of order_id]" />
+                      lineageId="Package\Orders Fact Table\Merge Join 1.Outputs[Merge Join Output].Columns[Copy of order_id]" />
                     <inputColumn
                       refId="Package\Orders Fact Table\ODBC Destination.Inputs[ODBC Destination Input].Columns[prod_sur]"
                       cachedDataType="i4"
                       cachedName="prod_sur"
                       externalMetadataColumnId="Package\Orders Fact Table\ODBC Destination.Inputs[ODBC Destination Input].ExternalColumns[product_sur]"
-                      lineageId="Package\Orders Fact Table\Product.Outputs[Lookup Match Output].Columns[prod_sur]" />
+                      lineageId="Package\Orders Fact Table\Merge Join 1.Outputs[Merge Join Output].Columns[prod_sur]" />
+                    <inputColumn
+                      refId="Package\Orders Fact Table\ODBC Destination.Inputs[ODBC Destination Input].Columns[cust_sur]"
+                      cachedDataType="i4"
+                      cachedName="cust_sur"
+                      externalMetadataColumnId="Package\Orders Fact Table\ODBC Destination.Inputs[ODBC Destination Input].ExternalColumns[cust_sur]"
+                      lineageId="Package\Orders Fact Table\Merge Join 1.Outputs[Merge Join Output].Columns[cust_sur]" />
+                    <inputColumn
+                      refId="Package\Orders Fact Table\ODBC Destination.Inputs[ODBC Destination Input].Columns[emp_sur]"
+                      cachedDataType="i4"
+                      cachedName="emp_sur"
+                      externalMetadataColumnId="Package\Orders Fact Table\ODBC Destination.Inputs[ODBC Destination Input].ExternalColumns[emp_sur]"
+                      lineageId="Package\Orders Fact Table\Merge Join 1.Outputs[Merge Join Output].Columns[emp_sur]" />
+                    <inputColumn
+                      refId="Package\Orders Fact Table\ODBC Destination.Inputs[ODBC Destination Input].Columns[shipper_sur]"
+                      cachedDataType="i4"
+                      cachedName="shipper_sur"
+                      externalMetadataColumnId="Package\Orders Fact Table\ODBC Destination.Inputs[ODBC Destination Input].ExternalColumns[shipper_sur]"
+                      lineageId="Package\Orders Fact Table\Merge Join 1.Outputs[Merge Join Output].Columns[shipper_sur]" />
                     <inputColumn
                       refId="Package\Orders Fact Table\ODBC Destination.Inputs[ODBC Destination Input].Columns[supplier_id]"
                       cachedDataType="i4"
                       cachedName="supplier_id"
                       externalMetadataColumnId="Package\Orders Fact Table\ODBC Destination.Inputs[ODBC Destination Input].ExternalColumns[supplier_sur]"
-                      lineageId="Package\Orders Fact Table\Product.Outputs[Lookup Match Output].Columns[supplier_id]" />
+                      lineageId="Package\Orders Fact Table\Merge Join 1.Outputs[Merge Join Output].Columns[supplier_id]" />
                     <inputColumn
                       refId="Package\Orders Fact Table\ODBC Destination.Inputs[ODBC Destination Input].Columns[Copy of unit_price]"
                       cachedDataType="r8"
                       cachedName="Copy of unit_price"
                       externalMetadataColumnId="Package\Orders Fact Table\ODBC Destination.Inputs[ODBC Destination Input].ExternalColumns[unitprice]"
-                      lineageId="Package\Orders Fact Table\Data Conversion.Outputs[Data Conversion Output].Columns[Copy of unit_price]" />
+                      lineageId="Package\Orders Fact Table\Merge Join 1.Outputs[Merge Join Output].Columns[Copy of unit_price]" />
                     <inputColumn
                       refId="Package\Orders Fact Table\ODBC Destination.Inputs[ODBC Destination Input].Columns[Copy of quantity]"
                       cachedDataType="i4"
                       cachedName="Copy of quantity"
                       externalMetadataColumnId="Package\Orders Fact Table\ODBC Destination.Inputs[ODBC Destination Input].ExternalColumns[quantity]"
-                      lineageId="Package\Orders Fact Table\Data Conversion.Outputs[Data Conversion Output].Columns[Copy of quantity]" />
+                      lineageId="Package\Orders Fact Table\Merge Join 1.Outputs[Merge Join Output].Columns[Copy of quantity]" />
                     <inputColumn
                       refId="Package\Orders Fact Table\ODBC Destination.Inputs[ODBC Destination Input].Columns[Copy of discount]"
                       cachedDataType="r8"
                       cachedName="Copy of discount"
                       externalMetadataColumnId="Package\Orders Fact Table\ODBC Destination.Inputs[ODBC Destination Input].ExternalColumns[discount]"
-                      lineageId="Package\Orders Fact Table\Data Conversion.Outputs[Data Conversion Output].Columns[Copy of discount]" />
-                    <inputColumn
-                      refId="Package\Orders Fact Table\ODBC Destination.Inputs[ODBC Destination Input].Columns[RequiredDate_key]"
-                      cachedDataType="i4"
-                      cachedName="RequiredDate_key"
-                      externalMetadataColumnId="Package\Orders Fact Table\ODBC Destination.Inputs[ODBC Destination Input].ExternalColumns[required_date]"
-                      lineageId="Package\Orders Fact Table\Dates.Outputs[Derived Column Output].Columns[RequiredDate_key]" />
+                      lineageId="Package\Orders Fact Table\Merge Join 1.Outputs[Merge Join Output].Columns[Copy of discount]" />
                     <inputColumn
                       refId="Package\Orders Fact Table\ODBC Destination.Inputs[ODBC Destination Input].Columns[Orderdate_key]"
                       cachedDataType="i4"
                       cachedName="Orderdate_key"
                       externalMetadataColumnId="Package\Orders Fact Table\ODBC Destination.Inputs[ODBC Destination Input].ExternalColumns[order_date]"
-                      lineageId="Package\Orders Fact Table\Dates.Outputs[Derived Column Output].Columns[Orderdate_key]" />
+                      lineageId="Package\Orders Fact Table\Merge Join 1.Outputs[Merge Join Output].Columns[Orderdate_key]" />
+                    <inputColumn
+                      refId="Package\Orders Fact Table\ODBC Destination.Inputs[ODBC Destination Input].Columns[RequiredDate_key]"
+                      cachedDataType="i4"
+                      cachedName="RequiredDate_key"
+                      externalMetadataColumnId="Package\Orders Fact Table\ODBC Destination.Inputs[ODBC Destination Input].ExternalColumns[required_date]"
+                      lineageId="Package\Orders Fact Table\Merge Join 1.Outputs[Merge Join Output].Columns[RequiredDate_key]" />
                     <inputColumn
                       refId="Package\Orders Fact Table\ODBC Destination.Inputs[ODBC Destination Input].Columns[Shippeddate_key]"
                       cachedDataType="i4"
                       cachedName="Shippeddate_key"
                       externalMetadataColumnId="Package\Orders Fact Table\ODBC Destination.Inputs[ODBC Destination Input].ExternalColumns[shipped_date]"
-                      lineageId="Package\Orders Fact Table\Dates.Outputs[Derived Column Output].Columns[Shippeddate_key]" />
+                      lineageId="Package\Orders Fact Table\Merge Join 1.Outputs[Merge Join Output].Columns[Shippeddate_key]" />
                   </inputColumns>
                   <externalMetadataColumns
                     isUsed="True">
@@ -6292,8 +7283,7 @@ where "refTable"."emp_id" = ?</property>
                       name="order_id" />
                     <outputColumn
                       refId="Package\Orders Fact Table\Orders.Outputs[ODBC Source Output].Columns[customer_id]"
-                      codePage="1252"
-                      dataType="str"
+                      dataType="wstr"
                       externalMetadataColumnId="Package\Orders Fact Table\Orders.Outputs[ODBC Source Output].ExternalColumns[customer_id]"
                       length="255"
                       lineageId="Package\Orders Fact Table\Orders.Outputs[ODBC Source Output].Columns[customer_id]"
@@ -6336,48 +7326,42 @@ where "refTable"."emp_id" = ?</property>
                       name="freight" />
                     <outputColumn
                       refId="Package\Orders Fact Table\Orders.Outputs[ODBC Source Output].Columns[ship_name]"
-                      codePage="1252"
-                      dataType="str"
+                      dataType="wstr"
                       externalMetadataColumnId="Package\Orders Fact Table\Orders.Outputs[ODBC Source Output].ExternalColumns[ship_name]"
                       length="40"
                       lineageId="Package\Orders Fact Table\Orders.Outputs[ODBC Source Output].Columns[ship_name]"
                       name="ship_name" />
                     <outputColumn
                       refId="Package\Orders Fact Table\Orders.Outputs[ODBC Source Output].Columns[ship_address]"
-                      codePage="1252"
-                      dataType="str"
+                      dataType="wstr"
                       externalMetadataColumnId="Package\Orders Fact Table\Orders.Outputs[ODBC Source Output].ExternalColumns[ship_address]"
                       length="60"
                       lineageId="Package\Orders Fact Table\Orders.Outputs[ODBC Source Output].Columns[ship_address]"
                       name="ship_address" />
                     <outputColumn
                       refId="Package\Orders Fact Table\Orders.Outputs[ODBC Source Output].Columns[ship_city]"
-                      codePage="1252"
-                      dataType="str"
+                      dataType="wstr"
                       externalMetadataColumnId="Package\Orders Fact Table\Orders.Outputs[ODBC Source Output].ExternalColumns[ship_city]"
                       length="15"
                       lineageId="Package\Orders Fact Table\Orders.Outputs[ODBC Source Output].Columns[ship_city]"
                       name="ship_city" />
                     <outputColumn
                       refId="Package\Orders Fact Table\Orders.Outputs[ODBC Source Output].Columns[ship_region]"
-                      codePage="1252"
-                      dataType="str"
+                      dataType="wstr"
                       externalMetadataColumnId="Package\Orders Fact Table\Orders.Outputs[ODBC Source Output].ExternalColumns[ship_region]"
                       length="15"
                       lineageId="Package\Orders Fact Table\Orders.Outputs[ODBC Source Output].Columns[ship_region]"
                       name="ship_region" />
                     <outputColumn
                       refId="Package\Orders Fact Table\Orders.Outputs[ODBC Source Output].Columns[ship_postal_code]"
-                      codePage="1252"
-                      dataType="str"
+                      dataType="wstr"
                       externalMetadataColumnId="Package\Orders Fact Table\Orders.Outputs[ODBC Source Output].ExternalColumns[ship_postal_code]"
                       length="10"
                       lineageId="Package\Orders Fact Table\Orders.Outputs[ODBC Source Output].Columns[ship_postal_code]"
                       name="ship_postal_code" />
                     <outputColumn
                       refId="Package\Orders Fact Table\Orders.Outputs[ODBC Source Output].Columns[ship_country]"
-                      codePage="1252"
-                      dataType="str"
+                      dataType="wstr"
                       externalMetadataColumnId="Package\Orders Fact Table\Orders.Outputs[ODBC Source Output].ExternalColumns[ship_country]"
                       length="15"
                       lineageId="Package\Orders Fact Table\Orders.Outputs[ODBC Source Output].Columns[ship_country]"
@@ -6391,8 +7375,7 @@ where "refTable"."emp_id" = ?</property>
                       name="order_id" />
                     <externalMetadataColumn
                       refId="Package\Orders Fact Table\Orders.Outputs[ODBC Source Output].ExternalColumns[customer_id]"
-                      codePage="1252"
-                      dataType="str"
+                      dataType="wstr"
                       length="255"
                       name="customer_id" />
                     <externalMetadataColumn
@@ -6421,38 +7404,32 @@ where "refTable"."emp_id" = ?</property>
                       name="freight" />
                     <externalMetadataColumn
                       refId="Package\Orders Fact Table\Orders.Outputs[ODBC Source Output].ExternalColumns[ship_name]"
-                      codePage="1252"
-                      dataType="str"
+                      dataType="wstr"
                       length="40"
                       name="ship_name" />
                     <externalMetadataColumn
                       refId="Package\Orders Fact Table\Orders.Outputs[ODBC Source Output].ExternalColumns[ship_address]"
-                      codePage="1252"
-                      dataType="str"
+                      dataType="wstr"
                       length="60"
                       name="ship_address" />
                     <externalMetadataColumn
                       refId="Package\Orders Fact Table\Orders.Outputs[ODBC Source Output].ExternalColumns[ship_city]"
-                      codePage="1252"
-                      dataType="str"
+                      dataType="wstr"
                       length="15"
                       name="ship_city" />
                     <externalMetadataColumn
                       refId="Package\Orders Fact Table\Orders.Outputs[ODBC Source Output].ExternalColumns[ship_region]"
-                      codePage="1252"
-                      dataType="str"
+                      dataType="wstr"
                       length="15"
                       name="ship_region" />
                     <externalMetadataColumn
                       refId="Package\Orders Fact Table\Orders.Outputs[ODBC Source Output].ExternalColumns[ship_postal_code]"
-                      codePage="1252"
-                      dataType="str"
+                      dataType="wstr"
                       length="10"
                       name="ship_postal_code" />
                     <externalMetadataColumn
                       refId="Package\Orders Fact Table\Orders.Outputs[ODBC Source Output].ExternalColumns[ship_country]"
-                      codePage="1252"
-                      dataType="str"
+                      dataType="wstr"
                       length="15"
                       name="ship_country" />
                   </externalMetadataColumns>
@@ -6470,8 +7447,7 @@ where "refTable"."emp_id" = ?</property>
                       name="order_id" />
                     <outputColumn
                       refId="Package\Orders Fact Table\Orders.Outputs[ODBC Source Error Output].Columns[customer_id]"
-                      codePage="1252"
-                      dataType="str"
+                      dataType="wstr"
                       externalMetadataColumnId="Package\Orders Fact Table\Orders.Outputs[ODBC Source Output].ExternalColumns[customer_id]"
                       length="255"
                       lineageId="Package\Orders Fact Table\Orders.Outputs[ODBC Source Error Output].Columns[customer_id]"
@@ -6514,48 +7490,42 @@ where "refTable"."emp_id" = ?</property>
                       name="freight" />
                     <outputColumn
                       refId="Package\Orders Fact Table\Orders.Outputs[ODBC Source Error Output].Columns[ship_name]"
-                      codePage="1252"
-                      dataType="str"
+                      dataType="wstr"
                       externalMetadataColumnId="Package\Orders Fact Table\Orders.Outputs[ODBC Source Output].ExternalColumns[ship_name]"
                       length="40"
                       lineageId="Package\Orders Fact Table\Orders.Outputs[ODBC Source Error Output].Columns[ship_name]"
                       name="ship_name" />
                     <outputColumn
                       refId="Package\Orders Fact Table\Orders.Outputs[ODBC Source Error Output].Columns[ship_address]"
-                      codePage="1252"
-                      dataType="str"
+                      dataType="wstr"
                       externalMetadataColumnId="Package\Orders Fact Table\Orders.Outputs[ODBC Source Output].ExternalColumns[ship_address]"
                       length="60"
                       lineageId="Package\Orders Fact Table\Orders.Outputs[ODBC Source Error Output].Columns[ship_address]"
                       name="ship_address" />
                     <outputColumn
                       refId="Package\Orders Fact Table\Orders.Outputs[ODBC Source Error Output].Columns[ship_city]"
-                      codePage="1252"
-                      dataType="str"
+                      dataType="wstr"
                       externalMetadataColumnId="Package\Orders Fact Table\Orders.Outputs[ODBC Source Output].ExternalColumns[ship_city]"
                       length="15"
                       lineageId="Package\Orders Fact Table\Orders.Outputs[ODBC Source Error Output].Columns[ship_city]"
                       name="ship_city" />
                     <outputColumn
                       refId="Package\Orders Fact Table\Orders.Outputs[ODBC Source Error Output].Columns[ship_region]"
-                      codePage="1252"
-                      dataType="str"
+                      dataType="wstr"
                       externalMetadataColumnId="Package\Orders Fact Table\Orders.Outputs[ODBC Source Output].ExternalColumns[ship_region]"
                       length="15"
                       lineageId="Package\Orders Fact Table\Orders.Outputs[ODBC Source Error Output].Columns[ship_region]"
                       name="ship_region" />
                     <outputColumn
                       refId="Package\Orders Fact Table\Orders.Outputs[ODBC Source Error Output].Columns[ship_postal_code]"
-                      codePage="1252"
-                      dataType="str"
+                      dataType="wstr"
                       externalMetadataColumnId="Package\Orders Fact Table\Orders.Outputs[ODBC Source Output].ExternalColumns[ship_postal_code]"
                       length="10"
                       lineageId="Package\Orders Fact Table\Orders.Outputs[ODBC Source Error Output].Columns[ship_postal_code]"
                       name="ship_postal_code" />
                     <outputColumn
                       refId="Package\Orders Fact Table\Orders.Outputs[ODBC Source Error Output].Columns[ship_country]"
-                      codePage="1252"
-                      dataType="str"
+                      dataType="wstr"
                       externalMetadataColumnId="Package\Orders Fact Table\Orders.Outputs[ODBC Source Output].ExternalColumns[ship_country]"
                       length="15"
                       lineageId="Package\Orders Fact Table\Orders.Outputs[ODBC Source Error Output].Columns[ship_country]"
@@ -7321,8 +8291,7 @@ where "refTable"."shipper_id" = ?</property>
                     </inputColumn>
                     <inputColumn
                       refId="Package\Orders Fact Table\Sort 1.Inputs[Sort Input].Columns[customer_id]"
-                      cachedCodepage="1252"
-                      cachedDataType="str"
+                      cachedDataType="wstr"
                       cachedLength="255"
                       cachedName="customer_id"
                       lineageId="Package\Orders Fact Table\Orders.Outputs[ODBC Source Output].Columns[customer_id]">
@@ -7435,8 +8404,7 @@ where "refTable"."shipper_id" = ?</property>
                     </inputColumn>
                     <inputColumn
                       refId="Package\Orders Fact Table\Sort 1.Inputs[Sort Input].Columns[ship_name]"
-                      cachedCodepage="1252"
-                      cachedDataType="str"
+                      cachedDataType="wstr"
                       cachedLength="40"
                       cachedName="ship_name"
                       lineageId="Package\Orders Fact Table\Orders.Outputs[ODBC Source Output].Columns[ship_name]">
@@ -7453,8 +8421,7 @@ where "refTable"."shipper_id" = ?</property>
                     </inputColumn>
                     <inputColumn
                       refId="Package\Orders Fact Table\Sort 1.Inputs[Sort Input].Columns[ship_address]"
-                      cachedCodepage="1252"
-                      cachedDataType="str"
+                      cachedDataType="wstr"
                       cachedLength="60"
                       cachedName="ship_address"
                       lineageId="Package\Orders Fact Table\Orders.Outputs[ODBC Source Output].Columns[ship_address]">
@@ -7471,8 +8438,7 @@ where "refTable"."shipper_id" = ?</property>
                     </inputColumn>
                     <inputColumn
                       refId="Package\Orders Fact Table\Sort 1.Inputs[Sort Input].Columns[ship_city]"
-                      cachedCodepage="1252"
-                      cachedDataType="str"
+                      cachedDataType="wstr"
                       cachedLength="15"
                       cachedName="ship_city"
                       lineageId="Package\Orders Fact Table\Orders.Outputs[ODBC Source Output].Columns[ship_city]">
@@ -7489,8 +8455,7 @@ where "refTable"."shipper_id" = ?</property>
                     </inputColumn>
                     <inputColumn
                       refId="Package\Orders Fact Table\Sort 1.Inputs[Sort Input].Columns[ship_region]"
-                      cachedCodepage="1252"
-                      cachedDataType="str"
+                      cachedDataType="wstr"
                       cachedLength="15"
                       cachedName="ship_region"
                       lineageId="Package\Orders Fact Table\Orders.Outputs[ODBC Source Output].Columns[ship_region]">
@@ -7507,8 +8472,7 @@ where "refTable"."shipper_id" = ?</property>
                     </inputColumn>
                     <inputColumn
                       refId="Package\Orders Fact Table\Sort 1.Inputs[Sort Input].Columns[ship_postal_code]"
-                      cachedCodepage="1252"
-                      cachedDataType="str"
+                      cachedDataType="wstr"
                       cachedLength="10"
                       cachedName="ship_postal_code"
                       lineageId="Package\Orders Fact Table\Orders.Outputs[ODBC Source Output].Columns[ship_postal_code]">
@@ -7525,8 +8489,7 @@ where "refTable"."shipper_id" = ?</property>
                     </inputColumn>
                     <inputColumn
                       refId="Package\Orders Fact Table\Sort 1.Inputs[Sort Input].Columns[ship_country]"
-                      cachedCodepage="1252"
-                      cachedDataType="str"
+                      cachedDataType="wstr"
                       cachedLength="15"
                       cachedName="ship_country"
                       lineageId="Package\Orders Fact Table\Orders.Outputs[ODBC Source Output].Columns[ship_country]">
@@ -7567,8 +8530,7 @@ where "refTable"."shipper_id" = ?</property>
                     </outputColumn>
                     <outputColumn
                       refId="Package\Orders Fact Table\Sort 1.Outputs[Sort Output].Columns[customer_id]"
-                      codePage="1252"
-                      dataType="str"
+                      dataType="wstr"
                       length="255"
                       lineageId="Package\Orders Fact Table\Sort 1.Outputs[Sort Output].Columns[customer_id]"
                       name="customer_id">
@@ -7660,8 +8622,7 @@ where "refTable"."shipper_id" = ?</property>
                     </outputColumn>
                     <outputColumn
                       refId="Package\Orders Fact Table\Sort 1.Outputs[Sort Output].Columns[ship_name]"
-                      codePage="1252"
-                      dataType="str"
+                      dataType="wstr"
                       length="40"
                       lineageId="Package\Orders Fact Table\Sort 1.Outputs[Sort Output].Columns[ship_name]"
                       name="ship_name">
@@ -7675,8 +8636,7 @@ where "refTable"."shipper_id" = ?</property>
                     </outputColumn>
                     <outputColumn
                       refId="Package\Orders Fact Table\Sort 1.Outputs[Sort Output].Columns[ship_address]"
-                      codePage="1252"
-                      dataType="str"
+                      dataType="wstr"
                       length="60"
                       lineageId="Package\Orders Fact Table\Sort 1.Outputs[Sort Output].Columns[ship_address]"
                       name="ship_address">
@@ -7690,8 +8650,7 @@ where "refTable"."shipper_id" = ?</property>
                     </outputColumn>
                     <outputColumn
                       refId="Package\Orders Fact Table\Sort 1.Outputs[Sort Output].Columns[ship_city]"
-                      codePage="1252"
-                      dataType="str"
+                      dataType="wstr"
                       length="15"
                       lineageId="Package\Orders Fact Table\Sort 1.Outputs[Sort Output].Columns[ship_city]"
                       name="ship_city">
@@ -7705,8 +8664,7 @@ where "refTable"."shipper_id" = ?</property>
                     </outputColumn>
                     <outputColumn
                       refId="Package\Orders Fact Table\Sort 1.Outputs[Sort Output].Columns[ship_region]"
-                      codePage="1252"
-                      dataType="str"
+                      dataType="wstr"
                       length="15"
                       lineageId="Package\Orders Fact Table\Sort 1.Outputs[Sort Output].Columns[ship_region]"
                       name="ship_region">
@@ -7720,8 +8678,7 @@ where "refTable"."shipper_id" = ?</property>
                     </outputColumn>
                     <outputColumn
                       refId="Package\Orders Fact Table\Sort 1.Outputs[Sort Output].Columns[ship_postal_code]"
-                      codePage="1252"
-                      dataType="str"
+                      dataType="wstr"
                       length="10"
                       lineageId="Package\Orders Fact Table\Sort 1.Outputs[Sort Output].Columns[ship_postal_code]"
                       name="ship_postal_code">
@@ -7735,8 +8692,7 @@ where "refTable"."shipper_id" = ?</property>
                     </outputColumn>
                     <outputColumn
                       refId="Package\Orders Fact Table\Sort 1.Outputs[Sort Output].Columns[ship_country]"
-                      codePage="1252"
-                      dataType="str"
+                      dataType="wstr"
                       length="15"
                       lineageId="Package\Orders Fact Table\Sort 1.Outputs[Sort Output].Columns[ship_country]"
                       name="ship_country">
@@ -7753,6 +8709,190 @@ where "refTable"."shipper_id" = ?</property>
                 </output>
               </outputs>
             </component>
+            <component
+              refId="Package\Orders Fact Table\Sort 3"
+              componentClassID="Microsoft.Sort"
+              contactInfo="Sort;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;1"
+              description="Sorts input data in ascending or descending order when it cannot be sorted at its source. For example, sort sales data by 'customer id' before it is written to a flat file and delivered to another department. Note: We do not recommend this transformation for large data flows."
+              name="Sort 3"
+              version="1">
+              <properties>
+                <property
+                  dataType="System.Boolean"
+                  description="Indicates whether the Sort transformation removes rows with duplicate sort values."
+                  name="EliminateDuplicates">false</property>
+                <property
+                  dataType="System.Int32"
+                  description="Specifies the maximum number of threads to use for sorting."
+                  expressionType="Notify"
+                  name="MaximumThreads">-1</property>
+              </properties>
+              <inputs>
+                <input
+                  refId="Package\Orders Fact Table\Sort 3.Inputs[Sort Input]"
+                  name="Sort Input">
+                  <inputColumns>
+                    <inputColumn
+                      refId="Package\Orders Fact Table\Sort 3.Inputs[Sort Input].Columns[order_id_count]"
+                      cachedDataType="ui8"
+                      cachedName="order_id_count"
+                      lineageId="Package\Orders Fact Table\Aggregate.Outputs[group by].Columns[order_id_count]">
+                      <properties>
+                        <property
+                          dataType="System.Int32"
+                          description="Specifies the comparison options for character data."
+                          name="NewComparisonFlags">0</property>
+                        <property
+                          dataType="System.Int32"
+                          description="Specifies the sort order of the column."
+                          name="NewSortKeyPosition">0</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Orders Fact Table\Sort 3.Inputs[Sort Input].Columns[order_id]"
+                      cachedDataType="i2"
+                      cachedName="order_id"
+                      lineageId="Package\Orders Fact Table\Aggregate.Outputs[group by].Columns[order_id]">
+                      <properties>
+                        <property
+                          dataType="System.Int32"
+                          description="Specifies the comparison options for character data."
+                          name="NewComparisonFlags">0</property>
+                        <property
+                          dataType="System.Int32"
+                          description="Specifies the sort order of the column."
+                          name="NewSortKeyPosition">1</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Orders Fact Table\Sort 3.Inputs[Sort Input].Columns[freight]"
+                      cachedDataType="r4"
+                      cachedName="freight"
+                      lineageId="Package\Orders Fact Table\Aggregate.Outputs[group by].Columns[freight]">
+                      <properties>
+                        <property
+                          dataType="System.Int32"
+                          description="Specifies the comparison options for character data."
+                          name="NewComparisonFlags">0</property>
+                        <property
+                          dataType="System.Int32"
+                          description="Specifies the sort order of the column."
+                          name="NewSortKeyPosition">0</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Orders Fact Table\Sort 3.Inputs[Sort Input].Columns[Freight_allocated]"
+                      cachedDataType="r4"
+                      cachedName="Freight_allocated"
+                      lineageId="Package\Orders Fact Table\Derived Column.Outputs[Derived Column Output].Columns[Freight_allocated]">
+                      <properties>
+                        <property
+                          dataType="System.Int32"
+                          description="Specifies the comparison options for character data."
+                          name="NewComparisonFlags">0</property>
+                        <property
+                          dataType="System.Int32"
+                          description="Specifies the sort order of the column."
+                          name="NewSortKeyPosition">0</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Orders Fact Table\Sort 3.Inputs[Sort Input].Columns[Freight_allocated Int]"
+                      cachedDataType="r8"
+                      cachedName="Freight_allocated Int"
+                      lineageId="Package\Orders Fact Table\Data Conversion 1.Outputs[Data Conversion Output].Columns[Freight_allocated Int]">
+                      <properties>
+                        <property
+                          dataType="System.Int32"
+                          description="Specifies the comparison options for character data."
+                          name="NewComparisonFlags">0</property>
+                        <property
+                          dataType="System.Int32"
+                          description="Specifies the sort order of the column."
+                          name="NewSortKeyPosition">0</property>
+                      </properties>
+                    </inputColumn>
+                  </inputColumns>
+                  <externalMetadataColumns />
+                </input>
+              </inputs>
+              <outputs>
+                <output
+                  refId="Package\Orders Fact Table\Sort 3.Outputs[Sort Output]"
+                  isSorted="true"
+                  name="Sort Output">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\Orders Fact Table\Sort 3.Outputs[Sort Output].Columns[order_id_count]"
+                      dataType="ui8"
+                      lineageId="Package\Orders Fact Table\Sort 3.Outputs[Sort Output].Columns[order_id_count]"
+                      name="order_id_count">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Specifies the lineage identifier of the input column that is associated with this output column."
+                          name="SortColumnId">#{Package\Orders Fact Table\Aggregate.Outputs[group by].Columns[order_id_count]}</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Orders Fact Table\Sort 3.Outputs[Sort Output].Columns[order_id]"
+                      dataType="i2"
+                      lineageId="Package\Orders Fact Table\Sort 3.Outputs[Sort Output].Columns[order_id]"
+                      name="order_id"
+                      sortKeyPosition="1">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Specifies the lineage identifier of the input column that is associated with this output column."
+                          name="SortColumnId">#{Package\Orders Fact Table\Aggregate.Outputs[group by].Columns[order_id]}</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Orders Fact Table\Sort 3.Outputs[Sort Output].Columns[freight]"
+                      dataType="r4"
+                      lineageId="Package\Orders Fact Table\Sort 3.Outputs[Sort Output].Columns[freight]"
+                      name="freight">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Specifies the lineage identifier of the input column that is associated with this output column."
+                          name="SortColumnId">#{Package\Orders Fact Table\Aggregate.Outputs[group by].Columns[freight]}</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Orders Fact Table\Sort 3.Outputs[Sort Output].Columns[Freight_allocated]"
+                      dataType="r4"
+                      lineageId="Package\Orders Fact Table\Sort 3.Outputs[Sort Output].Columns[Freight_allocated]"
+                      name="Freight_allocated">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Specifies the lineage identifier of the input column that is associated with this output column."
+                          name="SortColumnId">#{Package\Orders Fact Table\Derived Column.Outputs[Derived Column Output].Columns[Freight_allocated]}</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Orders Fact Table\Sort 3.Outputs[Sort Output].Columns[Freight_allocated Int]"
+                      dataType="r8"
+                      lineageId="Package\Orders Fact Table\Sort 3.Outputs[Sort Output].Columns[Freight_allocated Int]"
+                      name="Freight_allocated Int">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Specifies the lineage identifier of the input column that is associated with this output column."
+                          name="SortColumnId">#{Package\Orders Fact Table\Data Conversion 1.Outputs[Data Conversion Output].Columns[Freight_allocated Int]}</property>
+                      </properties>
+                    </outputColumn>
+                  </outputColumns>
+                  <externalMetadataColumns />
+                </output>
+              </outputs>
+            </component>
           </components>
           <paths>
             <path
@@ -7761,10 +8901,25 @@ where "refTable"."shipper_id" = ?</property>
               name="Data Conversion Output"
               startId="Package\Orders Fact Table\Data Conversion.Outputs[Data Conversion Output]" />
             <path
+              refId="Package\Orders Fact Table.Paths[Data Conversion Output1]"
+              endId="Package\Orders Fact Table\Sort 3.Inputs[Sort Input]"
+              name="Data Conversion Output"
+              startId="Package\Orders Fact Table\Data Conversion 1.Outputs[Data Conversion Output]" />
+            <path
+              refId="Package\Orders Fact Table.Paths[Derived Column Output1]"
+              endId="Package\Orders Fact Table\Data Conversion 1.Inputs[Data Conversion Input]"
+              name="Derived Column Output"
+              startId="Package\Orders Fact Table\Derived Column.Outputs[Derived Column Output]" />
+            <path
               refId="Package\Orders Fact Table.Paths[Derived Column Output]"
-              endId="Package\Orders Fact Table\ODBC Destination.Inputs[ODBC Destination Input]"
+              endId="Package\Orders Fact Table\Multicast.Inputs[Multicast Input 1]"
               name="Derived Column Output"
               startId="Package\Orders Fact Table\Dates.Outputs[Derived Column Output]" />
+            <path
+              refId="Package\Orders Fact Table.Paths[group by]"
+              endId="Package\Orders Fact Table\Derived Column.Inputs[Derived Column Input]"
+              name="group by"
+              startId="Package\Orders Fact Table\Aggregate.Outputs[group by]" />
             <path
               refId="Package\Orders Fact Table.Paths[Lookup Match Output]"
               endId="Package\Orders Fact Table\customer.Inputs[Lookup Input]"
@@ -7786,30 +8941,50 @@ where "refTable"."shipper_id" = ?</property>
               name="Lookup Match Output"
               startId="Package\Orders Fact Table\Shipper.Outputs[Lookup Match Output]" />
             <path
+              refId="Package\Orders Fact Table.Paths[Merge Join Output1]"
+              endId="Package\Orders Fact Table\ODBC Destination.Inputs[ODBC Destination Input]"
+              name="Merge Join Output"
+              startId="Package\Orders Fact Table\Merge Join 1.Outputs[Merge Join Output]" />
+            <path
               refId="Package\Orders Fact Table.Paths[Merge Join Output]"
               endId="Package\Orders Fact Table\Data Conversion.Inputs[Data Conversion Input]"
               name="Merge Join Output"
               startId="Package\Orders Fact Table\Merge Join.Outputs[Merge Join Output]" />
             <path
-              refId="Package\Orders Fact Table.Paths[ODBC Source Output]"
-              endId="Package\Orders Fact Table\Sort 1.Inputs[Sort Input]"
-              name="ODBC Source Output"
-              startId="Package\Orders Fact Table\Orders.Outputs[ODBC Source Output]" />
+              refId="Package\Orders Fact Table.Paths[Multicast Output 1]"
+              endId="Package\Orders Fact Table\Aggregate.Inputs[Aggregate Input 1]"
+              name="Multicast Output 1"
+              startId="Package\Orders Fact Table\Multicast.Outputs[Multicast Output 1]" />
+            <path
+              refId="Package\Orders Fact Table.Paths[Multicast Output 2]"
+              endId="Package\Orders Fact Table\Merge Join 1.Inputs[Merge Join Left Input]"
+              name="Multicast Output 2"
+              startId="Package\Orders Fact Table\Multicast.Outputs[Multicast Output 2]" />
             <path
               refId="Package\Orders Fact Table.Paths[ODBC Source Output1]"
               endId="Package\Orders Fact Table\Sort.Inputs[Sort Input]"
               name="ODBC Source Output"
               startId="Package\Orders Fact Table\Order_details.Outputs[ODBC Source Output]" />
             <path
-              refId="Package\Orders Fact Table.Paths[Sort Output]"
-              endId="Package\Orders Fact Table\Merge Join.Inputs[Merge Join Right Input]"
+              refId="Package\Orders Fact Table.Paths[ODBC Source Output]"
+              endId="Package\Orders Fact Table\Sort 1.Inputs[Sort Input]"
+              name="ODBC Source Output"
+              startId="Package\Orders Fact Table\Orders.Outputs[ODBC Source Output]" />
+            <path
+              refId="Package\Orders Fact Table.Paths[Sort Output2]"
+              endId="Package\Orders Fact Table\Merge Join 1.Inputs[Merge Join Right Input]"
               name="Sort Output"
-              startId="Package\Orders Fact Table\Sort 1.Outputs[Sort Output]" />
+              startId="Package\Orders Fact Table\Sort 3.Outputs[Sort Output]" />
             <path
               refId="Package\Orders Fact Table.Paths[Sort Output1]"
               endId="Package\Orders Fact Table\Merge Join.Inputs[Merge Join Left Input]"
               name="Sort Output"
               startId="Package\Orders Fact Table\Sort.Outputs[Sort Output]" />
+            <path
+              refId="Package\Orders Fact Table.Paths[Sort Output]"
+              endId="Package\Orders Fact Table\Merge Join.Inputs[Merge Join Right Input]"
+              name="Sort Output"
+              startId="Package\Orders Fact Table\Sort 1.Outputs[Sort Output]" />
           </paths>
         </pipeline>
       </DTS:ObjectData>
@@ -11542,31 +12717,31 @@ where "refTable"."supplier_id" = ?</property>
       <GraphLayout
         Capacity="16" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
         <NodeLayout
-          Size="143.2,41.6"
+          Size="143,42"
           Id="Package\Customer dim"
           TopLeft="398.33331750499,273.866668843164" />
         <NodeLayout
-          Size="144,41.6"
+          Size="144,42"
           Id="Package\Employee dim"
           TopLeft="609.166642460559,185.466668140623" />
         <NodeLayout
-          Size="169.6,41.6"
+          Size="170,42"
           Id="Package\Execute SQL Task"
           TopLeft="189.500000298023,90.9999996900563" />
         <NodeLayout
-          Size="162.4,41.6"
+          Size="162,42"
           Id="Package\Orders Fact Table"
           TopLeft="192.000000794729,275.06666692151" />
         <NodeLayout
-          Size="139.2,41.6"
+          Size="139,42"
           Id="Package\Products dim"
           TopLeft="400.333325253593,185.133332066006" />
         <NodeLayout
-          Size="133.6,41.6"
+          Size="134,42"
           Id="Package\Shipper dim"
           TopLeft="616.666642162536,271.2666688225" />
         <NodeLayout
-          Size="136,41.6"
+          Size="136,42"
           Id="Package\Supplier dim"
           TopLeft="201.166666501098,182.733331239488" />
         <EdgeLayout
@@ -12360,77 +13535,81 @@ where "refTable"."supplier_id" = ?</property>
     design-time-name="Package\Orders Fact Table">
     <LayoutInfo>
       <GraphLayout
-        Capacity="32" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
+        Capacity="64" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
         <NodeLayout
-          Size="140.8,41.6"
-          Id="Package\Orders Fact Table\Order_details"
-          TopLeft="433.431623931624,21.8239312864372" />
-        <NodeLayout
-          Size="97.6,41.6"
-          Id="Package\Orders Fact Table\Sort"
-          TopLeft="454.098271624145,102.123933070338" />
-        <NodeLayout
-          Size="116.8,41.6"
-          Id="Package\Orders Fact Table\Product"
-          TopLeft="463.222222222222,337.756410256411" />
-        <NodeLayout
-          Size="106.4,41.6"
-          Id="Package\Orders Fact Table\Sort 1"
-          TopLeft="657.431596877739,100.39059972323" />
-        <NodeLayout
-          Size="156,41.6"
-          Id="Package\Orders Fact Table\Data Conversion"
-          TopLeft="442.095959595959,261.094794094794" />
-        <NodeLayout
-          Size="129.6,41.6"
-          Id="Package\Orders Fact Table\Merge Join"
-          TopLeft="547.816218951319,181.61064712158" />
-        <NodeLayout
-          Size="110.4,41.6"
-          Id="Package\Orders Fact Table\Orders"
-          TopLeft="655.098281061548,21.723931623932" />
-        <NodeLayout
-          Size="114.4,41.6"
+          Size="130,42"
           Id="Package\Orders Fact Table\Shipper"
-          TopLeft="711.333333333333,336.52307694374" />
+          TopLeft="715.333333333333,336.52307694374" />
         <NodeLayout
-          Size="163.2,41.6"
-          Id="Package\Orders Fact Table\ODBC Destination"
-          TopLeft="302.42425182853,433.939393801641" />
+          Size="156,42"
+          Id="Package\Orders Fact Table\Data Conversion"
+          TopLeft="446.095959595959,261.094794094794" />
         <NodeLayout
-          Size="124,41.6"
-          Id="Package\Orders Fact Table\customer"
-          TopLeft="193.666666666667,342.25641025641" />
+          Size="121,42"
+          Id="Package\Orders Fact Table\Orders"
+          TopLeft="659.098281061548,21.723931623932" />
         <NodeLayout
-          Size="127.2,41.6"
+          Size="127,42"
           Id="Package\Orders Fact Table\employee"
-          TopLeft="191.444444444444,264.034188034188" />
+          TopLeft="195.444444444444,264.034188034188" />
+        <NodeLayout
+          Size="118,42"
+          Id="Package\Orders Fact Table\Sort"
+          TopLeft="438.098271624145,102.123933070338" />
+        <NodeLayout
+          Size="114,42"
+          Id="Package\Orders Fact Table\Sort 1"
+          TopLeft="661.431596877739,100.39059972323" />
+        <NodeLayout
+          Size="130,42"
+          Id="Package\Orders Fact Table\Merge Join"
+          TopLeft="551.816218951319,181.61064712158" />
+        <NodeLayout
+          Size="148,42"
+          Id="Package\Orders Fact Table\Order_details"
+          TopLeft="429.931623931624,21.8239312864372" />
+        <NodeLayout
+          Size="169,42"
+          Id="Package\Orders Fact Table\ODBC Destination"
+          TopLeft="164.17425182853,641.689393801641" />
+        <NodeLayout
+          Size="106,42"
+          Id="Package\Orders Fact Table\Dates"
+          TopLeft="638.777760161294,428.072726280906" />
+        <NodeLayout
+          Size="117,42"
+          Id="Package\Orders Fact Table\Product"
+          TopLeft="467.222222222222,337.756410256411" />
+        <NodeLayout
+          Size="124,42"
+          Id="Package\Orders Fact Table\customer"
+          TopLeft="197.666666666667,342.25641025641" />
         <EdgeLayout
           Id="Package\Orders Fact Table.Paths[Sort Output1]"
-          TopLeft="502.898271624145,143.723933070338">
+          TopLeft="497.098271624145,144.123933070338">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="89.4512806605067,37.8867140512426"
+              EndConnector="99.3846139938406,37.486714051242"
               Start="0,0"
-              End="89.4512806605067,30.3867140512426">
+              End="99.3846139938406,29.986714051242">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,18.454808571834" />
+                    End="0,18.2185691185173" />
                   <mssgle:CubicBezierSegment
-                    Point1="0,18.454808571834"
-                    Point2="0,22.454808571834"
-                    Point3="4,22.454808571834" />
+                    Point1="0,18.2185691185173"
+                    Point2="0,22.2185691185173"
+                    Point3="4,22.2185691185173" />
                   <mssgle:LineSegment
-                    End="85.4512806605067,22.454808571834" />
+                    End="95.3846139938406,22.2185691185173" />
                   <mssgle:CubicBezierSegment
-                    Point1="85.4512806605067,22.454808571834"
-                    Point2="89.4512806605067,22.454808571834"
-                    Point3="89.4512806605067,26.454808571834" />
+                    Point1="95.3846139938406,22.2185691185173"
+                    Point2="99.3846139938406,22.2185691185173"
+                    Point3="99.3846139938406,26.2185691185173" />
                   <mssgle:LineSegment
-                    End="89.4512806605067,30.3867140512426" />
+                    End="99.3846139938406,29.986714051242" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -12441,30 +13620,30 @@ where "refTable"."supplier_id" = ?</property>
         </EdgeLayout>
         <EdgeLayout
           Id="Package\Orders Fact Table.Paths[Sort Output]"
-          TopLeft="710.631596877739,141.99059972323">
+          TopLeft="718.431596877739,142.39059972323">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="-77.7487112597537,39.6200473983505"
+              EndConnector="-81.2820445930867,39.22004739835"
               Start="0,0"
-              End="-77.7487112597537,32.1200473983505">
+              End="-81.2820445930867,31.72004739835">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,19.4821256531687" />
+                    End="0,19.2459247497819" />
                   <mssgle:CubicBezierSegment
-                    Point1="0,19.4821256531687"
-                    Point2="0,23.4821256531687"
-                    Point3="-4,23.4821256531687" />
+                    Point1="0,19.2459247497819"
+                    Point2="0,23.2459247497819"
+                    Point3="-4,23.2459247497819" />
                   <mssgle:LineSegment
-                    End="-73.7487112597537,23.4821256531687" />
+                    End="-77.2820445930867,23.2459247497819" />
                   <mssgle:CubicBezierSegment
-                    Point1="-73.7487112597537,23.4821256531687"
-                    Point2="-77.7487112597537,23.4821256531687"
-                    Point3="-77.7487112597537,27.4821256531687" />
+                    Point1="-77.2820445930867,23.2459247497819"
+                    Point2="-81.2820445930867,23.2459247497819"
+                    Point3="-81.2820445930867,27.2459247497819" />
                   <mssgle:LineSegment
-                    End="-77.7487112597537,32.1200473983505" />
+                    End="-81.2820445930867,31.72004739835" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -12475,18 +13654,18 @@ where "refTable"."supplier_id" = ?</property>
         </EdgeLayout>
         <EdgeLayout
           Id="Package\Orders Fact Table.Paths[ODBC Source Output1]"
-          TopLeft="503.364947777885,63.4239312864372">
+          TopLeft="500.514947777885,63.8239312864372">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="0,38.7000017839004"
+              EndConnector="0,38.3000017839008"
               Start="0,0"
-              End="0,31.2000017839004">
+              End="0,30.8000017839008">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,31.2000017839004" />
+                    End="0,30.8000017839008" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -12497,18 +13676,18 @@ where "refTable"."supplier_id" = ?</property>
         </EdgeLayout>
         <EdgeLayout
           Id="Package\Orders Fact Table.Paths[ODBC Source Output]"
-          TopLeft="710.464938969644,63.323931623932">
+          TopLeft="719.014938969643,63.723931623932">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="0,37.0666680992978"
+              EndConnector="0,36.666668099298"
               Start="0,0"
-              End="0,29.5666680992978">
+              End="0,29.166668099298">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,29.5666680992978" />
+                    End="0,29.166668099298" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -12519,7 +13698,7 @@ where "refTable"."supplier_id" = ?</property>
         </EdgeLayout>
         <EdgeLayout
           Id="Package\Orders Fact Table.Paths[Merge Join Output]"
-          TopLeft="612.616218951319,223.21064712158">
+          TopLeft="616.616218951319,223.21064712158">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
@@ -12552,32 +13731,68 @@ where "refTable"."supplier_id" = ?</property>
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\Orders Fact Table.Paths[Lookup Match Output2]"
-          TopLeft="580.022222222222,357.939743600076">
+          Id="Package\Orders Fact Table.Paths[Lookup Match Output3]"
+          TopLeft="780.333333333333,378.52307694374">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="131.311111111111,0"
+              EndConnector="-88.555573172039,49.549649337166"
               Start="0,0"
-              End="123.811111111111,0">
+              End="-88.555573172039,42.049649337166">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="123.811111111111,0" />
+                    End="0,20.774824668583" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,20.774824668583"
+                    Point2="0,24.774824668583"
+                    Point3="-4,24.774824668583" />
+                  <mssgle:LineSegment
+                    End="-84.555573172039,24.774824668583" />
+                  <mssgle:CubicBezierSegment
+                    Point1="-84.555573172039,24.774824668583"
+                    Point2="-88.555573172039,24.774824668583"
+                    Point3="-88.555573172039,28.774824668583" />
+                  <mssgle:LineSegment
+                    End="-88.555573172039,42.049649337166" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
             <mssgm:EdgeLabel
-              BoundingBox="13.7141688368055,5,96.3827734375,11.609375"
+              BoundingBox="-92.4691733047695,29.774824668583,96.3827734375,11.609375"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Orders Fact Table.Paths[Lookup Match Output2]"
+          TopLeft="584.222222222222,358.139743600076">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="131.111111111111,0"
+              Start="0,0"
+              End="123.611111111111,0">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="123.611111111111,0" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="13.6141688368055,5,96.3827734375,11.609375"
               RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
           Id="Package\Orders Fact Table.Paths[Lookup Match Output1]"
-          TopLeft="317.666666666667,360.80641025641">
+          TopLeft="321.666666666667,360.80641025641">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
@@ -12601,7 +13816,7 @@ where "refTable"."supplier_id" = ?</property>
         </EdgeLayout>
         <EdgeLayout
           Id="Package\Orders Fact Table.Paths[Lookup Match Output]"
-          TopLeft="255.355555555555,305.634188034188">
+          TopLeft="259.355555555555,305.634188034188">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
@@ -12625,7 +13840,7 @@ where "refTable"."supplier_id" = ?</property>
         </EdgeLayout>
         <EdgeLayout
           Id="Package\Orders Fact Table.Paths[Data Conversion Output]"
-          TopLeft="442.095959595959,283.364491064491">
+          TopLeft="446.095959595959,283.364491064491">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
@@ -12646,59 +13861,245 @@ where "refTable"."supplier_id" = ?</property>
           </EdgeLayout.Labels>
         </EdgeLayout>
         <NodeLayout
-          Size="105.6,41.6"
-          Id="Package\Orders Fact Table\Dates"
-          TopLeft="634.777760161294,428.072726280906" />
+          Size="130,42"
+          Id="Package\Orders Fact Table\Aggregate"
+          TopLeft="555,510" />
+        <NodeLayout
+          Size="123,42"
+          Id="Package\Orders Fact Table\Multicast"
+          TopLeft="432,431" />
         <EdgeLayout
-          Id="Package\Orders Fact Table.Paths[Lookup Match Output3]"
-          TopLeft="768.533333333333,378.12307694374">
+          Id="Package\Orders Fact Table.Paths[Derived Column Output]"
+          TopLeft="638.777760161294,450.536363140453">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="-80.955573172039,49.9496493371657"
+              EndConnector="-83.7777601612941,0"
               Start="0,0"
-              End="-80.955573172039,42.4496493371657">
+              End="-76.2777601612941,0">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,20.9748246685829" />
-                  <mssgle:CubicBezierSegment
-                    Point1="0,20.9748246685829"
-                    Point2="0,24.9748246685829"
-                    Point3="-4,24.9748246685829" />
-                  <mssgle:LineSegment
-                    End="-76.955573172039,24.9748246685829" />
-                  <mssgle:CubicBezierSegment
-                    Point1="-76.955573172039,24.9748246685829"
-                    Point2="-80.955573172039,24.9748246685829"
-                    Point3="-80.955573172039,28.9748246685829" />
-                  <mssgle:LineSegment
-                    End="-80.955573172039,42.4496493371657" />
+                    End="-76.2777601612941,0" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="-88.6691733047695,29.9748246685829,96.3827734375,11.609375"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\Orders Fact Table.Paths[Derived Column Output]"
-          TopLeft="634.777760161294,451.806060041273">
+          Id="Package\Orders Fact Table.Paths[Multicast Output 1]"
+          TopLeft="493.5,473">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="-169.153508332764,0"
+              EndConnector="126.5,37"
               Start="0,0"
-              End="-161.653508332764,0">
+              End="126.5,29.5">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="-161.653508332764,0" />
+                    End="0,14.5" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,14.5"
+                    Point2="0,18.5"
+                    Point3="4,18.5" />
+                  <mssgle:LineSegment
+                    End="122.5,18.5" />
+                  <mssgle:CubicBezierSegment
+                    Point1="122.5,18.5"
+                    Point2="126.5,18.5"
+                    Point3="126.5,22.5" />
+                  <mssgle:LineSegment
+                    End="126.5,29.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <NodeLayout
+          Size="158,42"
+          Id="Package\Orders Fact Table\Derived Column"
+          TopLeft="547,575" />
+        <EdgeLayout
+          Id="Package\Orders Fact Table.Paths[group by]"
+          TopLeft="623,552">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,23"
+              Start="0,0"
+              End="0,15.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,15.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <NodeLayout
+          Size="170,42"
+          Id="Package\Orders Fact Table\Data Conversion 1"
+          TopLeft="540,641" />
+        <EdgeLayout
+          Id="Package\Orders Fact Table.Paths[Derived Column Output1]"
+          TopLeft="625.5,617">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,24"
+              Start="0,0"
+              End="0,16.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,16.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <NodeLayout
+          Size="108,42"
+          Id="Package\Orders Fact Table\Sort 3"
+          TopLeft="362.25,640.75" />
+        <EdgeLayout
+          Id="Package\Orders Fact Table.Paths[Data Conversion Output1]"
+          TopLeft="540,661.875">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="-69.75,0"
+              Start="0,0"
+              End="-62.25,0">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="-62.25,0" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <NodeLayout
+          Size="142,42"
+          Id="Package\Orders Fact Table\Merge Join 1"
+          TopLeft="245,522" />
+        <EdgeLayout
+          Id="Package\Orders Fact Table.Paths[Multicast Output 2]"
+          TopLeft="474.333333333333,473">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="-158.333333333333,49"
+              Start="0,0"
+              End="-158.333333333333,41.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,15.9775280898876" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,15.9775280898876"
+                    Point2="0,19.9775280898876"
+                    Point3="-4,19.9775280898876" />
+                  <mssgle:LineSegment
+                    End="-154.333333333333,19.9775280898876" />
+                  <mssgle:CubicBezierSegment
+                    Point1="-154.333333333333,19.9775280898876"
+                    Point2="-158.333333333333,19.9775280898876"
+                    Point3="-158.333333333333,23.9775280898876" />
+                  <mssgle:LineSegment
+                    End="-158.333333333333,41.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Orders Fact Table.Paths[Sort Output2]"
+          TopLeft="416.25,640.75">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="-77.9166666666667,-76.75"
+              Start="0,0"
+              End="-77.9166666666667,-69.25">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,-41.5369080779944" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,-41.5369080779944"
+                    Point2="0,-45.5369080779944"
+                    Point3="-4,-45.5369080779944" />
+                  <mssgle:LineSegment
+                    End="-73.9166666666667,-45.5369080779944" />
+                  <mssgle:CubicBezierSegment
+                    Point1="-73.9166666666667,-45.5369080779944"
+                    Point2="-77.9166666666667,-45.5369080779944"
+                    Point3="-77.9166666666667,-49.5369080779944" />
+                  <mssgle:LineSegment
+                    End="-77.9166666666667,-69.25" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Orders Fact Table.Paths[Merge Join Output1]"
+          TopLeft="293.666666666667,564">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="-44.9924148381367,77.689393801641"
+              Start="0,0"
+              End="-44.9924148381367,70.189393801641">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,27.5951295126451" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,27.5951295126451"
+                    Point2="0,31.5951295126451"
+                    Point3="-4,31.5951295126451" />
+                  <mssgle:LineSegment
+                    End="-40.9924148381367,31.5951295126451" />
+                  <mssgle:CubicBezierSegment
+                    Point1="-40.9924148381367,31.5951295126451"
+                    Point2="-44.9924148381367,31.5951295126451"
+                    Point3="-44.9924148381367,35.5951295126451" />
+                  <mssgle:LineSegment
+                    End="-44.9924148381367,70.189393801641" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -12711,7 +14112,20 @@ where "refTable"."supplier_id" = ?</property>
     </LayoutInfo>
   </TaskHost>
   <PipelineComponentMetadata
-    design-time-name="Package\Orders Fact Table\Product">
+    design-time-name="Package\Orders Fact Table\ODBC Destination">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+      <Property>
+        <Name>TableInfoObjectType</Name>
+        <Value
+          type="q2:string">Table</Value>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <PipelineComponentMetadata
+    design-time-name="Package\Orders Fact Table\employee">
     <Properties>
       <Property>
         <Name>OverwriteParamsSQLProp</Name>
@@ -12721,13 +14135,21 @@ where "refTable"."supplier_id" = ?</property>
       <Property>
         <Name>UsedTableName</Name>
         <Value
-          type="q3:string">"public"."products_dim"</Value>
+          type="q3:string">"public"."employees_dim"</Value>
       </Property>
       <Property>
         <Name>TableInfoObjectType</Name>
         <Value
           type="q4:string">0</Value>
       </Property>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <PipelineComponentMetadata
+    design-time-name="Package\Orders Fact Table\Orders">
+    <Properties>
       <Property>
         <Name>DataSourceViewID</Name>
       </Property>
@@ -12757,15 +14179,25 @@ where "refTable"."supplier_id" = ?</property>
     </Properties>
   </PipelineComponentMetadata>
   <PipelineComponentMetadata
-    design-time-name="Package\Orders Fact Table\ODBC Destination">
+    design-time-name="Package\Orders Fact Table\Product">
     <Properties>
       <Property>
-        <Name>DataSourceViewID</Name>
+        <Name>OverwriteParamsSQLProp</Name>
+        <Value
+          type="q2:string">false</Value>
+      </Property>
+      <Property>
+        <Name>UsedTableName</Name>
+        <Value
+          type="q3:string">"public"."products_dim"</Value>
       </Property>
       <Property>
         <Name>TableInfoObjectType</Name>
         <Value
-          type="q2:string">Table</Value>
+          type="q4:string">0</Value>
+      </Property>
+      <Property>
+        <Name>DataSourceViewID</Name>
       </Property>
     </Properties>
   </PipelineComponentMetadata>
@@ -12781,29 +14213,6 @@ where "refTable"."supplier_id" = ?</property>
         <Name>UsedTableName</Name>
         <Value
           type="q3:string">"public"."customer_dim"</Value>
-      </Property>
-      <Property>
-        <Name>TableInfoObjectType</Name>
-        <Value
-          type="q4:string">0</Value>
-      </Property>
-      <Property>
-        <Name>DataSourceViewID</Name>
-      </Property>
-    </Properties>
-  </PipelineComponentMetadata>
-  <PipelineComponentMetadata
-    design-time-name="Package\Orders Fact Table\employee">
-    <Properties>
-      <Property>
-        <Name>OverwriteParamsSQLProp</Name>
-        <Value
-          type="q2:string">false</Value>
-      </Property>
-      <Property>
-        <Name>UsedTableName</Name>
-        <Value
-          type="q3:string">"public"."employees_dim"</Value>
       </Property>
       <Property>
         <Name>TableInfoObjectType</Name>
@@ -13125,17 +14534,17 @@ where "refTable"."supplier_id" = ?</property>
     design-time-name="Package\Shipper dim">
     <LayoutInfo>
       <GraphLayout
-        Capacity="8" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
+        Capacity="8" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
         <NodeLayout
-          Size="116.8,41.6"
+          Size="117,42"
           Id="Package\Shipper dim\Shipper"
           TopLeft="535.454545454546,67.9090909090909" />
         <NodeLayout
-          Size="171.2,41.6"
+          Size="171,42"
           Id="Package\Shipper dim\OLE DB Destination"
           TopLeft="247.272727272727,182.636363636364" />
         <NodeLayout
-          Size="156,41.6"
+          Size="156,42"
           Id="Package\Shipper dim\Data Conversion"
           TopLeft="515.454545454545,188.727272727273" />
         <EdgeLayout
@@ -13157,9 +14566,7 @@ where "refTable"."supplier_id" = ?</property>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -13181,9 +14588,7 @@ where "refTable"."supplier_id" = ?</property>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
       </GraphLayout>
@@ -13206,37 +14611,37 @@ where "refTable"."supplier_id" = ?</property>
     design-time-name="Package\Supplier dim">
     <LayoutInfo>
       <GraphLayout
-        Capacity="16" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
+        Capacity="16" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
         <NodeLayout
-          Size="120,41.6"
+          Size="120,42"
           Id="Package\Supplier dim\Union All"
           TopLeft="451.515133573552,244.121213749202" />
         <NodeLayout
-          Size="152,41.6"
+          Size="152,42"
           Id="Package\Supplier dim\OLE DB Source"
           TopLeft="234.999990661939,62.4000004959104" />
         <NodeLayout
-          Size="152.8,41.6"
+          Size="153,42"
           Id="Package\Supplier dim\Derived Column"
           TopLeft="306.666654480829,328.866669153108" />
         <NodeLayout
-          Size="156,41.6"
+          Size="156,42"
           Id="Package\Supplier dim\Data Conversion"
           TopLeft="299.090897206105,153.71515273677" />
         <NodeLayout
-          Size="171.2,41.6"
+          Size="171,42"
           Id="Package\Supplier dim\OLE DB Destination"
           TopLeft="54.9242402417496,323.806062757512" />
         <NodeLayout
-          Size="126.4,41.6"
+          Size="126,42"
           Id="Package\Supplier dim\Aggregate"
           TopLeft="552.424220472877,335.515153719199" />
         <NodeLayout
-          Size="140,41.6"
+          Size="140,42"
           Id="Package\Supplier dim\Excel Source"
           TopLeft="572.499977250895,58.6000002686183" />
         <NodeLayout
-          Size="164,41.6"
+          Size="164,42"
           Id="Package\Supplier dim\Data Conversion 1"
           TopLeft="542.575736015735,153.115151502629" />
         <EdgeLayout
@@ -13270,9 +14675,7 @@ where "refTable"."supplier_id" = ?</property>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -13294,9 +14697,7 @@ where "refTable"."supplier_id" = ?</property>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -13330,9 +14731,7 @@ where "refTable"."supplier_id" = ?</property>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -13366,9 +14765,7 @@ where "refTable"."supplier_id" = ?</property>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -13390,9 +14787,7 @@ where "refTable"."supplier_id" = ?</property>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -13426,9 +14821,7 @@ where "refTable"."supplier_id" = ?</property>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -13462,9 +14855,7 @@ where "refTable"."supplier_id" = ?</property>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
       </GraphLayout>

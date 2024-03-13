@@ -2,13 +2,13 @@
 <BuildLog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <ProjectInfo>
     <Name>Final_pipeline</Name>
-    <LastWriteTime>2024-03-12T12:25:25.5344481Z</LastWriteTime>
+    <LastWriteTime>2024-03-12T23:55:18.6780569Z</LastWriteTime>
     <LastKnownProtectionLevel>EncryptSensitiveWithUserKey</LastKnownProtectionLevel>
   </ProjectInfo>
   <LastBuildInfos>
     <ProjectBuildItemInfo>
       <Name>Pipeline.dtsx</Name>
-      <LastWriteTime>2024-03-12T12:25:09.2594141Z</LastWriteTime>
+      <LastWriteTime>2024-03-13T01:24:57.3348957Z</LastWriteTime>
       <LastKnownProtectionLevel>EncryptSensitiveWithUserKey</LastKnownProtectionLevel>
     </ProjectBuildItemInfo>
   </LastBuildInfos>

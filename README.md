@@ -8,7 +8,7 @@
    - Conducted in-depth data profiling of the "Northwind" database to identify data quality issues and anomalies.<br /> 
    - Documented and addressed missing values, data types, unique values, and data patterns within the dataset. <br />
 
-   ![oltp](https://github.com/Yasmeen-Shamakh/Northwind-DataWarehouse/assets/57462948/534e1e9d-ff35-4b9b-8eff-770fde6d77d9)
+   ![oltp](RESCOURCES/Northwind_ERD.jpeg)
 
 
 
@@ -38,7 +38,8 @@
 
 - **ETL Data Pipelines** <br />
    - Developed ETL data pipelines using SQL Server Integration Services **(SSIS)** to automate the extraction, transformation, and loading of data from the source database (OLTP) to the data warehouse (OLAP).
-        ![d1 (1)](RESCOURCES/CONTROL-FLOW.png)
+   
+        ![d1 (1)](RESCOURCES/CONTROL-FLOW.jpeg)
 
 
    - **Control Flow:**

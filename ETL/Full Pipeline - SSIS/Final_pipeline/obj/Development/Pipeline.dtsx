@@ -7,12 +7,12 @@
   DTS:CreatorName="DESKTOP-K4PGJ6D\Sherif"
   DTS:DTSID="{6AA65126-4C4B-4C86-8477-4E715CF2933D}"
   DTS:ExecutableType="Microsoft.Package"
-  DTS:LastModifiedProductVersion="16.0.5270.0"
+  DTS:LastModifiedProductVersion="16.0.5397.1"
   DTS:LocaleID="1033"
   DTS:ObjectName="Pipeline"
   DTS:PackageType="5"
-  DTS:VersionBuild="77"
-  DTS:VersionGUID="{85E28A35-5516-411D-8DDB-DF3419D9F45A}">
+  DTS:VersionBuild="79"
+  DTS:VersionGUID="{98820C0F-C2F5-4EB9-B148-667DACA3679D}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>
@@ -25,11 +25,11 @@
         <DTS:ConnectionManager
           DTS:ConnectRetryCount="1"
           DTS:ConnectRetryInterval="5"
-          DTS:ConnectionString="User ID=postgres;Initial Catalog=DWH_northwind;Provider=PGNP.1;">
+          DTS:ConnectionString="User ID=postgres;Initial Catalog=DWH_NORTHWIND;Provider=PGNP.1;">
           <DTS:Password
             DTS:Name="Password"
             Sensitive="1"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAnIV43oykVUGbJgCw0syruAAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAAC0cegj4Km7pqz8Zot5aT97reuDsHCwlOuIofFkQ/S7gwAAAAAOgAAAAAIAACAAAAD11890hO1+Bv41BT31RttHmq4IPBKrCNqjnHC3LOJifhAAAAC9kHBIjcQhFcsDF68jTmBiQAAAAJas7NETe3KQ7GrgkFTWig0qJe3D/94nuEUCPRadg1i7UcGiEGWiThD96K/a3OM1dRVXmUY8ZairxrQNHXk24BM</DTS:Password>
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAsq16FooHXEqZnsKfnYJ1xgAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAAB12qNiUWolwnLX9vLTL46OsSXLmlG/s8SRFRkEkjrkFAAAAAAOgAAAAAIAACAAAAD72yf2tv4+skcwMr7iVIqG9tml7yysnWL4sVAbpj1RthAAAAAK1Vy03S/pjgR4ElGHz+sDQAAAABa2/57N3lp5mz4ExbLgxJFmGWUq7HClGh7LiTGoKQQas1pvcbMS3kxZWswcQF2u8EM4z17H6K+n5LmijwI3IZ0</DTS:Password>
         </DTS:ConnectionManager>
       </DTS:ObjectData>
     </DTS:ConnectionManager>
@@ -46,7 +46,7 @@
           <DTS:Password
             DTS:Name="Password"
             Sensitive="1"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAnIV43oykVUGbJgCw0syruAAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAACKMtAh7bpH029cR0gwfXtY6fLdERUKZGVTvh7FO/vcTgAAAAAOgAAAAAIAACAAAABA+xV9XIicBDCGUxwXdQRt59tT0hL8Dav49ddRYABTgxAAAABZZlShCFAN9BcbD3JmxPyvQAAAACCZn4hKfuBMCBUp949IesaHKuB/s9CReBtM7ui2Y8AR8WebPI5hTXYU0FROs7QQcptyGBFmrDr6lHvTYRpNitM</DTS:Password>
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAsq16FooHXEqZnsKfnYJ1xgAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAABIUvjvLSVOBjXVtlhbiu2EBsMWfNqRmG9nCww1MWq8uwAAAAAOgAAAAAIAACAAAADHMpAYzw4val7GCO4CG3nZgQMh+iwPsnYU2KfIpt6qeRAAAACcOOHo7toAs1BQbm3ADHOIQAAAAO96tsOU1HBkkqjxpOZbAlieaHbbf0u5HCjD7h9dc5YpKx6/lD6zynvGQZi1LSo+qRDfciDME1RAcRY5sg+WIJE</DTS:Password>
         </DTS:ConnectionManager>
       </DTS:ObjectData>
     </DTS:ConnectionManager>
@@ -59,7 +59,7 @@
         <DTS:ConnectionManager
           DTS:ConnectRetryCount="0"
           DTS:ConnectRetryInterval="0"
-          DTS:ConnectionString="Provider=Microsoft.Jet.OLEDB.4.0;Data Source=D:\ITI\Projects\Data Warehouse\Northwind-Data-Warehouse\ETL\xx.Additional Data Sources\Customers.xls;Extended Properties=&quot;EXCEL 8.0;HDR=YES&quot;;" />
+          DTS:ConnectionString="Provider=Microsoft.Jet.OLEDB.4.0;Data Source=D:\dwh\Northwind-Data-Warehouse\ETL\xx.Additional Data Sources\Customers.xls;Extended Properties=&quot;EXCEL 8.0;HDR=YES&quot;;" />
       </DTS:ObjectData>
     </DTS:ConnectionManager>
     <DTS:ConnectionManager
@@ -71,7 +71,7 @@
         <DTS:ConnectionManager
           DTS:ConnectRetryCount="0"
           DTS:ConnectRetryInterval="0"
-          DTS:ConnectionString="Provider=Microsoft.Jet.OLEDB.4.0;Data Source=D:\ITI\Projects\Data Warehouse\Northwind-Data-Warehouse\ETL\xx.Additional Data Sources\SUPPLIERS.xls;Extended Properties=&quot;EXCEL 8.0;HDR=YES&quot;;" />
+          DTS:ConnectionString="Provider=Microsoft.Jet.OLEDB.4.0;Data Source=D:\dwh\Northwind-Data-Warehouse\ETL\xx.Additional Data Sources\SUPPLIERS.xls;Extended Properties=&quot;EXCEL 8.0;HDR=YES&quot;;" />
       </DTS:ObjectData>
     </DTS:ConnectionManager>
     <DTS:ConnectionManager
@@ -83,7 +83,43 @@
         <DTS:ConnectionManager
           DTS:ConnectRetryCount="0"
           DTS:ConnectRetryInterval="0"
-          DTS:ConnectionString="Provider=Microsoft.ACE.OLEDB.12.0;Data Source=D:\ITI\Projects\Data Warehouse\Northwind-Data-Warehouse\ETL\xx.Additional Data Sources\Employees.xlsx;Extended Properties=&quot;EXCEL 12.0 XML;HDR=YES&quot;;" />
+          DTS:ConnectionString="Provider=Microsoft.ACE.OLEDB.12.0;Data Source=D:\dwh\Northwind-Data-Warehouse\ETL\xx.Additional Data Sources\Employees.xlsx;Extended Properties=&quot;EXCEL 12.0 XML;HDR=YES&quot;;" />
+      </DTS:ObjectData>
+    </DTS:ConnectionManager>
+    <DTS:ConnectionManager
+      DTS:refId="Package.ConnectionManagers[Excel Connection Manager 3]"
+      DTS:CreationName="EXCEL"
+      DTS:DTSID="{21427EFE-8F91-4E3B-93C6-FFDB4C6B9F5F}"
+      DTS:ObjectName="Excel Connection Manager 3">
+      <DTS:ObjectData>
+        <DTS:ConnectionManager
+          DTS:ConnectRetryCount="0"
+          DTS:ConnectRetryInterval="0"
+          DTS:ConnectionString="Provider=Microsoft.Jet.OLEDB.4.0;Data Source=D:\dwh\Northwind-Data-Warehouse\ETL\xx.Additional Data Sources\SUPPLIERS.xls;Extended Properties=&quot;EXCEL 8.0;HDR=YES&quot;;" />
+      </DTS:ObjectData>
+    </DTS:ConnectionManager>
+    <DTS:ConnectionManager
+      DTS:refId="Package.ConnectionManagers[Excel Connection Manager 4]"
+      DTS:CreationName="EXCEL"
+      DTS:DTSID="{0AF3C702-2928-4713-9299-489283396080}"
+      DTS:ObjectName="Excel Connection Manager 4">
+      <DTS:ObjectData>
+        <DTS:ConnectionManager
+          DTS:ConnectRetryCount="0"
+          DTS:ConnectRetryInterval="0"
+          DTS:ConnectionString="Provider=Microsoft.ACE.OLEDB.16.0;Data Source=D:\dwh\Northwind-Data-Warehouse\ETL\xx.Additional Data Sources\SUPPLIERS.xls;Extended Properties=&quot;EXCEL 12.0 XML;HDR=YES&quot;;" />
+      </DTS:ObjectData>
+    </DTS:ConnectionManager>
+    <DTS:ConnectionManager
+      DTS:refId="Package.ConnectionManagers[Excel Connection Manager 5]"
+      DTS:CreationName="EXCEL"
+      DTS:DTSID="{8B951585-6D8B-43EC-B169-733FB7980D48}"
+      DTS:ObjectName="Excel Connection Manager 5">
+      <DTS:ObjectData>
+        <DTS:ConnectionManager
+          DTS:ConnectRetryCount="0"
+          DTS:ConnectRetryInterval="0"
+          DTS:ConnectionString="Provider=Microsoft.ACE.OLEDB.16.0;Data Source=D:\dwh\Northwind-Data-Warehouse\ETL\xx.Additional Data Sources\Customers.xls;Extended Properties=&quot;EXCEL 12.0 XML;HDR=YES&quot;;" />
       </DTS:ObjectData>
     </DTS:ConnectionManager>
     <DTS:ConnectionManager
@@ -93,11 +129,11 @@
       DTS:ObjectName="PostgreSQL-DWH-Unicode.postgres">
       <DTS:ObjectData>
         <DTS:ConnectionManager
-          DTS:ConnectionString="uid=postgres;Dsn=PostgreSQL-DWH-Unicode;">
+          DTS:ConnectionString="uid=postgres;Dsn=PostgreSQL35W;">
           <DTS:Password
             DTS:Name="pwd"
             Sensitive="1"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAnIV43oykVUGbJgCw0syruAAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAAAJf0oJunLjy6Waur55Pqv2QnY+fuJHIqlZea4xA8RCHwAAAAAOgAAAAAIAACAAAAB+bWhukaEpW8gAekHwOYwncVN+n7IX8p1ZztVpmVq+4xAAAAAOuyjn5zfxwPKUVDfHUauqQAAAAPSpUq1xPqxbUQgtqxN0i4iX1GlB4bIKOuym4/fYjrlr/o8GrL+elRgWYYbUiMCk+8kB2Qanrqj06CQSOmmSTS0</DTS:Password>
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAsq16FooHXEqZnsKfnYJ1xgAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAADtYW24j8MT3TBbhneiP3Uz0A3malUQqnZqVs8/mzrNZwAAAAAOgAAAAAIAACAAAAC1XWwV8b+Z3Uy5Ix8h8X8NTnKENJQqnQRsnyAHwOzE6RAAAADsy0IPl61sHRIOKRzz+skoQAAAALHOCBo91ZLC+8/Gmvgn/2J3caGyKOYjbYk5T3elzf1c1jakdnqWTpmR4QNbJbUjCXX+aWpXVwDHXJcUwyAEamI</DTS:Password>
         </DTS:ConnectionManager>
       </DTS:ObjectData>
     </DTS:ConnectionManager>
@@ -112,7 +148,7 @@
           <DTS:Password
             DTS:Name="pwd"
             Sensitive="1"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAnIV43oykVUGbJgCw0syruAAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAAA0Wo39YS/EvMBxIibF3FX+oJwDU0LFYId+tmbGKALUmwAAAAAOgAAAAAIAACAAAABlF7oQVJndOlAOIiPWk71p6ZWFlicgtAYz4Kv1HxvBRhAAAAAR1LZuVqyaTQFDY19G9hjiQAAAAAoDBBCwRwUg7eliSm3nlVIDxWD/xNfnsDq7PeCx/6qa4em9VjQQCEEuD6qQ8dPFi3Ejr0icDs6sLhBzH5h9BXw</DTS:Password>
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAsq16FooHXEqZnsKfnYJ1xgAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAAAC2IfWa82FJvAn2EuagBOdGbm+hgxi9FS11At9e7TbdQAAAAAOgAAAAAIAACAAAACX61DOn9mjSuaE+1S1igsgjs90o8LlF66hpryk01fBWhAAAACp7tcTiOaVdfhdnObdEoiBQAAAAJ6n+hR5894U9iC6/dZiogun5YQfYTwKWoO9FmV9Pk63WLQbuqI+P7XbMYeC7qmS+tz7l4H7B59LFKBdQKlwRuw</DTS:Password>
         </DTS:ConnectionManager>
       </DTS:ObjectData>
     </DTS:ConnectionManager>
@@ -904,7 +940,8 @@
                       lineageId="Package\Customer dim\OLE DB Source 1.Outputs[OLE DB Source Output].Columns[region]" />
                     <inputColumn
                       refId="Package\Customer dim\Data Conversion 1.Inputs[Data Conversion Input].Columns[customer_id]"
-                      cachedDataType="nText"
+                      cachedDataType="wstr"
+                      cachedLength="40"
                       cachedName="customer_id"
                       lineageId="Package\Customer dim\OLE DB Source 1.Outputs[OLE DB Source Output].Columns[customer_id]" />
                     <inputColumn
@@ -1572,8 +1609,8 @@
               <connections>
                 <connection
                   refId="Package\Customer dim\Excel Source.Connections[OleDbConnection]"
-                  connectionManagerID="Package.ConnectionManagers[Excel Connection Manager]"
-                  connectionManagerRefId="Package.ConnectionManagers[Excel Connection Manager]"
+                  connectionManagerID="Package.ConnectionManagers[Excel Connection Manager 5]"
+                  connectionManagerRefId="Package.ConnectionManagers[Excel Connection Manager 5]"
                   description="The OLE DB runtime connection used to access the database."
                   name="OleDbConnection" />
               </connections>
@@ -2108,10 +2145,11 @@
                   <outputColumns>
                     <outputColumn
                       refId="Package\Customer dim\OLE DB Source 1.Outputs[OLE DB Source Output].Columns[customer_id]"
-                      dataType="nText"
+                      dataType="wstr"
                       errorOrTruncationOperation="Conversion"
                       errorRowDisposition="FailComponent"
                       externalMetadataColumnId="Package\Customer dim\OLE DB Source 1.Outputs[OLE DB Source Output].ExternalColumns[customer_id]"
+                      length="40"
                       lineageId="Package\Customer dim\OLE DB Source 1.Outputs[OLE DB Source Output].Columns[customer_id]"
                       name="customer_id"
                       truncationRowDisposition="FailComponent" />
@@ -2190,7 +2228,8 @@
                     isUsed="True">
                     <externalMetadataColumn
                       refId="Package\Customer dim\OLE DB Source 1.Outputs[OLE DB Source Output].ExternalColumns[customer_id]"
-                      dataType="nText"
+                      dataType="wstr"
+                      length="40"
                       name="customer_id" />
                     <externalMetadataColumn
                       refId="Package\Customer dim\OLE DB Source 1.Outputs[OLE DB Source Output].ExternalColumns[company_name]"
@@ -2251,7 +2290,8 @@
                   <outputColumns>
                     <outputColumn
                       refId="Package\Customer dim\OLE DB Source 1.Outputs[OLE DB Source Error Output].Columns[customer_id]"
-                      dataType="nText"
+                      dataType="wstr"
+                      length="40"
                       lineageId="Package\Customer dim\OLE DB Source 1.Outputs[OLE DB Source Error Output].Columns[customer_id]"
                       name="customer_id" />
                     <outputColumn
@@ -7750,6 +7790,10 @@ where "refTable"."emp_id" = ?</property>
                       refId="Package\Orders Fact Table\ODBC Destination.Inputs[ODBC Destination Input].ExternalColumns[freight]"
                       dataType="r8"
                       name="freight" />
+                    <externalMetadataColumn
+                      refId="Package\Orders Fact Table\ODBC Destination.Inputs[ODBC Destination Input].ExternalColumns[order_sur]"
+                      dataType="i4"
+                      name="order_sur" />
                   </externalMetadataColumns>
                 </input>
               </inputs>
@@ -9542,24 +9586,24 @@ where "refTable"."shipper_id" = ?</property>
               startId="Package\Orders Fact Table\Aggregate.Outputs[group by]" />
             <path
               refId="Package\Orders Fact Table.Paths[Lookup Match Output2]"
-              endId="Package\Orders Fact Table\Shipper.Inputs[Lookup Input]"
-              name="Lookup Match Output"
-              startId="Package\Orders Fact Table\Product.Outputs[Lookup Match Output]" />
-            <path
-              refId="Package\Orders Fact Table.Paths[Lookup Match Output3]"
-              endId="Package\Orders Fact Table\Dates.Inputs[Derived Column Input]"
-              name="Lookup Match Output"
-              startId="Package\Orders Fact Table\Shipper.Outputs[Lookup Match Output]" />
-            <path
-              refId="Package\Orders Fact Table.Paths[Lookup Match Output]"
               endId="Package\Orders Fact Table\customer.Inputs[Lookup Input]"
               name="Lookup Match Output"
               startId="Package\Orders Fact Table\employee.Outputs[Lookup Match Output]" />
             <path
-              refId="Package\Orders Fact Table.Paths[Lookup Match Output1]"
+              refId="Package\Orders Fact Table.Paths[Lookup Match Output3]"
               endId="Package\Orders Fact Table\Product.Inputs[Lookup Input]"
               name="Lookup Match Output"
               startId="Package\Orders Fact Table\customer.Outputs[Lookup Match Output]" />
+            <path
+              refId="Package\Orders Fact Table.Paths[Lookup Match Output]"
+              endId="Package\Orders Fact Table\Shipper.Inputs[Lookup Input]"
+              name="Lookup Match Output"
+              startId="Package\Orders Fact Table\Product.Outputs[Lookup Match Output]" />
+            <path
+              refId="Package\Orders Fact Table.Paths[Lookup Match Output1]"
+              endId="Package\Orders Fact Table\Dates.Inputs[Derived Column Input]"
+              name="Lookup Match Output"
+              startId="Package\Orders Fact Table\Shipper.Outputs[Lookup Match Output]" />
             <path
               refId="Package\Orders Fact Table.Paths[Merge Join Output]"
               endId="Package\Orders Fact Table\ODBC Destination.Inputs[ODBC Destination Input]"
@@ -9592,14 +9636,14 @@ where "refTable"."shipper_id" = ?</property>
               startId="Package\Orders Fact Table\Orders.Outputs[ODBC Source Output]" />
             <path
               refId="Package\Orders Fact Table.Paths[Sort Output1]"
-              endId="Package\Orders Fact Table\Merge Join.Inputs[Merge Join Left Input]"
-              name="Sort Output"
-              startId="Package\Orders Fact Table\Sort.Outputs[Sort Output]" />
-            <path
-              refId="Package\Orders Fact Table.Paths[Sort Output]"
               endId="Package\Orders Fact Table\Merge Join 1.Inputs[Merge Join Right Input]"
               name="Sort Output"
               startId="Package\Orders Fact Table\Sort 3.Outputs[Sort Output]" />
+            <path
+              refId="Package\Orders Fact Table.Paths[Sort Output]"
+              endId="Package\Orders Fact Table\Merge Join.Inputs[Merge Join Left Input]"
+              name="Sort Output"
+              startId="Package\Orders Fact Table\Sort.Outputs[Sort Output]" />
             <path
               refId="Package\Orders Fact Table.Paths[Sort Output2]"
               endId="Package\Orders Fact Table\Merge Join.Inputs[Merge Join Right Input]"
@@ -12461,8 +12505,8 @@ where "refTable"."supplier_id" = ?</property>
               <connections>
                 <connection
                   refId="Package\Supplier dim\Excel Source.Connections[OleDbConnection]"
-                  connectionManagerID="Package.ConnectionManagers[Excel Connection Manager 1]"
-                  connectionManagerRefId="Package.ConnectionManagers[Excel Connection Manager 1]"
+                  connectionManagerID="Package.ConnectionManagers[Excel Connection Manager 4]"
+                  connectionManagerRefId="Package.ConnectionManagers[Excel Connection Manager 4]"
                   description="The OLE DB runtime connection used to access the database."
                   name="OleDbConnection" />
               </connections>
@@ -13337,31 +13381,31 @@ where "refTable"."supplier_id" = ?</property>
       <GraphLayout
         Capacity="16" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
         <NodeLayout
-          Size="143.2,41.6"
+          Size="143,41.5"
           Id="Package\Customer dim"
           TopLeft="398.33331750499,273.866668843164" />
         <NodeLayout
-          Size="144,41.6"
+          Size="144,41.5"
           Id="Package\Employee dim"
           TopLeft="609.166642460559,185.466668140623" />
         <NodeLayout
-          Size="169.6,41.6"
+          Size="169.5,41.5"
           Id="Package\Execute SQL Task"
           TopLeft="189.500000298023,90.9999996900563" />
         <NodeLayout
-          Size="161.6,41.6"
+          Size="161.5,41.5"
           Id="Package\Orders Fact Table"
           TopLeft="192.000000794729,275.06666692151" />
         <NodeLayout
-          Size="139.2,41.6"
+          Size="139,41.5"
           Id="Package\Products dim"
           TopLeft="400.333325253593,185.133332066006" />
         <NodeLayout
-          Size="134.4,41.6"
+          Size="134.5,41.5"
           Id="Package\Shipper dim"
           TopLeft="616.666642162536,271.2666688225" />
         <NodeLayout
-          Size="136,41.6"
+          Size="136,41.5"
           Id="Package\Supplier dim"
           TopLeft="201.166666501098,182.733331239488" />
         <EdgeLayout
@@ -13505,51 +13549,51 @@ where "refTable"."supplier_id" = ?</property>
       <GraphLayout
         Capacity="32" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
         <NodeLayout
-          Size="140.8,41.6"
+          Size="141,41.5"
           Id="Package\Customer dim\Replace nulls"
           TopLeft="740,482.4" />
         <NodeLayout
-          Size="171.2,41.6"
+          Size="171,41.5"
           Id="Package\Customer dim\OLE DB Destination"
           TopLeft="729.428571428571,393.130950924246" />
         <NodeLayout
-          Size="160.8,41.6"
+          Size="161,41.5"
           Id="Package\Customer dim\OLE DB Source 1"
           TopLeft="128,44.4166663169033" />
         <NodeLayout
-          Size="155.2,41.6"
+          Size="155,41.5"
           Id="Package\Customer dim\Conditional Split"
           TopLeft="73,408" />
         <NodeLayout
-          Size="120.8,41.6"
+          Size="121,41.5"
           Id="Package\Customer dim\Union All"
           TopLeft="315,329" />
         <NodeLayout
-          Size="140.8,41.6"
+          Size="141,41.5"
           Id="Package\Customer dim\Excel Source"
           TopLeft="663,39.291666486404" />
         <NodeLayout
-          Size="107.2,41.6"
+          Size="107,41.5"
           Id="Package\Customer dim\Sort 1"
           TopLeft="302,486.541665146541" />
         <NodeLayout
-          Size="153.6,41.6"
+          Size="153.5,41.5"
           Id="Package\Customer dim\Derived Column"
           TopLeft="583,147" />
         <NodeLayout
-          Size="166.4,41.6"
+          Size="166.5,41.5"
           Id="Package\Customer dim\Data Conversion 2"
           TopLeft="492.857142857143,488.392855355605" />
         <NodeLayout
-          Size="164,41.6"
+          Size="164,41.5"
           Id="Package\Customer dim\Data Conversion 1"
           TopLeft="205,186" />
         <NodeLayout
-          Size="156,41.6"
+          Size="156,41.5"
           Id="Package\Customer dim\Data Conversion"
           TopLeft="617,287" />
         <NodeLayout
-          Size="127.2,41.6"
+          Size="127,41.5"
           Id="Package\Customer dim\Aggregate"
           TopLeft="128,343" />
         <EdgeLayout
@@ -13906,101 +13950,41 @@ where "refTable"."supplier_id" = ?</property>
       <GraphLayout
         Capacity="16" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
         <NodeLayout
-          Size="97.6,41.6"
-          Id="Package\Employee dim\Sort"
-          TopLeft="527.5,458.375000912075" />
-        <NodeLayout
-          Size="166.4,41.6"
-          Id="Package\Employee dim\Data Conversion 2"
-          TopLeft="346,555.083331971947" />
-        <NodeLayout
-          Size="150.4,41.6"
-          Id="Package\Employee dim\OLE DB Source"
-          TopLeft="140,207.291666873834" />
-        <NodeLayout
-          Size="181.6,41.6"
-          Id="Package\Employee dim\OLE DB Destination 1"
-          TopLeft="140,645.229164634003" />
-        <NodeLayout
-          Size="140.8,41.6"
+          Size="141,41.5"
           Id="Package\Employee dim\Replace nulls"
           TopLeft="164,558.4" />
         <NodeLayout
-          Size="120.8,41.6"
+          Size="165,41.5"
+          Id="Package\Employee dim\Data Conversion 1"
+          TopLeft="134,307.291666873834" />
+        <NodeLayout
+          Size="121,41.5"
           Id="Package\Employee dim\Union All"
           TopLeft="315,414.291666873834" />
         <NodeLayout
-          Size="164.8,41.6"
-          Id="Package\Employee dim\Data Conversion 1"
-          TopLeft="134,307.291666873834" />
-        <EdgeLayout
-          Id="Package\Employee dim.Paths[Union All Output 1]"
-          TopLeft="435.8,435.091666873834">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="91.7,44.083334038241"
-              Start="0,0"
-              End="84.2,44.083334038241">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="41.85,0" />
-                  <mssgle:CubicBezierSegment
-                    Point1="41.85,0"
-                    Point2="45.85,0"
-                    Point3="45.85,4" />
-                  <mssgle:LineSegment
-                    End="45.85,40.083334038241" />
-                  <mssgle:CubicBezierSegment
-                    Point1="45.85,40.083334038241"
-                    Point2="45.85,44.083334038241"
-                    Point3="49.85,44.083334038241" />
-                  <mssgle:LineSegment
-                    End="84.2,44.083334038241" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
-          Id="Package\Employee dim.Paths[Sort Output]"
-          TopLeft="576.3,499.975000912075">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="-147.1,55.108331059872"
-              Start="0,0"
-              End="-147.1,47.608331059872">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,23.554165529936" />
-                  <mssgle:CubicBezierSegment
-                    Point1="0,23.554165529936"
-                    Point2="0,27.554165529936"
-                    Point3="-4,27.554165529936" />
-                  <mssgle:LineSegment
-                    End="-143.1,27.554165529936" />
-                  <mssgle:CubicBezierSegment
-                    Point1="-143.1,27.554165529936"
-                    Point2="-147.1,27.554165529936"
-                    Point3="-147.1,31.554165529936" />
-                  <mssgle:LineSegment
-                    End="-147.1,47.608331059872" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
+          Size="150.5,41.5"
+          Id="Package\Employee dim\OLE DB Source"
+          TopLeft="140,207.291666873834" />
+        <NodeLayout
+          Size="166.5,41.5"
+          Id="Package\Employee dim\Data Conversion 2"
+          TopLeft="346,555.083331971947" />
+        <NodeLayout
+          Size="97.5,41.5"
+          Id="Package\Employee dim\Sort"
+          TopLeft="527.5,458.375000912075" />
+        <NodeLayout
+          Size="141,41.5"
+          Id="Package\Employee dim\Excel Source"
+          TopLeft="474.1,204.291666873834" />
+        <NodeLayout
+          Size="156,41.5"
+          Id="Package\Employee dim\Data Conversion"
+          TopLeft="469.1,314.041667083692" />
+        <NodeLayout
+          Size="181.5,41.5"
+          Id="Package\Employee dim\OLE DB Destination 1"
+          TopLeft="140,645.229164634003" />
         <EdgeLayout
           Id="Package\Employee dim.Paths[OLE DB Source Output]"
           TopLeft="215.8,248.891666873834">
@@ -14015,6 +13999,28 @@ where "refTable"."supplier_id" = ?</property>
                   Capacity="5">
                   <mssgle:LineSegment
                     End="0,50.8999999999998" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Employee dim.Paths[Excel Source Output]"
+          TopLeft="545.8,245.891666873834">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,68.150000209858"
+              Start="0,0"
+              End="0,60.650000209858">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,60.650000209858" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -14101,28 +14107,66 @@ where "refTable"."supplier_id" = ?</property>
             <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
-        <NodeLayout
-          Size="140.8,41.6"
-          Id="Package\Employee dim\Excel Source"
-          TopLeft="474.1,204.291666873834" />
-        <NodeLayout
-          Size="156,41.6"
-          Id="Package\Employee dim\Data Conversion"
-          TopLeft="469.1,314.041667083692" />
         <EdgeLayout
-          Id="Package\Employee dim.Paths[Excel Source Output]"
-          TopLeft="545.8,245.891666873834">
+          Id="Package\Employee dim.Paths[Union All Output 1]"
+          TopLeft="435.8,435.091666873834">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="0,68.150000209858"
+              EndConnector="91.7,44.083334038241"
               Start="0,0"
-              End="0,60.650000209858">
+              End="84.2,44.083334038241">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,60.650000209858" />
+                    End="41.85,0" />
+                  <mssgle:CubicBezierSegment
+                    Point1="41.85,0"
+                    Point2="45.85,0"
+                    Point3="45.85,4" />
+                  <mssgle:LineSegment
+                    End="45.85,40.083334038241" />
+                  <mssgle:CubicBezierSegment
+                    Point1="45.85,40.083334038241"
+                    Point2="45.85,44.083334038241"
+                    Point3="49.85,44.083334038241" />
+                  <mssgle:LineSegment
+                    End="84.2,44.083334038241" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Employee dim.Paths[Sort Output]"
+          TopLeft="576.3,499.975000912075">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="-147.1,55.108331059872"
+              Start="0,0"
+              End="-147.1,47.608331059872">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,23.554165529936" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,23.554165529936"
+                    Point2="0,27.554165529936"
+                    Point3="-4,27.554165529936" />
+                  <mssgle:LineSegment
+                    End="-143.1,27.554165529936" />
+                  <mssgle:CubicBezierSegment
+                    Point1="-143.1,27.554165529936"
+                    Point2="-147.1,27.554165529936"
+                    Point3="-147.1,31.554165529936" />
+                  <mssgle:LineSegment
+                    End="-147.1,47.608331059872" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -14139,6 +14183,19 @@ where "refTable"."supplier_id" = ?</property>
     <Properties>
       <Property>
         <Name>DataSourceViewID</Name>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <PipelineComponentMetadata
+    design-time-name="Package\Employee dim\Excel Source">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+      <Property>
+        <Name>TableInfoObjectType</Name>
+        <Value
+          type="q2:string">Table</Value>
       </Property>
     </Properties>
   </PipelineComponentMetadata>
@@ -14161,79 +14218,79 @@ where "refTable"."supplier_id" = ?</property>
       <GraphLayout
         Capacity="64" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
         <NodeLayout
-          Size="127.2,41.6"
+          Size="127,41.5"
           Id="Package\Orders Fact Table\employee"
           TopLeft="195.444444444444,264.034188034188" />
         <NodeLayout
-          Size="169.6,41.6"
+          Size="169.5,41.5"
           Id="Package\Orders Fact Table\Data Conversion 1"
           TopLeft="540,641" />
         <NodeLayout
-          Size="142.4,41.6"
-          Id="Package\Orders Fact Table\Merge Join 1"
-          TopLeft="245,522" />
-        <NodeLayout
-          Size="113.6,41.6"
-          Id="Package\Orders Fact Table\Sort 1"
-          TopLeft="661.431596877739,100.39059972323" />
-        <NodeLayout
-          Size="123.2,41.6"
-          Id="Package\Orders Fact Table\Multicast"
-          TopLeft="432,431" />
-        <NodeLayout
-          Size="168.8,41.6"
-          Id="Package\Orders Fact Table\ODBC Destination"
-          TopLeft="164.17425182853,641.689393801641" />
-        <NodeLayout
-          Size="120.8,41.6"
-          Id="Package\Orders Fact Table\Orders"
-          TopLeft="659.098281061548,21.723931623932" />
-        <NodeLayout
-          Size="158.4,41.6"
-          Id="Package\Orders Fact Table\Derived Column"
-          TopLeft="547,575" />
-        <NodeLayout
-          Size="129.6,41.6"
-          Id="Package\Orders Fact Table\Merge Join"
-          TopLeft="551.816218951319,181.61064712158" />
-        <NodeLayout
-          Size="116.8,41.6"
-          Id="Package\Orders Fact Table\Product"
-          TopLeft="467.222222222222,337.756410256411" />
-        <NodeLayout
-          Size="156,41.6"
-          Id="Package\Orders Fact Table\Data Conversion"
-          TopLeft="446.095959595959,261.094794094794" />
-        <NodeLayout
-          Size="118.4,41.6"
+          Size="118.5,41.5"
           Id="Package\Orders Fact Table\Sort"
           TopLeft="438.098271624145,102.123933070338" />
         <NodeLayout
-          Size="129.6,41.6"
-          Id="Package\Orders Fact Table\Shipper"
-          TopLeft="715.333333333333,336.52307694374" />
+          Size="142.5,41.5"
+          Id="Package\Orders Fact Table\Merge Join 1"
+          TopLeft="245,522" />
         <NodeLayout
-          Size="108,41.6"
+          Size="123,41.5"
+          Id="Package\Orders Fact Table\Multicast"
+          TopLeft="432,431" />
+        <NodeLayout
+          Size="169,41.5"
+          Id="Package\Orders Fact Table\ODBC Destination"
+          TopLeft="164.17425182853,641.689393801641" />
+        <NodeLayout
+          Size="108,41.5"
           Id="Package\Orders Fact Table\Sort 3"
           TopLeft="362.25,640.75" />
         <NodeLayout
-          Size="105.6,41.6"
-          Id="Package\Orders Fact Table\Dates"
-          TopLeft="638.777760161294,428.072726280906" />
+          Size="113.5,41.5"
+          Id="Package\Orders Fact Table\Sort 1"
+          TopLeft="661.431596877739,100.39059972323" />
         <NodeLayout
-          Size="124,41.6"
-          Id="Package\Orders Fact Table\customer"
-          TopLeft="197.666666666667,342.25641025641" />
+          Size="158.5,41.5"
+          Id="Package\Orders Fact Table\Derived Column"
+          TopLeft="547,575" />
         <NodeLayout
-          Size="148,41.6"
+          Size="129.5,41.5"
+          Id="Package\Orders Fact Table\Merge Join"
+          TopLeft="551.816218951319,181.61064712158" />
+        <NodeLayout
+          Size="148,41.5"
           Id="Package\Orders Fact Table\Order_details"
           TopLeft="429.931623931624,21.8239312864372" />
         <NodeLayout
-          Size="129.6,41.6"
+          Size="117,41.5"
+          Id="Package\Orders Fact Table\Product"
+          TopLeft="467.222222222222,337.756410256411" />
+        <NodeLayout
+          Size="156,41.5"
+          Id="Package\Orders Fact Table\Data Conversion"
+          TopLeft="446.095959595959,261.094794094794" />
+        <NodeLayout
+          Size="129.5,41.5"
+          Id="Package\Orders Fact Table\Shipper"
+          TopLeft="715.333333333333,336.52307694374" />
+        <NodeLayout
+          Size="105.5,41.5"
+          Id="Package\Orders Fact Table\Dates"
+          TopLeft="638.777760161294,428.072726280906" />
+        <NodeLayout
+          Size="124,41.5"
+          Id="Package\Orders Fact Table\customer"
+          TopLeft="197.666666666667,342.25641025641" />
+        <NodeLayout
+          Size="129.5,41.5"
           Id="Package\Orders Fact Table\Aggregate"
           TopLeft="555,510" />
+        <NodeLayout
+          Size="121,41.5"
+          Id="Package\Orders Fact Table\Orders"
+          TopLeft="659.098281061548,21.723931623932" />
         <EdgeLayout
-          Id="Package\Orders Fact Table.Paths[Sort Output1]"
+          Id="Package\Orders Fact Table.Paths[Sort Output]"
           TopLeft="497.098271624145,144.123933070338">
           <EdgeLayout.Curve>
             <mssgle:Curve
@@ -14258,6 +14315,40 @@ where "refTable"."supplier_id" = ?</property>
                     Point3="99.3846139938406,26.2185691185173" />
                   <mssgle:LineSegment
                     End="99.3846139938406,29.986714051242" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Orders Fact Table.Paths[Sort Output1]"
+          TopLeft="416.25,640.75">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="-77.9166666666667,-76.75"
+              Start="0,0"
+              End="-77.9166666666667,-69.25">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,-41.5369080779944" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,-41.5369080779944"
+                    Point2="0,-45.5369080779944"
+                    Point3="-4,-45.5369080779944" />
+                  <mssgle:LineSegment
+                    End="-73.9166666666667,-45.5369080779944" />
+                  <mssgle:CubicBezierSegment
+                    Point1="-73.9166666666667,-45.5369080779944"
+                    Point2="-77.9166666666667,-45.5369080779944"
+                    Point3="-77.9166666666667,-49.5369080779944" />
+                  <mssgle:LineSegment
+                    End="-77.9166666666667,-69.25" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -14448,54 +14539,6 @@ where "refTable"."supplier_id" = ?</property>
         </EdgeLayout>
         <EdgeLayout
           Id="Package\Orders Fact Table.Paths[Lookup Match Output1]"
-          TopLeft="321.666666666667,360.80641025641">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="145.555555555556,0"
-              Start="0,0"
-              End="138.055555555556,0">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="138.055555555556,0" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="20.836391059028,5,96.3827734375,11.609375"
-              RelativePosition="Any" />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
-          Id="Package\Orders Fact Table.Paths[Lookup Match Output]"
-          TopLeft="259.355555555555,305.634188034188">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="0,36.622222222222"
-              Start="0,0"
-              End="0,29.122222222222">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,29.122222222222" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="-48.19138671875,8.756423611111,96.3827734375,11.609375"
-              RelativePosition="Any" />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
-          Id="Package\Orders Fact Table.Paths[Lookup Match Output3]"
           TopLeft="780.333333333333,378.52307694374">
           <EdgeLayout.Curve>
             <mssgle:Curve
@@ -14531,7 +14574,7 @@ where "refTable"."supplier_id" = ?</property>
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\Orders Fact Table.Paths[Lookup Match Output2]"
+          Id="Package\Orders Fact Table.Paths[Lookup Match Output]"
           TopLeft="584.222222222222,358.139743600076">
           <EdgeLayout.Curve>
             <mssgle:Curve
@@ -14551,6 +14594,54 @@ where "refTable"."supplier_id" = ?</property>
           <EdgeLayout.Labels>
             <mssgm:EdgeLabel
               BoundingBox="13.6141688368055,5,96.3827734375,11.609375"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Orders Fact Table.Paths[Lookup Match Output3]"
+          TopLeft="321.666666666667,360.80641025641">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="145.555555555556,0"
+              Start="0,0"
+              End="138.055555555556,0">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="138.055555555556,0" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="20.836391059028,5,96.3827734375,11.609375"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Orders Fact Table.Paths[Lookup Match Output2]"
+          TopLeft="259.355555555555,305.634188034188">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,36.622222222222"
+              Start="0,0"
+              End="0,29.122222222222">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,29.122222222222" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="-48.19138671875,8.756423611111,96.3827734375,11.609375"
               RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
@@ -14698,40 +14789,6 @@ where "refTable"."supplier_id" = ?</property>
             <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
-        <EdgeLayout
-          Id="Package\Orders Fact Table.Paths[Sort Output]"
-          TopLeft="416.25,640.75">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="-77.9166666666667,-76.75"
-              Start="0,0"
-              End="-77.9166666666667,-69.25">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,-41.5369080779944" />
-                  <mssgle:CubicBezierSegment
-                    Point1="0,-41.5369080779944"
-                    Point2="0,-45.5369080779944"
-                    Point3="-4,-45.5369080779944" />
-                  <mssgle:LineSegment
-                    End="-73.9166666666667,-45.5369080779944" />
-                  <mssgle:CubicBezierSegment
-                    Point1="-73.9166666666667,-45.5369080779944"
-                    Point2="-77.9166666666667,-45.5369080779944"
-                    Point3="-77.9166666666667,-49.5369080779944" />
-                  <mssgle:LineSegment
-                    End="-77.9166666666667,-69.25" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
       </GraphLayout>
     </LayoutInfo>
   </TaskHost>
@@ -14768,14 +14825,6 @@ where "refTable"."supplier_id" = ?</property>
         <Name>TableInfoObjectType</Name>
         <Value
           type="q2:string">Table</Value>
-      </Property>
-    </Properties>
-  </PipelineComponentMetadata>
-  <PipelineComponentMetadata
-    design-time-name="Package\Orders Fact Table\Orders">
-    <Properties>
-      <Property>
-        <Name>DataSourceViewID</Name>
       </Property>
     </Properties>
   </PipelineComponentMetadata>
@@ -14831,7 +14880,7 @@ where "refTable"."supplier_id" = ?</property>
       <Property>
         <Name>OverwriteParamsSQLProp</Name>
         <Value
-          type="q2:boolean">false</Value>
+          type="q2:string">false</Value>
       </Property>
       <Property>
         <Name>UsedTableName</Name>
@@ -14841,8 +14890,16 @@ where "refTable"."supplier_id" = ?</property>
       <Property>
         <Name>TableInfoObjectType</Name>
         <Value
-          type="q4:int">0</Value>
+          type="q4:string">0</Value>
       </Property>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <PipelineComponentMetadata
+    design-time-name="Package\Orders Fact Table\Orders">
+    <Properties>
       <Property>
         <Name>DataSourceViewID</Name>
       </Property>
@@ -15241,35 +15298,35 @@ where "refTable"."supplier_id" = ?</property>
       <GraphLayout
         Capacity="16" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
         <NodeLayout
-          Size="120,41.6"
+          Size="120,41.5"
           Id="Package\Supplier dim\Union All"
           TopLeft="451.515133573552,244.121213749202" />
         <NodeLayout
-          Size="152,41.6"
+          Size="152,41.5"
           Id="Package\Supplier dim\OLE DB Source"
           TopLeft="234.999990661939,62.4000004959104" />
         <NodeLayout
-          Size="152.8,41.6"
+          Size="153,41.5"
           Id="Package\Supplier dim\Derived Column"
           TopLeft="306.666654480829,328.866669153108" />
         <NodeLayout
-          Size="156,41.6"
+          Size="156,41.5"
           Id="Package\Supplier dim\Data Conversion"
           TopLeft="299.090897206105,153.71515273677" />
         <NodeLayout
-          Size="171.2,41.6"
+          Size="171,41.5"
           Id="Package\Supplier dim\OLE DB Destination"
           TopLeft="54.9242402417496,323.806062757512" />
         <NodeLayout
-          Size="126.4,41.6"
+          Size="126.5,41.5"
           Id="Package\Supplier dim\Aggregate"
           TopLeft="552.424220472877,335.515153719199" />
         <NodeLayout
-          Size="140,41.6"
+          Size="140,41.5"
           Id="Package\Supplier dim\Excel Source"
           TopLeft="572.499977250895,58.6000002686183" />
         <NodeLayout
-          Size="164,41.6"
+          Size="164,41.5"
           Id="Package\Supplier dim\Data Conversion 1"
           TopLeft="542.575736015735,153.115151502629" />
         <EdgeLayout
@@ -15517,19 +15574,6 @@ where "refTable"."supplier_id" = ?</property>
   </PipelineComponentMetadata>
   <PipelineComponentMetadata
     design-time-name="Package\Supplier dim\Excel Source">
-    <Properties>
-      <Property>
-        <Name>DataSourceViewID</Name>
-      </Property>
-      <Property>
-        <Name>TableInfoObjectType</Name>
-        <Value
-          type="q2:string">Table</Value>
-      </Property>
-    </Properties>
-  </PipelineComponentMetadata>
-  <PipelineComponentMetadata
-    design-time-name="Package\Employee dim\Excel Source">
     <Properties>
       <Property>
         <Name>DataSourceViewID</Name>

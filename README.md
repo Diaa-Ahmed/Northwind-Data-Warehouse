@@ -20,9 +20,8 @@ foods from around the world.
     - Documented and addressed missing values, data types, unique values,
     and data patterns within the dataset.
     
-    ![https://www.notion.soRESCOURCES/Northwind_ERD.jpeg](https://www.notion.soRESCOURCES/Northwind_ERD.jpeg)
-    
-    oltp
+
+    ![oltp](RESCOURCES/Northwind_ERD.jpeg)
     
     - In this model we have 7 dimensions and 1 fact tables which keep
     track of the orders sales in our business.
@@ -135,15 +134,13 @@ foods from around the world.
             - freight float
     ```
     
-- **Data Warehouse Design &Data Modeling**
+- **Data Warehouse Design & Data Modeling**
     - Employed denormalization techniques to enhance query performance
     and reduce the need for complex joins.
     - Designed and implemented a dimensional modelling for efficient
     data warehousing.
         
-        ![https://www.notion.soRESCOURCES/Data-model.png](https://www.notion.soRESCOURCES/Data-model.png)
-        
-        d1 (1)
+        ![oldp](RESCOURCES/Data-Model.png)
         
 - **Index**
     
@@ -186,9 +183,7 @@ foods from around the world.
     transformation, and loading of data from the source database (OLTP) to
     the data warehouse (OLAP).
         
-        ![https://www.notion.soRESCOURCES/CONTROL-FLOW.jpeg](https://www.notion.soRESCOURCES/CONTROL-FLOW.jpeg)
-        
-        d1 (1)
+        ![Control Flow](RESCOURCES/CONTROL-FLOW.jpeg)
         
     - **Control Flow:** A package in SSIS consists of a
     control flow and, optionally, one or more data flows. The control flow
@@ -199,6 +194,7 @@ foods from around the world.
     control flow, it enables the package to: Extract data from sources.
     Transform, clean, and modify data. Load data into destinations (e.g.,
     databases, files, or other systems).
+
     - Here is some samples for data flows for our dimensions loading
     from two different sources at following steps **Data
     Sources**: Begin by adding the necessary data sources to your
@@ -214,23 +210,22 @@ foods from around the world.
     merge data from both sources into a single flow. Map the output of the
     Union All transformation to your destination (e.g., a SQL Server table).
         
-        ![https://www.notion.soRESCOURCES/EMPLOYEE.png](https://www.notion.soRESCOURCES/EMPLOYEE.png)
+        ![Employee](RESCOURCES/EMPLOYEE.png)
         
+
     - The important part was loading the data into the **Fact
     Table** and that was done by collecting all the IDs from tables
     in the source database using a Merge Join transformation.
     - Then, use a Lookup transformation to get the surrogate key for
     each dimension and apply any necessary transformations required.
         
-        ![https://www.notion.soRESCOURCES/FACT-TABLE.png](https://www.notion.soRESCOURCES/FACT-TABLE.png)
-        
-        d1 (1)
+        ![Fact Table](RESCOURCES/FACT-TABLE.png)
         
 
 # The Analytical Queries :
 
-Q1 : Who are the top and bottom performing sales employees in each
-country based on their total sales?
+**Q1 : Who are the top and bottom performing sales employees in each
+country based on their total sales?**
 
 The business Need :
 
@@ -247,8 +242,8 @@ High-performing countries may warrant increased investment to further
 capitalize on opportunities, while underperforming regions may require
 additional support or adjustments to improve results.
 
-Q2 : Who is the supplier whose products represent the highest and
-lowest sales, and what are their respective sales figures?
+**Q2 : Who is the supplier whose products represent the highest and
+lowest sales, and what are their respective sales figures?**
 
 The business Need :
 
@@ -263,8 +258,8 @@ Conversely, businesses can reevaluate or renegotiate contracts with
 underperforming suppliers or explore alternative sourcing options to
 mitigate risks and ensure continuity of supply.
 
-Q3 : How can we categorize our customers based on their purchasing
-behavior ?
+**Q3 : How can we categorize our customers based on their purchasing
+behavior ?**
 
 The business Need :
 
@@ -278,8 +273,8 @@ The categorized groups can help prioritize resources, identify
 opportunities for upselling or cross-selling, and implement targeted
 marketing or service strategies.
 
-Q4 : How does the monthly sales performance change over time, and
-what is the growth rate of sales from one month to the next?
+**Q4 : How does the monthly sales performance change over time, and
+what is the growth rate of sales from one month to the next?**
 
 The business Need :
 
@@ -289,8 +284,8 @@ enables companies to adjust their marketing strategies, inventory
 levels, and staffing accordingly to capitalize on peak periods and
 mitigate lulls in sales.
 
-Q5 : How do the total sales for each month distribute across three
-10-day periods within that month?
+**Q5 : How do the total sales for each month distribute across three
+10-day periods within that month?**
 
 The business Need :
 
@@ -304,7 +299,7 @@ or lower. For instance, they may focus on running promotions or
 launching new product releases during periods of lower sales to
 stimulate demand.
 
-Q6 : What are the top-selling products based on their category?
+**Q6 : What are the top-selling products based on their category?**
 
 The business Need :
 

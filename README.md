@@ -8,11 +8,7 @@
 company called “Northwind Traders” which imports and exports specialty
 foods from around the world.
 
-## Project Steps
-
-- **Business Requirement**
-    
-    Nourhan
+# Project Steps
     
 - **Data Profiling**
     - Conducted in-depth data profiling of the “Northwind” database to
@@ -22,7 +18,23 @@ foods from around the world.
     
 
     ![oltp](RESCOURCES/Northwind_ERD.jpeg)
-    
+
+        Noting that The dataset contains the following:
+
+    - **Suppliers:** Suppliers and vendors of Northwind
+    - **Customers:** Customers who buy products from Northwind
+    - **Employees:** Employee details of Northwind traders
+    - **Products:** Product information
+    - **Shippers:** The details of the shippers who ship the products from the traders to the end-customers
+    - **Orders** and **Order_Details:** Sales Order transactions taking place between the customers & the company
+  
+  # **Data Warehouse Design & Data Modeling**
+    - Employed denormalization techniques to enhance query performance
+    and reduce the need for complex joins.
+    - Designed and implemented a dimensional modelling for efficient
+    data warehousing.
+        
+        ![oldp](RESCOURCES/Data-Model.png)
     - In this model we have 7 dimensions and 1 fact tables which keep
     track of the orders sales in our business.
     - Dimensions are (Customer_dim, shipper_dim, ch_price_dim, date_dim,
@@ -133,16 +145,8 @@ foods from around the world.
             - Shipped_date INT (Foreign key -> date_dim)
             - freight float
     ```
-    
-- **Data Warehouse Design & Data Modeling**
-    - Employed denormalization techniques to enhance query performance
-    and reduce the need for complex joins.
-    - Designed and implemented a dimensional modelling for efficient
-    data warehousing.
         
-        ![oldp](RESCOURCES/Data-Model.png)
-        
-- **Index**
+- # **Index**
     
     -IX_orders_order_id_Unitprice on
     orders_fact: This index is created on the orders_fact table with columns
@@ -177,7 +181,7 @@ foods from around the world.
     This index is created on the orders_fact table with the supplier_sur
     column. It ’s used to optimize queries that join based on
     supplier_sur.
-- **ETL Data Pipelines**
+- # **ETL Data Pipelines**
     - Developed ETL data pipelines using SQL Server Integration
     Services **(SSIS)** to automate the extraction,
     transformation, and loading of data from the source database (OLTP) to
@@ -209,6 +213,7 @@ foods from around the world.
     in a specific order. Integration: Use the Union All transformation to
     merge data from both sources into a single flow. Map the output of the
     Union All transformation to your destination (e.g., a SQL Server table).
+<br><br>
         
         ![Employee](RESCOURCES/EMPLOYEE.png)
         
@@ -222,12 +227,12 @@ foods from around the world.
         ![Fact Table](RESCOURCES/FACT-TABLE.png)
         
 
-# The Analytical Queries :
+# **The Analytical Queries**
 
 **Q1 : Who are the top and bottom performing sales employees in each
 country based on their total sales?**
 
-The business Need :
+    Business Need
 
 This data can help in identifying high performers who may deserve
 recognition or additional incentives, as well as employees who may need
@@ -245,7 +250,7 @@ additional support or adjustments to improve results.
 **Q2 : Who is the supplier whose products represent the highest and
 lowest sales, and what are their respective sales figures?**
 
-The business Need :
+    Business Need
 
 Analyzing supplier sales performance is essential for optimizing
 sourcing strategies, managing costs, mitigating risks, and fostering
@@ -261,7 +266,7 @@ mitigate risks and ensure continuity of supply.
 **Q3 : How can we categorize our customers based on their purchasing
 behavior ?**
 
-The business Need :
+    Business Need
 
 The categories derived from this query, such as “At Risk”, “Customers
 Needing Attention”, “Promising”, “Potential Loyalists”, and “Loyal
@@ -276,7 +281,7 @@ marketing or service strategies.
 **Q4 : How does the monthly sales performance change over time, and
 what is the growth rate of sales from one month to the next?**
 
-The business Need :
+    Business Need
 
 Monthly sales data allows businesses to identify seasonal variations
 in demand for their products or services. Recognizing these patterns
@@ -287,7 +292,7 @@ mitigate lulls in sales.
 **Q5 : How do the total sales for each month distribute across three
 10-day periods within that month?**
 
-The business Need :
+    Business Need
 
 Knowing when sales tend to peak or dip throughout the month enables
 businesses to manage their inventory levels more efficiently.
@@ -301,7 +306,7 @@ stimulate demand.
 
 **Q6 : What are the top-selling products based on their category?**
 
-The business Need :
+    Business Need
 
 By analyzing sales data by category, businesses can gain insights
 into which product categories are the most popular and generate the

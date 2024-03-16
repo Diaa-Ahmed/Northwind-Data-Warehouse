@@ -75,7 +75,7 @@
      ![d1 (1)](RESCOURCES/FACT-TABLE.png)
 
 
-
+# The Analytical Queries :
 
 Q1 : Who are the top and bottom performing sales employees in each country based on their total sales?
 

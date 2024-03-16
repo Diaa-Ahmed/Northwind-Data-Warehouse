@@ -75,3 +75,46 @@
      ![d1 (1)](RESCOURCES/FACT-TABLE.png)
 
 
+# DWH Documentation
+
+Q1 : Who are the top and bottom performing sales employees in each country based on their total sales?
+
+The business Need :
+
+This data can help in identifying high performers who may deserve recognition or additional incentives, as well as employees who may need further support or training , and identifying top and bottom performers provides benchmarks for setting realistic sales targets and goals for employees in each country.
+
+And from another aspect that can be a strong base for analyzing sales performance by country allows businesses to allocate resources such as marketing budgets, sales support, and inventory strategically. High-performing countries may warrant increased investment to further capitalize on opportunities, while underperforming regions may require additional support or adjustments to improve results.
+
+ Q2 : Who is the supplier whose products represent the highest and lowest sales, and what are their respective sales figures?
+
+The business Need :
+
+Analyzing supplier sales performance is essential for optimizing sourcing strategies, managing costs, mitigating risks, and fostering mutually beneficial relationships with suppliers , through Knowing which suppliers generate the highest and lowest sales enables businesses to make informed strategic sourcing decisions. They can prioritize relationships with top-performing suppliers, potentially negotiating better terms, volume discounts, or other favorable arrangements. Conversely, businesses can reevaluate or renegotiate contracts with underperforming suppliers or explore alternative sourcing options to mitigate risks and ensure continuity of supply.
+
+Q3 : How can we categorize our customers based on their purchasing behavior ?
+
+The business Need :
+
+The categories derived from this query, such as "At Risk", "Customers Needing Attention", "Promising", "Potential Loyalists", and "Loyal Customers", reflect different stages of the customer lifecycle and provide a framework for understanding and addressing the needs of each customer group effectively.
+
+The categorized groups can help prioritize resources, identify opportunities for upselling or cross-selling, and implement targeted marketing or service strategies.
+
+Q4 : How does the monthly sales performance change over time, and what is the growth rate of sales from one month to the next?
+
+The business Need :
+
+Monthly sales data allows businesses to identify seasonal variations in demand for their products or services. Recognizing these patterns enables companies to adjust their marketing strategies, inventory levels, and staffing accordingly to capitalize on peak periods and mitigate lulls in sales.
+
+Q5 : How do the total sales for each month distribute across three 10-day periods within that month?
+
+The business Need :
+
+Knowing when sales tend to peak or dip throughout the month enables businesses to manage their inventory levels more efficiently.
+
+Analyzing sales distribution can inform marketing strategies and promotional campaigns. Businesses can tailor their marketing efforts to target specific periods within the month when sales are typically higher or lower. For instance, they may focus on running promotions or launching new product releases during periods of lower sales to stimulate demand.
+
+Q6 : What are the top-selling products based on their category?
+
+The business Need :
+
+By analyzing sales data by category, businesses can gain insights into which product categories are the most popular and generate the highest revenue. This information allows them to understand customer preferences and purchasing behavior within different product categories.

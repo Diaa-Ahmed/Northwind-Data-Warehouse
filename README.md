@@ -13,88 +13,88 @@
    - In this model we have 7 dimensions and 1 fact tables which keep track of the orders sales in our business.
    - Dimensions are (Customer_dim, shipper_dim, ch_price_dim, date_dim,    employees_dim, products_dim, suppliers_dim)
       - Customer_dim: Contains data about the customers name, location and country.
-            cust_sur SERIAL PRIMARY KEY
-            Customer_id VARCHAR
-            Company_name VARCHAR
-            Contactname VARCHAR
-            Contact_title VARCHAR
-            Address VARCHAR
-            City VARCHAR
-            Region VARCHAR
-            Country VARCHAR
+            - cust_sur SERIAL PRIMARY KEY
+            - Customer_id VARCHAR
+            - Company_name VARCHAR
+            - Contactname VARCHAR
+            - Contact_title VARCHAR
+            - Address VARCHAR
+            - City VARCHAR
+            - Region VARCHAR
+            - Country VARCHAR
             ---------------------------------------------------------------------------------------------------------------------
       - Shipper_dim: contains information about the shippers companies.
-            Shipper_sur SERIAL  (PRIMARY KEY)
-            Shipper_id INT
-            Shipper_name VARCHAR
+            - Shipper_sur SERIAL  (PRIMARY KEY)
+            - Shipper_id INT
+            - Shipper_name VARCHAR
             ---------------------------------------------------------------------------------------------------------------------
       - ch_price_dim: dimension which keeps track of the products price changes.
-            price_sur  SERIAL  (PRIMARY KEY)
-            Prod_sur INT (Foreign key -> Products_dim)
-            unit_price FLOAT
-            price_date int (Foreign key -> date_dim)
+            - price_sur  SERIAL  (PRIMARY KEY)
+            - Prod_sur INT (Foreign key -> Products_dim)
+            - unit_price FLOAT
+            - price_date int (Foreign key -> date_dim)
             ---------------------------------------------------------------------------------------------------------------------
       - date_dim: dimension stores all the dates and its information with a unique surrogent key for each date.
-            date_key SERIAL  (PRIMARY KEY)
-            full_date DATE
-            year INT
-            quarter INT
-            quarter_name VARCHAR
-            month INT
-            month_name VARCHAR
-            week INT
-            day INT
-            day_name VARCHAR
+            - date_key SERIAL  (PRIMARY KEY)
+            - full_date DATE
+            - year INT
+            - quarter INT
+            - quarter_name VARCHAR
+            - month INT
+            - month_name VARCHAR
+            - week INT
+            - day INT
+            - day_name VARCHAR
             ---------------------------------------------------------------------------------------------------------------------
       - employees_dim: dimension stores information about employees names, job role, date of birth, hire date, location and manager.
-            Emp_Sur SERIAL PRIMARY KEY
-            Emp_id INT
-            First_name VARCHAR
-            Last_name VARCHAR
-            Title VARCHAR
-            Birth_date DATE
-            Hire_Date DATE
-            City VARCHAR
-            Region VARCHAR
-            Country VARCHAR
-            Mgr_id INT
+            - Emp_Sur SERIAL PRIMARY KEY
+            - Emp_id INT
+            - First_name VARCHAR
+            - Last_name VARCHAR
+            - Title VARCHAR
+            - Birth_date DATE
+            - Hire_Date DATE
+            - City VARCHA
+            - Region VARCHAR
+            - Country VARCHAR
+            - Mgr_id INT
             ---------------------------------------------------------------------------------------------------------------------
       - products_dim: dimension stores information about each product, its price and category.
-            Prod_sur SERIAL (PRIMARY KEY)
-            Prod_id INT
-            Prod_name VARCHAR
-            Supplier_id INT (Foreign key -> suppliers_dim)
-            Category_name VARCHAR
-            quantity_per_unit VARCHAR
-            Unitprice Float
-            Units_on_stock INT
-            reorder_level INT
-            Discountinued Boolean
+            - Prod_sur SERIAL (PRIMARY KEY)
+            - Prod_id INT
+            - Prod_name VARCHAR
+            - Supplier_id INT (Foreign key -> suppliers_dim)
+            - Category_name VARCHAR
+            - quantity_per_unit VARCHAR
+            - Unitprice Float
+            - Units_on_stock INT
+            - reorder_level INT
+            - Discountinued Boolean
             ---------------------------------------------------------------------------------------------------------------------
       - suppliers_dim: dimension stores information about each supplier, hist city, region, country and company name.
-            Supplier_sur SERIAL  (PRIMARY KEY)
-            Supplier_id INT 
-            company_name VARCHAR
-            city VARCHAR
-            region VARCHAR
-            country VARCHAR
+            - Supplier_sur SERIAL  (PRIMARY KEY)
+            - Supplier_id INT 
+            - company_name VARCHAR
+            - city VARCHAR
+            - region VARCHAR
+            - country VARCHAR
             ---------------------------------------------------------------------------------------------------------------------
    
    - Fact is (orders_fact).
-      Orders_fact: fact table contains foreign keys from all the previous dimensions and also contains information about each product in the orders like unit price, discount,            quantity and freight cost.
-            Order_id INT
-            Product_sur INT (Foreign key -> products_dim)
-            cust_sur INT (Foreign key -> customer_dim)
-            Emp_sur INT (Foreign key -> employees_dim)
-            shipper_sur INT (Foreign key -> Shipper_dim)
-            Supplier_sur INT (Foreign key -> suppliers_dim)
-            Unitprice float (Foreign key -> products_dim)
-            quantity INT
-            Discount float
-            Order_date INT (Foreign key -> date_dim)
-            required_date INT (Foreign key -> date_dim)
-            Shipped_date INT (Foreign key -> date_dim)
-            freight float
+      Orders_fact: fact table contains foreign keys from all the previous dimensions and also contains information about each product in the orders like unit price, discount, quantity and freight cost.
+            - Order_id INT
+            - Product_sur INT (Foreign key -> products_dim)
+            - cust_sur INT (Foreign key -> customer_dim)
+            - Emp_sur INT (Foreign key -> employees_dim)
+            - shipper_sur INT (Foreign key -> Shipper_dim)
+            - Supplier_sur INT (Foreign key -> suppliers_dim)
+            - Unitprice float
+            - quantity INT
+            - Discount float
+            - Order_date INT (Foreign key -> date_dim)
+            - required_date INT (Foreign key -> date_dim)
+            - Shipped_date INT (Foreign key -> date_dim)
+            - freight float
 
 
 - **Data Warehouse Design &Data Modeling**  <br />
